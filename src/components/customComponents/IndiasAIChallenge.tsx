@@ -1,130 +1,108 @@
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, AlertTriangle, Database, Cloud, Zap } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const IndiasAIChallenge = () => {
   const cards = [
     {
       title: 'Computational Limitations',
-      subtitle: " India has only 18,000–19,000 GPUs, compared to AI leaders using millions.",
-      icon: '🔸 LLM',
-      buttonText: 'View Model'
+      subtitle: "India has only 18,000–19,000 GPUs, compared to AI leaders using millions.",
+      icon: AlertTriangle,
+      description: 'Critical infrastructure gap affecting AI development capacity',
+      buttonText: 'Learn More'
     },
     {
-      title: 'Krutrim-2',
-      subtitle: 'SoTA Indic LLM outperforming 5x-10x bigger models on Indic tasks',
-      icon: '🔸 LLM',
-      buttonText: 'View Model'
+      title: 'Data Deficiency',
+      subtitle: 'India lacks structured, AI-ready datasets required for LLMs.',
+      icon: Database,
+      description: 'Limited high-quality training data for AI models',
+      buttonText: 'Explore Data'
     },
     {
-      title: 'Chitrarth 1',
-      subtitle: 'SoTA VLM trained with Krutrim-11 on Indic tasks',
-      icon: '💠 Vision Language Model',
-      buttonText: 'View Model'
+      title: 'Foreign Dependence',
+      subtitle: '95% of India\'s AI solutions rely on foreign cloud services.',
+      icon: Cloud,
+      description: 'Significant security and sovereignty concerns',
+      buttonText: 'View Impact'
     },
     {
-      title: 'Vyakyarth 1 - Indic Embedding',
-      subtitle: 'SoTA Indic text embedding model to help usecsses like RAG',
-      icon: '🔤 Multi-lingual Encoder',
-      buttonText: 'View Model'
+      title: 'High Energy Costs',
+      subtitle: 'AI training requires massive computational power.',
+      icon: Zap,
+      description: 'Need for sustainable AI infrastructure',
+      buttonText: 'See Solutions'
     },
-    {
-      title: 'Dhwani 1',
-      subtitle: 'SoTA Speech LLM (trained with Krutrim-1)',
-      icon: '🎙️ Speech Language Model',
-      buttonText: 'View Model'
-    },
-    {
-      title: 'Krutrim Translate',
-      subtitle: 'Low latency SoTA Text to Text Translation',
-      icon: '🔄 Translation Model',
-      buttonText: 'View Model'
-    },
-    {
-      title: 'IndicST Dataset',
-      subtitle: 'Large Indian Multilingual Translation Corpus for Speech Large Language Models',
-      icon: '📊 Dataset',
-      buttonText: 'View Dataset'
-    }
   ];
 
   return (
-    <div className="min-h-screen bg-[#001F1F] px-8 py-16 md:px-16">
+    <div className="relative min-h-screen bg-gradient-to-br from-[#262626] via-[#262626] to-[#262626] px-8 py-16 md:px-16 overflow-hidden">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNTAgMjVsNiA2LTYgNk01MCAzN2w2LTYtNi02IiBzdHJva2U9IiMwMEZGOUEyMCIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=')] opacity-10"/>
+      
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="max-w-[1200px] mx-auto"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        className="relative max-w-[1200px] mx-auto"
       >
         {/* Header Section */}
-        <motion.h1 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-[#00FF9A] text-5xl font-bold mb-8"
-        >
-          Overview: India’s AI Challenge
-
-        </motion.h1>
-        
-        <div className="text-white space-y-6 mb-24 max-w-2xl">
+        <div className="text-center mb-16">
+          <motion.h1 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-[#00FF9A] text-5xl font-bold mb-8 tracking-tight"
+          >
+            India's AI Challenge
+          </motion.h1>
+          
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-lg leading-relaxed"
+            className="text-white/90 text-lg leading-relaxed max-w-2xl mx-auto"
           >
-India is at a critical juncture in the global AI race. While countries like the U.S. and China have built robust AI ecosystems, India faces major challenges:
-
+            In the global AI race, while nations like the U.S. and China lead with robust ecosystems, India faces critical challenges that need immediate attention:
           </motion.p>
-          {/* <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
-            className="text-lg leading-relaxed"
-          >
-            At Krutrim AI Labs, we believe open-source AI is key to accelerating innovation and making AI more accessible. By sharing our breakthroughs, we foster a thriving AI ecosystem while setting new global benchmarks for Indic AI.
-          </motion.p> */}
         </div>
 
-        {/* Libraries Section */}
-        <motion.h2 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
-          className="text-[#00FF9A] text-4xl font-bold mb-12"
-        >
-          Key Challenges
-
-        </motion.h2>
-
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
           {cards.map((card, index) => (
             <motion.div
               key={card.title}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: 0.5 + index * 0.1 }}
+              transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
             >
-              <Card className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300">
-                <CardContent className="p-6">
-                  <h3 className="text-[#1C1C1C] text-xl font-bold mb-3">
-                    {card.title}
-                  </h3>
-                  <p className="text-[#666666] text-sm mb-4 min-h-[40px] leading-relaxed">
-                    {card.subtitle}
-                  </p>
-                  <div className="flex items-center mb-6">
-                    <span className="text-sm text-[#666666] bg-[#F5F5F5] px-4 py-1.5 rounded-full">
-                      {card.icon}
-                    </span>
+              <Card className="bg-white/10 backdrop-blur-md border-[#00FF9A]/20 rounded-xl hover:shadow-[0_0_30px_rgba(0,255,154,0.1)] transition-all duration-300">
+                <CardContent className="p-8">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="p-3 rounded-lg bg-[#00FF9A]/10">
+                      {React.createElement(card.icon, { 
+                        className: "w-6 h-6 text-[#00FF9A]",
+                        strokeWidth: 2
+                      })}
+                    </div>
+                    <div>
+                      <h3 className="text-[#00FF9A] text-xl font-bold mb-2">
+                        {card.title}
+                      </h3>
+                      <p className="text-white/75 text-sm leading-relaxed mb-3">
+                        {card.subtitle}
+                      </p>
+                    </div>
                   </div>
+                  
+                  <p className="text-white/60 text-sm mb-6 pl-[3.25rem]">
+                    {card.description}
+                  </p>
+
                   <motion.button
                     whileHover={{ x: 5 }}
                     whileTap={{ scale: 0.98 }}
-                    className="flex items-center text-[#1C1C1C] font-medium group"
+                    className="flex items-center text-[#00FF9A] font-medium group pl-[3.25rem]"
                   >
                     {card.buttonText}
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
