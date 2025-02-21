@@ -7,17 +7,19 @@ import KalkiProducts from "@/components/customComponents/KalkiProducts";
 import RoadmapProcess from "@/components/customComponents/RoadMapProcess";
 import VoiceAgentAI from "@/components/customComponents/VoiceAgentAi";
 import AIInfrastructure from "@/components/customComponents/AIInfrastructure";
+import Hero from "@/components/customComponents/Hero/Hero";
 export default function Home() {
   return (
     <>
-    <AIInfrastructure/>
-    <VoiceAgentAI />
-    <RoadmapProcess />
-    <KalkiProducts />
+   <Hero/>
     <OurLargeLanguage/>
     <IntroducingTortoiseLLM/>
     <EmpoweringIndia/>
     <IndiasAIChallenge/>
+    <AIInfrastructure/>
+    <VoiceAgentAI />
+    <RoadmapProcess />
+    <KalkiProducts />
     </>
    
   );

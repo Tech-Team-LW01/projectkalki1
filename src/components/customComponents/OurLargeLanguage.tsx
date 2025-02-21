@@ -24,7 +24,7 @@ const OurLargeLanguage = () => {
 
   return (
     // Container div that spans full viewport height and centers content
-    <div className="h-full mt-96 flex items-center justify-center p-8" ref={containerRef}>
+    <div className="h-full mt-4 flex items-center justify-center p-8" ref={containerRef}>
       {/* Wrapper div that sets maximum width and text size */}
       <div className="max-w-3xl mx-auto text-4xl md:text-xl lg:text-4xl">
         {/* Loop through each word in our text */}
