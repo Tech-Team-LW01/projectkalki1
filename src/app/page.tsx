@@ -8,18 +8,22 @@ import RoadmapProcess from "@/components/customComponents/RoadMapProcess";
 import VoiceAgentAI from "@/components/customComponents/VoiceAgentAi";
 import AIInfrastructure from "@/components/customComponents/AIInfrastructure";
 import { Hero } from "@/components/customComponents/Hero/Hero";
+import WhyHybridAITraining from "@/components/customComponents/WhyHybridAITraining/WhyHybridAITraining";
+import GovernmentAndPrivateSector from "@/components/customComponents/GovernmentAndPrivateSector/GovernmentAndPrivateSector";
 export default function Home() {
   return (
     <>
    <Hero/>
     <OurLargeLanguage/>
     <IntroducingTortoiseLLM/>
+    <WhyHybridAITraining/>
     <EmpoweringIndia/>
     <IndiasAIChallenge/>
     <AIInfrastructure/>
     <VoiceAgentAI />
     <RoadmapProcess />
     <KalkiProducts />
+    <GovernmentAndPrivateSector/>
     </>
    
   );
