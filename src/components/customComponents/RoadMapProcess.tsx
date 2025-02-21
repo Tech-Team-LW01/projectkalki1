@@ -1,8 +1,9 @@
 // components/RoadmapProcess.tsx
 import React from 'react';
+import { Database, TrendingUp, Cpu } from 'react-feather'; // Corrected imports
 
 interface RoadmapItem {
-  icon: string;
+  icon: React.ReactNode;
   title: string;
   description: string;
   color: string;
@@ -10,49 +11,54 @@ interface RoadmapItem {
 
 const roadmapItems: RoadmapItem[] = [
   {
-    icon: "💡",
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut",
-    color: "bg-[#FF8C69]", // Coral color
+    icon: <Database className="w-6 h-6 text-gray-800" />,
+    title: "Short-Term (0-3 Months):",
+    description: "Establish AI dataset frameworks, deploy initial models.",
+    color: "bg-[#FFF9C4]",
   },
   {
-    icon: "🎯",
-    title: "Progress",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut",
-    color: "bg-[#FFD700]", // Gold color
+    icon: <TrendingUp className="w-6 h-6 text-gray-800" />,
+    title: "Medium-Term (4-8 Months):",
+    description: "Scale AI infrastructure, expand model capabilities.",
+    color: "bg-[#2196F3]",
   },
   {
-    icon: "🔄",
-    title: "Communication",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut",
-    color: "bg-[#50C878]", // Emerald color
-  },
-  {
-    icon: "💼",
-    title: "Business",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut",
-    color: "bg-[#4169E1]", // Royal Blue color
+    icon: <Cpu className="w-6 h-6 text-gray-800" />,
+    title: "Long-Term (8+ Months):",
+    description: "Develop India's first fully trained foundational AI model.",
+    color: "bg-[#4A148C]",
   },
 ];
 
 const RoadmapProcess = () => {
   return (
-    <div className="bg-[#FF7F50]  py-8 flex items-center justify-center max-w-6xl mx-auto">
+    <div className="bg-gradient-to-r from-blue-900 to-blue-700 py-8 flex items-center justify-center max-w-6xl mx-auto">
       <div className="bg-white rounded-lg p-8 w-full max-w-5xl shadow-lg">
-        <h2 className="text-2xl font-bold mb-8">Roadmap Process Infographic</h2>
+        <h2 className="text-2xl font-bold mb-8 text-center">
+          Scope of Implementation: 10-Month AI Roadmap
+        </h2>
         
         <div className="flex flex-col md:flex-row gap-8">
           {/* Left side - Roadmap items */}
           <div className="flex-1">
             <div className="space-y-6">
               {roadmapItems.map((item, index) => (
-                <div key={index} className="flex items-start gap-4">
-                  <div className={`${item.color} p-3 rounded-full`}>
-                    <span className="text-2xl">{item.icon}</span>
+                <div 
+                  key={index} 
+                  className="flex items-start gap-4 transform transition-all duration-300 hover:scale-105"
+                >
+                  <div 
+                    className={`${item.color} p-3 rounded-full flex items-center justify-center shadow-md`}
+                  >
+                    {item.icon}
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-lg mb-1">{item.title}</h3>
-                    <p className="text-gray-600 text-sm">{item.description}</p>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-lg mb-1">
+                      {item.title}
+                    </h3>
+                    <p className="text-gray-600 text-sm">
+                      {item.description}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -64,11 +70,18 @@ const RoadmapProcess = () => {
             <img 
               src="/road-path.png" 
               alt="Roadmap Path" 
-              className="w-full h-auto"
+              className="w-full h-auto rounded-lg shadow-md"
             />
             
-            {/* Markers on the road */}
-           
+            {/* Timeline markers */}
+            <div className="absolute inset-0 flex flex-col justify-between py-8">
+              {roadmapItems.map((item, index) => (
+                <div 
+                  key={index}
+                  className={`${item.color} w-4 h-4 rounded-full shadow-lg transform -translate-x-2`}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>

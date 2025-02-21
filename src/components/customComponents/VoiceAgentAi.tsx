@@ -33,12 +33,12 @@ const VoiceAgentAI = () => {
             <h1 className="text-3xl font-medium text-gray-800">Voice first agentic AI</h1>
           </div>
           <div className="flex gap-4">
-            <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center">
+            {/* <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center">
               ←
-            </button>
-            <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center">
+            </button> */}
+            {/* <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center">
               →
-            </button>
+            </button> */}
           </div>
         </div>
 
