@@ -8,11 +8,14 @@ import RoadmapProcess from "@/components/customComponents/RoadMapProcess";
 import VoiceAgentAI from "@/components/customComponents/VoiceAgentAi";
 import AIInfrastructure from "@/components/customComponents/AIInfrastructure";
 import { Hero } from "@/components/customComponents/Hero/Hero";
+import GlobalAILandscape from "@/components/customComponents/GlobalAILandscape";
 export default function Home() {
   return (
     <>
    <Hero/>
+   <GlobalAILandscape />
     <OurLargeLanguage/>
+
     <IntroducingTortoiseLLM/>
     <EmpoweringIndia/>
     <IndiasAIChallenge/>
