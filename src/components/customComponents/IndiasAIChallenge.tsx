@@ -63,7 +63,8 @@ const IndiasAIChallenge = () => {
             transition={{ delay: 0.2 }}
             className="text-white/90 text-lg leading-relaxed max-w-2xl mx-auto"
           >
-            In the global AI race, while nations like the U.S. and China lead with robust ecosystems, India faces critical challenges that need immediate attention:
+            India is at a critical juncture in the global AI race. While countries like the U.S. and China have built robust AI ecosystems, India faces major challenges:
+
           </motion.p>
         </div>
 

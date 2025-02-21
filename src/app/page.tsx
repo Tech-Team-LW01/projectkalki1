@@ -20,9 +20,10 @@ export default function Home() {
 
     <IntroducingTortoiseLLM/>
     <WhyHybridAITraining/>
+    <AIInfrastructure/>
     <EmpoweringIndia/>
     <IndiasAIChallenge/>
-    <AIInfrastructure/>
+ 
     <VoiceAgentAI />
     <RoadmapProcess />
     <KalkiProducts />
