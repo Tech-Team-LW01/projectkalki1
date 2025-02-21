@@ -76,3 +76,52 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% / 3));
+  }
+}
+
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(calc(-100% / 3));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll {
+  animation: scroll var(--animation-duration, 160s) linear infinite;
+}
+
+.animate-scroll-reverse {
+  animation: scroll-reverse var(--animation-duration, 160s) linear infinite;
+}
+
+.scroller {
+  --gap: 1rem;
+  mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+}
+
+/* Ensure smooth animation */
+.scroller ul {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform;
+}
