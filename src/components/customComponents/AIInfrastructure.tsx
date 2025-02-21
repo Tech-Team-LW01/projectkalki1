@@ -9,8 +9,8 @@ const AIInfrastructure = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Computer Power",
-      description: "High-performance computing systems for AI processing"
+      title:  ( <div><span className='font-bold'>Leverage India’s Supercomputing Resources (PARAM, AI4Bharat) </span> for AI training.</div>),
+      description: ""
     },
     {
       icon: (
@@ -18,8 +18,8 @@ const AIInfrastructure = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4" />
         </svg>
       ),
-      title: "Data Storage and Processing",
-      description: "Scalable storage solutions for large-scale data management"
+      title:  ( <div><span className='font-bold'>Build India’s First National AI Data Repository </span> for foundational model training.</div>),
+      
     },
     {
       icon: (
@@ -27,8 +27,9 @@ const AIInfrastructure = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Machine Learning Frameworks",
-      description: "Advanced tools and libraries for AI development"
+      title:  ( <div><span className='font-bold'>Develop Indigenous AI Models </span> for governance, finance, healthcare, and national security.</div>),
+      
+    
     },
     {
       icon: (
@@ -37,41 +38,41 @@ const AIInfrastructure = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
       ),
-      title: "MLOps Platforms",
-      description: "End-to-end machine learning operations management"
+      title: ( <span className='font-bold'>Scale AI Infrastructure with Renewable Energy-Powered HPC Clusters.</span>),
+      
     },
   ];
 
   return (
-    <div className="bg-gradient-to-br from-blue-900 to-blue-700 p-8 min-h-[400px]">
+    <div className="bg-gradient-to-br from-black to-black p-8 min-h-[400px]">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-12 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Key Components of AI Infrastructure
+          <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+            Proposed Solution: AI Self-Reliance Through Compute <br/>&  Data Infrastructure
           </h1>
+          <p className="text-blue-100 text-lg">
+            Our Approach to Overcome India&apos;s AI Limitations
+          </p>
         </div>
 
-        {/* Components Grid */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
+        {/* Components Grid */} 
+        <div className="flex flex-col md:flex-row items-start justify-center gap-4 md:gap-8">
           {components.map((component, index) => (
             <React.Fragment key={index}>
               <div className="flex flex-col items-center text-center w-64">
                 <div className="bg-white p-4 rounded-lg mb-4 w-20 h-20 flex items-center justify-center">
                   {component.icon}
                 </div>
-                <h3 className="text-white font-medium mb-2 text-lg">
-                  {component.title}
-                </h3>
+                <div className=" rounded-lg p-3 mb-2">
+                  <h3 className="font-medium text-white text-lg">
+                    {component.title}
+                  </h3>
+                </div>
                 <p className="text-blue-100 text-sm">
                   {component.description}
                 </p>
               </div>
-              {index < components.length - 1 && (
-                <div className="text-white text-7xl ">
-                  +
-                </div>
-              )}
             </React.Fragment>
           ))}
         </div>
