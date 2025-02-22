@@ -52,7 +52,7 @@ const IndiasAIChallenge = () => {
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-black  text-3xl lg:text-4xl md:text-4xl  font-bold mb-2 tracking-tight"
+            className="text-[#000080]  text-3xl lg:text-4xl md:text-4xl  font-bold mb-2 tracking-tight"
           >
             India&apos;s AI Challenge
           </motion.h1>
@@ -87,7 +87,7 @@ const IndiasAIChallenge = () => {
                       })}
                     </div>
                     <div>
-                      <h3 className="text-black text-xl font-bold mb-2">
+                      <h3 className="text-[#000080] text-xl font-bold mb-2">
                         {card.title}
                       </h3>
                       <p className="text-black text-sm leading-relaxed ">
