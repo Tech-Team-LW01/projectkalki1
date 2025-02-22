@@ -1,4 +1,7 @@
+
+import React from 'react';
 import StickyContent from "../ui/StickyContent";
+import Image from 'next/image';
 
 type ContentItem = {
   title: string;
@@ -94,11 +97,40 @@ const content: ContentItem[] = [
   },
 ];
 
+// Card component for mobile view
+const MobileCard = ({ item }: { item: ContentItem }) => {
+  return (
+    <div className="bg-white rounded-xl overflow-hidden shadow-md mb-6">
+      <div className="relative h-48 w-full">
+        <Image
+          src={item.image}
+          alt={item.title}
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
+      <div className="p-4 space-y-4">
+        <h3 className="text-xl font-bold text-[#000080]">
+          {item.title}
+        </h3>
+        <p className="text-gray-700 text-sm">
+          {item.content}
+        </p>
+        <div className="bg-gray-50 p-4 rounded-lg">
+          {item.description}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const IntroducingTortoiseLLM = () => {
   return (
     <div className="px-4 py-4 sm:p-4">
-      <div className="text-center max-w-5xl mx-auto mb-2">
-        <h1 className="text-[#000080] text-3xl sm:text-4xl font-bold mb-2 sm:mb-4">
+      {/* Header Section */}
+      <div className="text-center max-w-5xl mx-auto mb-8">
+        <h1 className="text-[#000080] text-3xl sm:text-4xl font-bold mb-4">
           Introducing Tortoise LLM: India&apos;s First Energy and Cost-Efficient AI Model
         </h1>
         <p className="text-black font-bold text-base sm:text-lg">
@@ -106,7 +138,19 @@ const IntroducingTortoiseLLM = () => {
         </p>
       </div>
 
-      <StickyContent content={content} />
+      {/* Mobile View */}
+      <div className="block lg:hidden">
+        <div className="space-y-2">
+          {content.map((item, index) => (
+            <MobileCard key={index} item={item} />
+          ))}
+        </div>
+      </div>
+
+      {/* Desktop View */}
+      <div className="hidden lg:block">
+        <StickyContent content={content} />
+      </div>
     </div>
   );
 };
