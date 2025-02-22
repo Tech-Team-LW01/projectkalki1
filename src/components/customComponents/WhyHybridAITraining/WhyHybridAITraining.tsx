@@ -70,30 +70,38 @@ const WhyHybridAITraining: React.FC = () => {
   ];
 
   return (
-    <div className=" bg-gradient-to-br from-blue-50 to-white py-12 px-4">
-      <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl p-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-[#000080] mb-4">
-            Why Hybrid AI Training?
+    <section className="">
+      {/* Centered Heading with Decorative Elements */}
+     
 
-            </h2>
-            {/* <div className="w-24 h-1 bg-blue-500 mx-auto rounded-full"></div> */}
-          </div>
-          
-          <div className="space-y-6">
-            {benefits.map((benefit, index) => (
-              <Benefit
-                key={index}
-                icon={benefit.icon}
-                title={benefit.title}
-                description={benefit.description}
-              />
-            ))}
+      {/* Main Content */}
+      <div className="  py-6 px-4">
+      <div className="text-center mb-6">
+        <div className="inline-block">
+          <h2 className="text-2xl md:text-4xl font-bold text-[#000080] relative">
+            Why Hybrid AI Training?
+           
+          </h2>
+        </div>
+      </div>
+        <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-8">
+          <div className="max-w-4xl mx-auto">
+            <div className="space-y-6">
+              {benefits.map((benefit, index) => (
+                <Benefit
+                  key={index}
+                  icon={benefit.icon}
+                  title={benefit.title}
+                  description={benefit.description}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+
+    
+    </section>
   );
 };
 
