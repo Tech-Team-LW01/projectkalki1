@@ -32,7 +32,7 @@ const roadmapItems: RoadmapItem[] = [
 
 const RoadmapProcess = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-900 to-blue-700 py-8 flex items-center justify-center max-w-6xl mx-auto">
+    <div className="bg-white py-8 flex items-center justify-center max-w-6xl mx-auto">
       <div className="bg-white rounded-lg p-8 w-full max-w-5xl shadow-lg">
         <h2 className="text-2xl text-[#000080] md:text-4xl font-bold mb-8 text-center">
           Scope of Implementation: 10-Month AI Roadmap

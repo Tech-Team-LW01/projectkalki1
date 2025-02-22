@@ -32,7 +32,7 @@ const VoiceAgentAI = () => {
   ];
 
   return (
-    <div className="bg-[#FAF9F6] p-6">
+    <div className="bg-white p-6">
       {/* Header Section */}
       <div className="max-w-6xl mx-auto">
         <div className="flex justify-between items-center mb-4">
