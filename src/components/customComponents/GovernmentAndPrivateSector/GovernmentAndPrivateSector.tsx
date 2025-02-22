@@ -7,18 +7,18 @@ import { Landmark , Building2 } from 'lucide-react'; // Add icons
 
 const GovernmentAndPrivateSector = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-50 to-white py-16 relative">
+    <div className="bg-gradient-to-br from-gray-50 to-white py-6 relative">
       {/* Subtle background pattern */}
       <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div className="max-w-6xl mx-auto px-2  relative">
         {/* Header Section */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-6">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-xl md:text-4xl font-bold text-[#000080] mb-4"
+            className="text-3xl md:text-4xl font-bold text-[#000080] mb-2"
           >
             Government & Private-Sector Role
           </motion.h2>

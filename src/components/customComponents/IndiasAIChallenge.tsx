@@ -37,7 +37,7 @@ const IndiasAIChallenge = () => {
   ];
 
   return (
-    <div className="relative  bg-gradient-to-br from-[#262626] via-[#262626] to-[#262626] px-8 py-6 md:px-16 overflow-hidden">
+    <div className="relative  bg-white px-8 py-6 md:px-16 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNTAgMjVsNiA2LTYgNk01MCAzN2w2LTYtNi02IiBzdHJva2U9IiMwMEZGOUEyMCIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=')] opacity-10"/>
       
@@ -52,7 +52,7 @@ const IndiasAIChallenge = () => {
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-[#00FF9A]  text-3xl lg:text-4xl md:text-4xl  font-bold mb-2 tracking-tight"
+            className="text-black  text-3xl lg:text-4xl md:text-4xl  font-bold mb-2 tracking-tight"
           >
             India's AI Challenge
           </motion.h1>
@@ -61,7 +61,7 @@ const IndiasAIChallenge = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-white/90 text-lg leading-relaxed max-w-2xl mx-auto"
+            className="text-black text-lg leading-relaxed max-w-2xl mx-auto"
           >
             India is at a critical juncture in the global AI race. While countries like the U.S. and China have built robust AI ecosystems, India faces major challenges:
 
@@ -87,16 +87,16 @@ const IndiasAIChallenge = () => {
                       })}
                     </div>
                     <div>
-                      <h3 className="text-[#00FF9A] text-xl font-bold mb-2">
+                      <h3 className="text-black text-xl font-bold mb-2">
                         {card.title}
                       </h3>
-                      <p className="text-white/75 text-sm leading-relaxed ">
+                      <p className="text-black text-sm leading-relaxed ">
                         {card.subtitle}
                       </p>
                     </div>
                   </div>
                   
-                  <p className="text-white/60 text-sm mb-4 pl-16">
+                  <p className="text-black text-sm mb-4 pl-16">
                     {card.description}
                   </p>
 
