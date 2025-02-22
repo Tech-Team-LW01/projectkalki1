@@ -7,7 +7,7 @@ const VoiceAgentAI = () => {
     {
       title: "Hybrid AI Training",
       description: "Balance CPU & GPU workloads for cost-effective AI development.",
-      image: "/assets/KrutrimProducts/AI_Accessibility.jpeg"
+      image: "/assets/KrutrimProducts/1.jpeg"
     },
     {
       title: "National AI Data Repository",

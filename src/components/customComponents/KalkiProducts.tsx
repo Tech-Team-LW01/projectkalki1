@@ -94,7 +94,7 @@ Developed by <span className="font-bold">IIT Madras</span>, specializes in India
               </div>
               <div className="flex-1">
                 <img 
-                  src="/mapping-solution.png" 
+                  src="/assets/AIInfrastructure/3.jpeg" 
                   alt="Mapping Solution"
                   className="w-full h-auto rounded-lg"
                 />
