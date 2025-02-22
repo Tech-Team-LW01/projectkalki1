@@ -34,12 +34,12 @@ const GlobalAILandscape = () => {
               AI is redefining global economies. While the U.S. leads with 43 foundation models and China with 19, India has none. Without strategic intervention, India risks:
             </p>
             {/* Added main image */}
-            <div className="w-full relative h-[300px] mt-6">
+            <div className="w-full relative h-[320px] mt-6">
               <Image
-                src="/assets/TheGlobalAILandscape/main-image.jpg" // Replace with your main image path
+                src="/assets/TheGlobalAILandscape/3.jpeg" // Replace with your main image path
                 alt="Global AI Landscape"
                 fill
-                className="rounded-2xl object-cover shadow-lg"
+                className="rounded-2xl object-fit shadow-lg"
               />
             </div>
           </div>

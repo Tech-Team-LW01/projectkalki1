@@ -50,7 +50,7 @@ Developed by <span className="font-bold">IIT Madras</span>, specializes in India
               </Button>
               <div className="mt-6">
                 <img 
-                  src="/assets/AIInfrastructure/A_futuristic.jpeg" 
+                  src="/assets/AIInfrastructure/1.jpeg" 
                   alt="Krutrim Spectre"
                   className="w-full h-auto"
                 />
@@ -70,7 +70,7 @@ Developed by <span className="font-bold">IIT Madras</span>, specializes in India
               </Button>
               <div className="mt-6">
                 <img 
-                  src="/assets/AIInfrastructure/partnership.jpeg" 
+                  src="/assets/AIInfrastructure/2.jpeg" 
                   alt="Customer Support Dashboard"
                   className="w-full h-auto"
                 />
