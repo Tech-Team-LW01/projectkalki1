@@ -28,7 +28,7 @@ const GlobalAILandscape = () => {
           {/* Left side - Heading and Description */}
           <div className="flex flex-col items-start space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-              The Global AI Landscape <br/> & India's Position
+              The Global AI Landscape <br/> & India&apos;s Position
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed">
               AI is redefining global economies. While the U.S. leads with 43 foundation models and China with 19, India has none. Without strategic intervention, India risks:

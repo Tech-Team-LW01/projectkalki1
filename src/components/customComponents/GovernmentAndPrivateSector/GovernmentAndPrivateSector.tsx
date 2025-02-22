@@ -23,7 +23,7 @@ const GovernmentAndPrivateSector = () => {
             Government & Private-Sector Role
           </motion.h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Collaborative efforts driving India's AI innovation ecosystem
+            Collaborative efforts driving India&apos;s AI innovation ecosystem
           </p>
         </div>
 

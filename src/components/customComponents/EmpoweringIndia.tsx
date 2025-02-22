@@ -1,9 +1,22 @@
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Zap, Shield, Flag, Network } from 'lucide-react';
+import { Zap, Shield, Flag, Network, LucideIcon } from 'lucide-react';
 
-const FeatureCard = ({ icon: Icon, title, description }: any) => {
+// Define interfaces for type safety
+interface FeatureCardProps {
+  icon: LucideIcon;
+  title: string;
+  description: string;
+}
+
+interface Feature {
+  icon: LucideIcon;
+  title: string;
+  description: string;
+}
+
+const FeatureCard = ({ icon: Icon, title, description }: FeatureCardProps) => {
   return (
     <motion.div
       whileHover={{ scale: 1.02, boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)" }}
@@ -19,7 +32,7 @@ const FeatureCard = ({ icon: Icon, title, description }: any) => {
 };
 
 const EmpoweringIndia = () => {
-  const features = [
+  const features: Feature[] = [
     {
       icon: Zap,
       title: "100% Indigenous",
@@ -68,7 +81,7 @@ const EmpoweringIndia = () => {
           <p className="text-lg text-black max-w-2xl mx-auto ">
             India stands at the forefront of technological transformation. With Project Kalki, 
             we are ushering in a new era of Sustainable AI, Data Sovereignty, and Indigenous 
-            Technological Innovation. As the pioneers of India's First Homegrown Foundation 
+            Technological Innovation. As the pioneers of India&apos;s First Homegrown Foundation 
             AI LLM, Tortoise LLM, we are redefining AI by building a model that is:
           </p>
         </motion.div>

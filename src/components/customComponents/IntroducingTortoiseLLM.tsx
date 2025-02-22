@@ -23,7 +23,7 @@ const content: ContentItem[] = [
         </li>
         <li className="flex items-start">
           <img className="w-4 h-4 mt-1 mr-2 flex-shrink-0" src="/assets/checkMark.png" alt="checkmark" />
-          <span className="text-sm sm:text-base">Enhancing India's AI research capabilities and bridging the talent gap</span>
+          <span className="text-sm sm:text-base">Enhancing India&apos;s AI research capabilities and bridging the talent gap</span>
         </li>
       </ul>
     ),
@@ -82,7 +82,7 @@ const content: ContentItem[] = [
         </li>
         <li className="flex items-start">
           <img className="w-4 h-4 mt-1 mr-2 flex-shrink-0" src="/assets/checkMark.png" alt="checkmark" />
-          <span className="text-sm sm:text-base">Supporting India's Personal Data Protection Bill – Ensuring ethical and secure AI development</span>
+          <span className="text-sm sm:text-base">Supporting India&apos;s Personal Data Protection Bill – Ensuring ethical and secure AI development</span>
         </li>
         <li className="flex items-start">
           <img className="w-4 h-4 mt-1 mr-2 flex-shrink-0" src="/assets/checkMark.png" alt="checkmark" />
@@ -99,7 +99,7 @@ const IntroducingTortoiseLLM = () => {
     <div className="px-4 py-4 sm:p-4">
       <div className="text-center max-w-5xl mx-auto mb-2">
         <h1 className="text-[#000080] text-3xl sm:text-4xl font-bold mb-2 sm:mb-4">
-          Introducing Tortoise LLM: India's First Energy and Cost-Efficient AI Model
+          Introducing Tortoise LLM: India&apos;s First Energy and Cost-Efficient AI Model
         </h1>
         <p className="text-black font-bold text-base sm:text-lg">
           We have developed our own LLM architecture – the Tortoise LLM Model, specifically designed to sustain and operate efficiently in limited-resource environments. This breakthrough reduces power consumption and costs, making AI more affordable and accessible.

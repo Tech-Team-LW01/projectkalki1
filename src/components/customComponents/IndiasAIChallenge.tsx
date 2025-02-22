@@ -54,7 +54,7 @@ const IndiasAIChallenge = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-black  text-3xl lg:text-4xl md:text-4xl  font-bold mb-2 tracking-tight"
           >
-            India's AI Challenge
+            India&apos;s AI Challenge
           </motion.h1>
           
           <motion.p 
