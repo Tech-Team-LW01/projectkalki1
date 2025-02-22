@@ -70,7 +70,7 @@ const WhyHybridAITraining: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white py-12 px-4">
+    <div className=" bg-gradient-to-br from-blue-50 to-white py-12 px-4">
       <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl p-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">

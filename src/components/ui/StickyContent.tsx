@@ -42,7 +42,7 @@ const StickyContent: React.FC<StickyContentProps> = ({ content }) => {
 
   return (
     <motion.div
-      className="relative flex flex-col md:flex-row md:justify-center md:space-x-6 lg:space-x-10 rounded-md p-4 md:p-6 lg:p-10"
+      className="relative mx-auto max-w-7xl  flex flex-col md:flex-row md:justify-center md:space-x-6 lg:space-x-10 rounded-md p-4 md:p-6 lg:p-10"
       ref={ref}
     >
       {/* Mobile indicator - only visible on small screens */}
