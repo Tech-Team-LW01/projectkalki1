@@ -18,8 +18,8 @@ const KrutrimProducts = () => {
               <div className="flex-1">
                 <h3 className="text-xl font-semibold mb-2">National Supercomputing Mission (NSM) Resources </h3>
                 <ul className="text-gray-600 pl-4 list-disc mb-2">
-                  <li><span  className="font-bold">PARAM Siddhi-AI:</span> India’s fastest AI-ready supercomputer. </li>
-                  <li><span  className="font-bold">Project AUM:</span> India’s first indigenous HPC processor. </li>
+                  <li><span  className="font-bold">PARAM Siddhi-AI:</span> India&apos;s fastest AI-ready supercomputer. </li>
+                  <li><span  className="font-bold">Project AUM:</span> India&apos;s first indigenous HPC processor. </li>
                 </ul>
                 <Button variant="outline" className="text-green-600  border-green-600 hover:bg-green-50">
                   Learn more →
@@ -62,7 +62,7 @@ Developed by <span className="font-bold">IIT Madras</span>, specializes in India
             <CardContent className="p-6">
               <h3 className="text-xl font-semibold mb-2">Private-Sector Collaboration </h3>
               <ul className="text-gray-600 mb-4 list-disc pl-4">
-                <li><span className="font-bold">Reliance & Tata's Partnership with NVIDIA</span> to scale AI compute capacity. </li>
+                <li><span className="font-bold">Reliance & Tata&apos;s Partnership with NVIDIA</span> to scale AI compute capacity. </li>
 <li><span className="font-bold">Infosys AI Model Training Initiatives</span> for enterprise solutions. </li>
               </ul>
               <Button variant="outline" className="text-green-600 border-green-600 hover:bg-green-50">
