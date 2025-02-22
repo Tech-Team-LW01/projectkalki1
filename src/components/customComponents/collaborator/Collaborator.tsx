@@ -14,9 +14,9 @@ export function Collaborator() {
   return (
     <div className="max-w-7xl px-4 md:py-4 lg:py-4 py-2 mx-auto">
       <div className="text-center mb-2">
-        <h2 className="font-bold text-3xl lg:text-4xl md:text-4xl inline-block">
+        <h2 className="font-bold text-3xl text-[#000080] lg:text-4xl md:text-4xl inline-block">
          
-        <span className="text-[#ff0000]"> Collaborator</span> Section 
+         Collaborator Section 
         </h2>
         <p className="text-gray-500 mt-">
           With our DevOps Expert Program, IT professionals have transformed their careers and achieved their goals!

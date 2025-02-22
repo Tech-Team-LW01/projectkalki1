@@ -35,12 +35,15 @@ const VoiceAgentAI = () => {
     <div className="bg-white p-6">
       {/* Header Section */}
       <div className="max-w-6xl mx-auto">
-        <div className="flex justify-between items-center mb-4">
-          <div>
-            <p className="text-md text-[#000080] mb-2">Project Kalki</p>
-            <h1 className="md:text-4xl lg:text-4xl text-3xl font-bold text-[#000080]">Key Objectives of Project Kalki
-            </h1>
-          </div>
+        <div className="flex justify-between items-center mb-">
+        <div className="flex flex-col items-center justify-center text-center max-w-4xl mx-auto mb-6">
+          <p className="text-md sm:text-lg text-black mb-">
+            Project Kalki
+          </p>
+          <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-[#000080] leading-tight">
+            Key Objectives of Project Kalki
+          </h1>
+        </div>
           {/* <div className="flex gap-4">
             <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center">
               ←
@@ -52,7 +55,7 @@ const VoiceAgentAI = () => {
         </div>
 
         {/* Warning Message */}
-        <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-8">
+        <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-4">
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <span className="text-red-500 text-xl">📢</span>
