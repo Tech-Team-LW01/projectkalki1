@@ -1,44 +1,67 @@
 // components/VoiceAgentAI.tsx
 import React from 'react';
+import Image from 'next/image';
 
 const VoiceAgentAI = () => {
   const integrations = [
     {
-      title: "Voice Call Integration",
-      description: "Elevate call experiences with AI that not just speaks the language of users, but also gets work done!",
-      image: "/voice-call.png",
-      learnMore: "Learn More"
+      title: "Hybrid AI Training",
+      description: "Balance CPU & GPU workloads for cost-effective AI development.",
+      image: "/assets/KrutrimProducts/AI_Accessibility.jpeg"
     },
     {
-      title: "Whatsapp Integration",
-      description: "Build powerful next generation agents for 500M Indians on Whatsapp. Multilingual, voice enabled, and action-driven.",
-      image: "/whatsapp-ai.png",
-      learnMore: "Learn More"
+      title: "National AI Data Repository",
+      description: "Structure and manage large-scale AI datasets.",
+      image: "/assets/KrutrimProducts/Hybrid_AI_Training.jpeg"
     },
     {
-      title: "In App AI Integration",
-      description: "Reimagine and personalise new user journeys with Generative UI.",
-      image: "/in-app-ai.png",
-      learnMore: "Learn More"
+      title: "Indigenous AI Model Development",
+      description: "Build AI solutions tailored for Indian governance & industries.",
+      image: "/assets/KrutrimProducts/LLM_NURAL.jpeg"
+    },
+    {
+      title: "Multilingual AI Ecosystem",
+      description: "Collaborate with AI4Bharat to develop Indic AI models.",
+      image: "/assets/KrutrimProducts/Multilingual_LLM.jpeg"
+    },
+    {
+      title: "AI Accessibility:",
+      description: "Empower MSMEs, startups, and research labs with AI infrastructure",
+      image: "/assets/KrutrimProducts/National_AI_Data.jpeg"
     }
   ];
 
   return (
-    <div className="bg-[#FAF9F6]   p-6">
+    <div className="bg-white p-6">
       {/* Header Section */}
       <div className="max-w-6xl mx-auto">
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex justify-between items-center mb-4">
           <div>
-            <p className="text-sm text-gray-600 mb-2">Sarvam Agents</p>
-            <h1 className="text-3xl font-medium text-gray-800">Voice first agentic AI</h1>
+            <p className="text-md text-[#000080] mb-2">Project Kalki</p>
+            <h1 className="md:text-4xl lg:text-4xl text-3xl font-bold text-[#000080]">Key Objectives of Project Kalki
+            </h1>
           </div>
-          <div className="flex gap-4">
-            {/* <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center">
+          {/* <div className="flex gap-4">
+            <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center">
               ←
-            </button> */}
-            {/* <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center">
+            </button>
+            <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center">
               →
             </button> */}
+          {/* </div> */}
+        </div>
+
+        {/* Warning Message */}
+        <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-8">
+          <div className="flex items-center">
+            <div className="flex-shrink-0">
+              <span className="text-red-500 text-xl">📢</span>
+            </div>
+            <div className="ml-3">
+              <p className="text-red-700 font-medium">
+                Without urgent intervention, India risks falling behind in AI innovation.
+              </p>
+            </div>
           </div>
         </div>
 

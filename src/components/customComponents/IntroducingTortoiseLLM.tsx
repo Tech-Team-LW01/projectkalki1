@@ -1,4 +1,7 @@
+
+import React from 'react';
 import StickyContent from "../ui/StickyContent";
+import Image from 'next/image';
 
 type ContentItem = {
   title: string;
@@ -23,7 +26,7 @@ const content: ContentItem[] = [
         </li>
         <li className="flex items-start">
           <img className="w-4 h-4 mt-1 mr-2 flex-shrink-0" src="/assets/checkMark.png" alt="checkmark" />
-          <span className="text-sm sm:text-base">Enhancing India's AI research capabilities and bridging the talent gap</span>
+          <span className="text-sm sm:text-base">Enhancing India&apos;s AI research capabilities and bridging the talent gap</span>
         </li>
       </ul>
     ),
@@ -82,7 +85,7 @@ const content: ContentItem[] = [
         </li>
         <li className="flex items-start">
           <img className="w-4 h-4 mt-1 mr-2 flex-shrink-0" src="/assets/checkMark.png" alt="checkmark" />
-          <span className="text-sm sm:text-base">Supporting India's Personal Data Protection Bill – Ensuring ethical and secure AI development</span>
+          <span className="text-sm sm:text-base">Supporting India&apos;s Personal Data Protection Bill – Ensuring ethical and secure AI development</span>
         </li>
         <li className="flex items-start">
           <img className="w-4 h-4 mt-1 mr-2 flex-shrink-0" src="/assets/checkMark.png" alt="checkmark" />
@@ -94,19 +97,60 @@ const content: ContentItem[] = [
   },
 ];
 
+// Card component for mobile view
+const MobileCard = ({ item }: { item: ContentItem }) => {
+  return (
+    <div className="bg-white rounded-xl overflow-hidden shadow-md mb-6">
+      <div className="relative h-48 w-full">
+        <Image
+          src={item.image}
+          alt={item.title}
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
+      <div className="p-4 space-y-4">
+        <h3 className="text-xl font-bold text-[#000080]">
+          {item.title}
+        </h3>
+        <p className="text-gray-700 text-sm">
+          {item.content}
+        </p>
+        <div className="bg-gray-50 p-4 rounded-lg">
+          {item.description}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const IntroducingTortoiseLLM = () => {
   return (
-    <div className="px-4 py-6 sm:p-10">
-      <div className="text-center max-w-5xl mx-auto mb-10">
-        <h1 className="text-[#ff0000] text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
-          Introducing Tortoise LLM: India's First Energy and Cost-Efficient AI Model
+    <div className="px-4 py-4 sm:p-4">
+      {/* Header Section */}
+      <div className="text-center max-w-5xl mx-auto mb-8">
+        <h1 className="text-[#000080] text-3xl sm:text-4xl font-bold mb-4">
+          Introducing Tortoise LLM: India&apos;s First Energy and Cost-Efficient AI Model
         </h1>
         <p className="text-black font-bold text-base sm:text-lg">
           We have developed our own LLM architecture – the Tortoise LLM Model, specifically designed to sustain and operate efficiently in limited-resource environments. This breakthrough reduces power consumption and costs, making AI more affordable and accessible.
         </p>
       </div>
 
-      <StickyContent content={content} />
+      {/* Mobile View */}
+      <div className="block lg:hidden">
+        <div className="space-y-2">
+          {content.map((item, index) => (
+            <MobileCard key={index} item={item} />
+          ))}
+        </div>
+      </div>
+
+      {/* Desktop View */}
+      <div className="hidden lg:block">
+        <StickyContent content={content} />
+      </div>
     </div>
   );
 };

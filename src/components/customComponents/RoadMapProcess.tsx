@@ -32,9 +32,9 @@ const roadmapItems: RoadmapItem[] = [
 
 const RoadmapProcess = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-900 to-blue-700 py-8 flex items-center justify-center max-w-6xl mx-auto">
+    <div className="bg-white py-8 flex items-center justify-center max-w-6xl mx-auto">
       <div className="bg-white rounded-lg p-8 w-full max-w-5xl shadow-lg">
-        <h2 className="text-2xl font-bold mb-8 text-center">
+        <h2 className="text-2xl text-[#000080] md:text-4xl font-bold mb-8 text-center">
           Scope of Implementation: 10-Month AI Roadmap
         </h2>
         
@@ -53,7 +53,7 @@ const RoadmapProcess = () => {
                     {item.icon}
                   </div>
                   <div className="flex-1">
-                    <h3 className="font-semibold text-lg mb-1">
+                    <h3 className="font-semibold text-[#000080] text-black text-lg mb-1">
                       {item.title}
                     </h3>
                     <p className="text-gray-600 text-sm">
@@ -68,7 +68,7 @@ const RoadmapProcess = () => {
           {/* Right side - Road image */}
           <div className="flex-1 relative">
             <img 
-              src="/road-path.png" 
+              src="/assets/roadmap/roadmap.jpeg" 
               alt="Roadmap Path" 
               className="w-full h-auto rounded-lg shadow-md"
             />

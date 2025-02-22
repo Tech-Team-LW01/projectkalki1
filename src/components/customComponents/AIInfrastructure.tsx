@@ -14,14 +14,14 @@ const AIInfrastructure = () => {
       icon: (
         <ServerIcon className="h-12 w-12 text-gray-800" />
       ),
-      title: (<div><span className='font-bold'>Leverage India's Supercomputing Resources (PARAM, AI4Bharat) </span> for AI training.</div>),
+      title: (<div><span className='font-bold'>Leverage India&apos;s Supercomputing Resources (PARAM, AI4Bharat) </span> for AI training.</div>),
       description: ""
     },
     {
       icon: (
         <CircleStackIcon className="h-12 w-12 text-gray-800" />
       ),
-      title: (<div><span className='font-bold'>Build India's First National AI Data Repository </span> for foundational model training.</div>),
+      title: (<div><span className='font-bold'>Build India&apos;s First National AI Data Repository </span> for foundational model training.</div>),
       description: ""
     },
     {
@@ -44,7 +44,7 @@ const AIInfrastructure = () => {
     <div className="bg-gradient-to-br from-black to-black p-8 min-h-[400px]">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="mb-12 text-center">
+        <div className="mb-4 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
             Proposed Solution: AI Self-Reliance Through Compute <br/>&  Data Infrastructure
           </h1>

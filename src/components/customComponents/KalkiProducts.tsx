@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const KrutrimProducts = () => {
   return (
     <div className="container max-w-6xl mx-auto px-4 py-6">
-      <h1 className="text-3xl font-bold mb-4">Available AI Infrastructure in India </h1>
+      <h1 className="text-xl md:text-4xl text-[#000080] font-bold mb-4">Available AI Infrastructure in India </h1>
       {/* <p className="text-gray-600 mb-4">
         Explore Krutrim's host of offerings across a comprehensive AI stack.
       </p> */}
@@ -18,8 +18,8 @@ const KrutrimProducts = () => {
               <div className="flex-1">
                 <h3 className="text-xl font-semibold mb-2">National Supercomputing Mission (NSM) Resources </h3>
                 <ul className="text-gray-600 pl-4 list-disc mb-2">
-                  <li><span  className="font-bold">PARAM Siddhi-AI:</span> India’s fastest AI-ready supercomputer. </li>
-                  <li><span  className="font-bold">Project AUM:</span> India’s first indigenous HPC processor. </li>
+                  <li><span  className="font-bold">PARAM Siddhi-AI:</span> India&apos;s fastest AI-ready supercomputer. </li>
+                  <li><span  className="font-bold">Project AUM:</span> India&apos;s first indigenous HPC processor. </li>
                 </ul>
                 <Button variant="outline" className="text-green-600  border-green-600 hover:bg-green-50">
                   Learn more →
@@ -27,7 +27,7 @@ const KrutrimProducts = () => {
               </div>
               <div className="flex-1">
                 <img 
-                  src="/cloud-infrastructure.png" 
+                  src="/assets/KrutrimProducts/National_Supercomputing.jpeg" 
                   alt="Cloud Infrastructure"
                   className="w-full h-auto rounded-lg"
                 />
@@ -50,7 +50,7 @@ Developed by <span className="font-bold">IIT Madras</span>, specializes in India
               </Button>
               <div className="mt-6">
                 <img 
-                  src="/krutrim-spectre.png" 
+                  src="/assets/AIInfrastructure/1.jpeg" 
                   alt="Krutrim Spectre"
                   className="w-full h-auto"
                 />
@@ -62,7 +62,7 @@ Developed by <span className="font-bold">IIT Madras</span>, specializes in India
             <CardContent className="p-6">
               <h3 className="text-xl font-semibold mb-2">Private-Sector Collaboration </h3>
               <ul className="text-gray-600 mb-4 list-disc pl-4">
-                <li><span className="font-bold">Reliance & Tata's Partnership with NVIDIA</span> to scale AI compute capacity. </li>
+                <li><span className="font-bold">Reliance & Tata&apos;s Partnership with NVIDIA</span> to scale AI compute capacity. </li>
 <li><span className="font-bold">Infosys AI Model Training Initiatives</span> for enterprise solutions. </li>
               </ul>
               <Button variant="outline" className="text-green-600 border-green-600 hover:bg-green-50">
@@ -70,7 +70,7 @@ Developed by <span className="font-bold">IIT Madras</span>, specializes in India
               </Button>
               <div className="mt-6">
                 <img 
-                  src="/customer-support.png" 
+                  src="/assets/AIInfrastructure/2.jpeg" 
                   alt="Customer Support Dashboard"
                   className="w-full h-auto"
                 />

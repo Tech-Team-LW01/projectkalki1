@@ -42,7 +42,7 @@ const StickyContent: React.FC<StickyContentProps> = ({ content }) => {
 
   return (
     <motion.div
-      className="relative flex flex-col md:flex-row md:justify-center md:space-x-6 lg:space-x-10 rounded-md p-4 md:p-6 lg:p-10"
+      className="relative mx-auto max-w-7xl  flex flex-col md:flex-row md:justify-center md:space-x-6 lg:space-x-10 rounded-md p-4 md:p-6 lg:p-10"
       ref={ref}
     >
       {/* Mobile indicator - only visible on small screens */}
@@ -96,7 +96,7 @@ const StickyContent: React.FC<StickyContentProps> = ({ content }) => {
             <div className="relative z-10">
               <h2
                 className={`text-xl md:text-2xl font-bold ${
-                  activeCard === index ? "text-[#ff0000]" : "text-black"
+                  activeCard === index ? "text-[#000080]" : "text-black"
                 }`}
               >
                 {item.title}
