@@ -27,7 +27,7 @@ const KrutrimProducts = () => {
               </div>
               <div className="flex-1">
                 <img 
-                  src="/cloud-infrastructure.png" 
+                  src="/assets/KrutrimProducts/National_Supercomputing.jpeg" 
                   alt="Cloud Infrastructure"
                   className="w-full h-auto rounded-lg"
                 />

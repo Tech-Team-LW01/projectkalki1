@@ -68,7 +68,7 @@ const RoadmapProcess = () => {
           {/* Right side - Road image */}
           <div className="flex-1 relative">
             <img 
-              src="/road-path.png" 
+              src="/assets/roadmap/roadmap.jpeg" 
               alt="Roadmap Path" 
               className="w-full h-auto rounded-lg shadow-md"
             />

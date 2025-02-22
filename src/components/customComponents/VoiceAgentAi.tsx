@@ -7,27 +7,27 @@ const VoiceAgentAI = () => {
     {
       title: "Hybrid AI Training",
       description: "Balance CPU & GPU workloads for cost-effective AI development.",
-      image: "/voice-call.png"
+      image: "/assets/KrutrimProducts/AI_Accessibility.jpeg"
     },
     {
       title: "National AI Data Repository",
       description: "Structure and manage large-scale AI datasets.",
-      image: "/whatsapp-ai.png"
+      image: "/assets/KrutrimProducts/Hybrid_AI_Training.jpeg"
     },
     {
       title: "Indigenous AI Model Development",
       description: "Build AI solutions tailored for Indian governance & industries.",
-      image: "/in-app-ai.png"
+      image: "/assets/KrutrimProducts/LLM_NURAL.jpeg"
     },
     {
       title: "Multilingual AI Ecosystem",
       description: "Collaborate with AI4Bharat to develop Indic AI models.",
-      image: "/in-app-ai.png"
+      image: "/assets/KrutrimProducts/Multilingual_LLM.jpeg"
     },
     {
       title: "AI Accessibility:",
       description: "Empower MSMEs, startups, and research labs with AI infrastructure",
-      image: "/in-app-ai.png"
+      image: "/assets/KrutrimProducts/National_AI_Data.jpeg"
     }
   ];
 
