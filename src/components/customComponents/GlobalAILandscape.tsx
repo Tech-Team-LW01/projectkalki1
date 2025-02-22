@@ -4,17 +4,17 @@ import Image from 'next/image';
 
 const values = [
   {
-    icon: "/icons/target.svg",
+    icon: "/assets/TheGlobalAILandscape/1.jpeg",
     title: " Technological Dependence on foreign AI models.",
     description: "India's heavy reliance on foreign AI models limits innovation, threatens data security, and hinders technological self-reliance"
   },
   {
-    icon: "/icons/award.svg",
+    icon: "/assets/TheGlobalAILandscape/2.jpeg",
     title: " Data Privacy & Security Threats with sensitive data processed abroad.",
     description: "Foreign processing of India's sensitive data creates significant privacy risks and potential national security vulnerabilities."
   },
   {
-    icon: "/icons/hands.svg",
+    icon: "/assets/TheGlobalAILandscape/3.jpeg",
     title: " Limited Economic Competitiveness as AI-driven economies demand local innovation.",
     description: "Without indigenous AI capabilities, India risks falling behind in the global economy where AI drives growth and innovation."
   } 

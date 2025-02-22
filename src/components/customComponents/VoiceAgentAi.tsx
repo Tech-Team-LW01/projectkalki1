@@ -37,8 +37,8 @@ const VoiceAgentAI = () => {
       <div className="max-w-6xl mx-auto">
         <div className="flex justify-between items-center mb-4">
           <div>
-            <p className="text-md text-gray-600 mb-2">Project Kalki</p>
-            <h1 className="md:text-4xl lg:text-4xl text-3xl font-bold text-black">Key Objectives of Project Kalki
+            <p className="text-md text-[#000080] mb-2">Project Kalki</p>
+            <h1 className="md:text-4xl lg:text-4xl text-3xl font-bold text-[#000080]">Key Objectives of Project Kalki
             </h1>
           </div>
           {/* <div className="flex gap-4">
