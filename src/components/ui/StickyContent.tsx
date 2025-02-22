@@ -96,7 +96,7 @@ const StickyContent: React.FC<StickyContentProps> = ({ content }) => {
             <div className="relative z-10">
               <h2
                 className={`text-xl md:text-2xl font-bold ${
-                  activeCard === index ? "text-[#ff0000]" : "text-black"
+                  activeCard === index ? "text-[#000080]" : "text-black"
                 }`}
               >
                 {item.title}

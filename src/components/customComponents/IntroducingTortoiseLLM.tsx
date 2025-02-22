@@ -98,7 +98,7 @@ const IntroducingTortoiseLLM = () => {
   return (
     <div className="px-4 py-6 sm:p-10">
       <div className="text-center max-w-5xl mx-auto mb-10">
-        <h1 className="text-[#ff0000] text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
+        <h1 className="text-[#000080] text-xl sm:text-4xl font-bold mb-3 sm:mb-4">
           Introducing Tortoise LLM: India's First Energy and Cost-Efficient AI Model
         </h1>
         <p className="text-black font-bold text-base sm:text-lg">

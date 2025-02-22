@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
    <Hero/>
-   <GlobalAILandscape />
+  
     <OurLargeLanguage/>
     <Collaborator />
 
@@ -30,6 +30,7 @@ export default function Home() {
     <RoadmapProcess />
     <KalkiProducts />
     <GovernmentAndPrivateSector/>
+    <GlobalAILandscape />
     </>
    
   );

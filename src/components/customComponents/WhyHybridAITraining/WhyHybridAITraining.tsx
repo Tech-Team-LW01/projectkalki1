@@ -14,8 +14,8 @@ const Benefit: React.FC<BenefitProps> = ({ icon, title, description }) => (
       </div>
     </div>
     <div className="flex-grow">
-      <h3 className="text-blue-600 font-semibold text-lg mb-2">{title}</h3>
-      <p className="text-gray-600 leading-relaxed">{description}</p>
+      <h3 className="text-[#000080] font-semibold text-lg mb-2">{title}</h3>
+      <p className="text-black leading-relaxed">{description}</p>
     </div>
   </div>
 );
@@ -74,11 +74,11 @@ const WhyHybridAITraining: React.FC = () => {
       <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl p-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-blue-900 mb-4">
+            <h2 className="text-4xl font-bold text-[#000080] mb-4">
             Why Hybrid AI Training?
 
             </h2>
-            <div className="w-24 h-1 bg-blue-500 mx-auto rounded-full"></div>
+            {/* <div className="w-24 h-1 bg-blue-500 mx-auto rounded-full"></div> */}
           </div>
           
           <div className="space-y-6">

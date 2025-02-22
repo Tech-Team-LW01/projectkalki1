@@ -11,9 +11,9 @@ const FeatureCard = ({ icon: Icon, title, description }: any) => {
     >
       <div className="flex items-center mb-4">
         <Icon className="w-8 h-8 text-green-500 mr-4" />
-        <h3 className="font-bold text-xl text-gray-900">{title}</h3>
+        <h3 className="font-bold text-xl text-[#000080]">{title}</h3>
       </div>
-      <p className="text-gray-600 leading-relaxed">{description}</p>
+      <p className="text-black leading-relaxed">{description}</p>
     </motion.div>
   );
 };
@@ -62,10 +62,10 @@ const EmpoweringIndia = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl font-bold text-[#000080] mb-4">
             Empowering India with a <br className="hidden md:block" /> Self-Reliant AI Ecosystem
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-black max-w-2xl mx-auto leading-relaxed">
             India stands at the forefront of technological transformation. With Project Kalki, 
             we are ushering in a new era of Sustainable AI, Data Sovereignty, and Indigenous 
             Technological Innovation. As the pioneers of India's First Homegrown Foundation 

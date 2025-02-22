@@ -18,7 +18,7 @@ const GovernmentAndPrivateSector = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-4xl md:text-5xl font-bold text-gray-800 mb-4"
+            className="text-xl md:text-4xl font-bold text-[#000080] mb-4"
           >
             Government & Private-Sector Role
           </motion.h2>
