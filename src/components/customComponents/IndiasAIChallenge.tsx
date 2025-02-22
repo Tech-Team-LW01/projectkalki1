@@ -87,7 +87,7 @@ const IndiasAIChallenge = () => {
                       })}
                     </div>
                     <div>
-                      <h3 className="text-black text-xl font-bold mb-2">
+                      <h3 className="text-[#000080] text-xl font-bold mb-2">
                         {card.title}
                       </h3>
                       <p className="text-black text-sm leading-relaxed ">

@@ -16,9 +16,9 @@ const KrutrimProducts = () => {
           <CardContent className="p-6">
             <div className="flex flex-col md:flex-row justify-between items-center gap-8">
               <div className="flex-1">
-                <h3 className="text-xl font-semibold mb-2">National Supercomputing Mission (NSM) Resources </h3>
+                <h3 className="text-xl text-[#000080] font-semibold mb-2">National Supercomputing Mission (NSM) Resources </h3>
                 <ul className="text-gray-600 pl-4 list-disc mb-2">
-                  <li><span  className="font-bold">PARAM Siddhi-AI:</span> India&apos;s fastest AI-ready supercomputer. </li>
+                  <li><span  className="font-bold ">PARAM Siddhi-AI:</span> India&apos;s fastest AI-ready supercomputer. </li>
                   <li><span  className="font-bold">Project AUM:</span> India&apos;s first indigenous HPC processor. </li>
                 </ul>
                 <Button variant="outline" className="text-green-600  border-green-600 hover:bg-green-50">
@@ -40,10 +40,10 @@ const KrutrimProducts = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Card className="border rounded-lg overflow-hidden">
             <CardContent className="p-6">
-              <h3 className="text-xl font-semibold mb-2">AI4Bharat: A Key Collaborator </h3>
+              <h3 className="text-xl text-[#000080] font-semibold mb-2">AI4Bharat: A Key Collaborator </h3>
               <p className="text-gray-600 mb-4">
                 
-Developed by <span className="font-bold">IIT Madras</span>, specializes in Indian language AI models. 
+Developed by <span className="font-bold ">IIT Madras</span>, specializes in Indian language AI models. 
               </p>
               <Button variant="outline" className="text-green-600 border-green-600 hover:bg-green-50">
                 Learn more →
@@ -60,7 +60,7 @@ Developed by <span className="font-bold">IIT Madras</span>, specializes in India
 
           <Card className="border rounded-lg overflow-hidden">
             <CardContent className="p-6">
-              <h3 className="text-xl font-semibold mb-2">Private-Sector Collaboration </h3>
+              <h3 className="text-xl text-[#000080] font-semibold mb-2">Private-Sector Collaboration </h3>
               <ul className="text-gray-600 mb-4 list-disc pl-4">
                 <li><span className="font-bold">Reliance & Tata&apos;s Partnership with NVIDIA</span> to scale AI compute capacity. </li>
 <li><span className="font-bold">Infosys AI Model Training Initiatives</span> for enterprise solutions. </li>
