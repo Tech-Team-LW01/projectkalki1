@@ -35,20 +35,20 @@ const VoiceAgentAI = () => {
     <div className="bg-[#FAF9F6] p-6">
       {/* Header Section */}
       <div className="max-w-6xl mx-auto">
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex justify-between items-center mb-4">
           <div>
-            <p className="text-sm text-gray-600 mb-2">Project Kalki</p>
-            <h1 className="text-3xl font-medium text-gray-800">Key Objectives of Project Kalki
+            <p className="text-md text-gray-600 mb-2">Project Kalki</p>
+            <h1 className="md:text-4xl lg:text-4xl text-3xl font-bold text-black">Key Objectives of Project Kalki
             </h1>
           </div>
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center">
               ←
             </button>
             <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center">
               →
-            </button>
-          </div>
+            </button> */}
+          {/* </div> */}
         </div>
 
         {/* Warning Message */}

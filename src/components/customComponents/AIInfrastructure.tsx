@@ -44,7 +44,7 @@ const AIInfrastructure = () => {
     <div className="bg-gradient-to-br from-black to-black p-8 min-h-[400px]">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="mb-12 text-center">
+        <div className="mb-4 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
             Proposed Solution: AI Self-Reliance Through Compute <br/>&  Data Infrastructure
           </h1>
