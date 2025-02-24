@@ -125,3 +125,19 @@ body {
   backface-visibility: hidden;
   will-change: transform;
 }
+
+
+@layer utilities {
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+  
+  .scroll-mt-20 {
+    scroll-margin-top: 5rem;
+  }
+  
+  .backdrop-blur-md {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}

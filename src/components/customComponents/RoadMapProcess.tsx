@@ -43,8 +43,8 @@ const RoadmapProcess = () => {
         <div className="bg-white rounded-lg p-8 w-full max-w-5xl shadow-lg">
           <div className="flex flex-col md:flex-row gap-8">
             {/* Left side - Roadmap items */}
-            <div className="flex-1">
-              <div className="space-y-6">
+            <div className="flex-1 pt-6">
+              <div className="space-y-16 ">
                 {roadmapItems.map((item, index) => (
                   <div 
                     key={index} 
@@ -89,7 +89,7 @@ const RoadmapProcess = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section>  
   );
 };
 
