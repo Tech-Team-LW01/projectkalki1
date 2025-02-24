@@ -1,9 +1,13 @@
+
+
+
+
+
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Zap, Shield, Flag, Network, LucideIcon } from 'lucide-react';
 
-// Define interfaces for type safety
 interface FeatureCardProps {
   icon: LucideIcon;
   title: string;
@@ -22,17 +26,19 @@ const FeatureCard = ({ icon: Icon, title, description }: FeatureCardProps) => {
       whileHover={{ scale: 1.02, boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)" }}
       className="bg-white p-8 rounded-2xl border border-gray-100 transition-all hover:border-green-200"
     >
-     <div className="flex items-center mb-4">
-      <div className="relative group">
-        {/* Gradient shadow effect */}
-        <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg opacity-75 blur group-hover:opacity-100 transition duration-300" />
-        {/* Icon container */}
-        <div className="relative p-3 rounded-lg bg-white border-2 border-white">
-          <Icon className="w-6 h-6 text-[#07038d]" />
+      <div className="flex items-center mb-4">
+        {/* Icon container with gradient effect */}
+        <div className="relative group mr-4">
+          {/* Gradient effect */}
+          <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg opacity-75 blur group-hover:opacity-100 transition duration-300" />
+          
+          {/* Icon container */}
+          <div className="relative p-2 rounded-lg bg-gray-100 border-2 border-white">
+            <Icon className="w-6 h-6 text-black" />
+          </div>
         </div>
+        <h3 className="font-bold text-xl text-[#000080]">{title}</h3>
       </div>
-      <h3 className="font-bold text-xl text-[#07038d] ml-4">{title}</h3>
-    </div>
       <p className="text-black leading-relaxed">{description}</p>
     </motion.div>
   );
@@ -85,8 +91,8 @@ const EmpoweringIndia = () => {
           <h2 className="md:text-4xl lg:text-4xl text-3xl font-bold text-[#07038d] mb-2">
             Empowering India with a <br className="hidden md:block" /> Self-Reliant AI Ecosystem
           </h2>
-          <p className=" text-black max-w-2xl mx-auto text-base ">
-          We developed the Tortoise LLM Model for efficient, low-resource AI, reducing power and costs for greater accessibility.
+          <p className="text-black max-w-2xl mx-auto text-base">
+            We developed the Tortoise LLM Model for efficient, low-resource AI, reducing power and costs for greater accessibility.
           </p>
         </motion.div>
 
@@ -114,13 +120,7 @@ const EmpoweringIndia = () => {
           transition={{ delay: 0.8 }}
           className="mt-8 text-center"
         >
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center px-8 py-3 bg-[#046a38] text-white font-semibold rounded-full transition-all hover:bg-green-600"
-          >
-            Learn more about Project Kalki →
-          </motion.button>
+       
         </motion.div>
       </div>
     </div>
