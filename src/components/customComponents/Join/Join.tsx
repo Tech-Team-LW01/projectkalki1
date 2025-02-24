@@ -65,7 +65,7 @@ export default function JoinSection() {
           >
             <Button 
               variant="default"
-              className="bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-90 transition-opacity"
+              className="bg-gradient-to-r from-[#046a38] to-[#ff6820] hover:opacity-90 transition-opacity"
             >
               Get Involved
             </Button>
@@ -97,11 +97,11 @@ export default function JoinSection() {
             <Card className="border-none bg-white/50 backdrop-blur-sm hover:shadow-lg transition-shadow h-full">
               <CardContent className="space-y-6 p-8">
                 <motion.div 
-                  className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-green-500/20 to-green-500/10"
+                  className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gray-300"
                   whileHover={{ rotate: 360 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <Briefcase className="h-7 w-7 text-green-600" />
+                  <Briefcase className="h-7 w-7 text-black" />
                 </motion.div>
                 <h2 className="text-3xl font-semibold tracking-tight">The Future</h2>
                 <p className="text-black leading-relaxed">
@@ -128,16 +128,16 @@ export default function JoinSection() {
             <Card className="border-none bg-white/50 backdrop-blur-sm hover:shadow-lg transition-shadow h-full">
               <CardContent className="space-y-6 p-8">
                 <motion.div 
-                  className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-green-500/20 to-green-500/10"
+                  className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gray-300"
                   whileHover={{ rotate: 360 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <Power className="h-7 w-7 text-green-600" />
+                  <Power className="h-7 w-7 text-black" />
                 </motion.div>
                 <h2 className="text-2xl font-semibold tracking-tight">
                 Get Involved
                 </h2>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-black leading-relaxed">
                 👉 Partner With Us - Contact Us
 
                 </p>
