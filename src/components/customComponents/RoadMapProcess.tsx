@@ -17,7 +17,7 @@ const roadmapItems: RoadmapItem[] = [
     color: "bg-[#FFF9C4]",
   },
   {
-    icon: <TrendingUp className="w-6 h-6 text-gray-800" />,
+    icon: <TrendingUp className="w-6 h-6 text-gray-200" />,
     title: "Medium-Term (4-8 Months):",
     description: "Scale AI infrastructure, expand model capabilities.",
     color: "bg-[#2196F3]",
