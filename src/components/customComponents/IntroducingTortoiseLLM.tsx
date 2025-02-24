@@ -30,7 +30,7 @@ const content: ContentItem[] = [
         </li>
       </ul>
     ),
-    image: "/assets/1.webp",
+    image: "/assets/TortoiseLLM/1.jpeg",
   },
   {
     title: "Supporting Aatmanirbhar Bharat (Self-Reliant India Mission)",
@@ -51,7 +51,7 @@ const content: ContentItem[] = [
         </li>
       </ul>
     ),
-    image: "/assets/2.webp",
+    image: "/assets/TortoiseLLM/2.jpeg",
   },
   {
     title: "Green AI: In Line with India's Renewable Energy Goals",
@@ -72,7 +72,7 @@ const content: ContentItem[] = [
         </li>
       </ul>
     ),
-    image: "/assets/3.webp",
+    image: "/assets/TortoiseLLM/3.jpeg",
   },
   {
     title: "Strengthening Digital India and Data Sovereignty",
