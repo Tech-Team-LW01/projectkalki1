@@ -57,21 +57,25 @@ const DataFirstApproach = () => {
               className="relative group"
             >
               <div className="relative p-6 bg-white rounded-xl border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300">
-                {/* Icon with gradient background */}
-                <div className="relative mb-4">
-                  <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg opacity-75 blur group-hover:opacity-100 transition duration-300" />
-                  <div className="relative p-3 rounded-lg bg-[#046a38] border-2 border-white">
-                    <point.icon className="w-6 h-6 text-white" />
+                <div className="flex items-start gap-4">
+                  {/* Icon with gradient background */}
+                  <div className="relative flex-shrink-0">
+                    <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg opacity-75 blur group-hover:opacity-100 transition duration-300" />
+                    <div className="relative p-3 rounded-lg bg-white border-2 border-white">
+                      <point.icon className="w-6 h-6 text-black" />
+                    </div>
+                  </div>
+
+                  {/* Content Container */}
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold text-gray-800 mb-1">
+                      {point.title}
+                    </h3>
+                    <p className="text-gray-600">
+                      {point.description}
+                    </p>
                   </div>
                 </div>
-
-                {/* Content */}
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                  {point.title}
-                </h3>
-                <p className="text-gray-600">
-                  {point.description}
-                </p>
 
                 {/* Decorative elements */}
                 <div className="absolute top-0 right-0 -mt-2 -mr-2 w-20 h-20 bg-gradient-to-br opacity-10 rounded-full blur-xl transition-all duration-300 group-hover:opacity-20" />
