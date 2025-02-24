@@ -16,8 +16,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Your App Name",
-  description: "Your app description",
+  title: "Kalki ",
+  description: "Kalki The Large Language Model",
 };
 
 export default function RootLayout({
