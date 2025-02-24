@@ -52,7 +52,7 @@ const IndiasAIChallenge = () => {
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-[#000080]  text-3xl lg:text-4xl md:text-4xl   font-bold mb-2 tracking-tight"
+            className="text-[#07038d]  text-3xl lg:text-4xl md:text-4xl   font-bold mb-2 tracking-tight"
           >
             India&apos;s AI Challenge
           </motion.h1>
@@ -61,10 +61,9 @@ const IndiasAIChallenge = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-black text-lg leading-relaxed max-w-2xl mx-auto"
+            className="text-black  leading-relaxed max-w-2xl mx-auto"
           >
-            India is at a critical juncture in the global AI race. While countries like the U.S. and China have built robust AI ecosystems, India faces major challenges:
-
+            India stands at a crucial point in the global AI race. Unlike the U.S. and China with robust AI ecosystems, India faces significant challenges:
           </motion.p>
         </div>
 
@@ -77,33 +76,38 @@ const IndiasAIChallenge = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
             >
-              <Card className="bg-white/10 backdrop-blur-md border-[#00FF9A]/20 rounded-xl hover:shadow-[0_0_30px_rgba(0,255,154,0.1)] transition-all duration-300">
-                <CardContent className="p-8">
-                  <div className="flex items-start gap-4 mb-2">
-                    <div className="p-3 rounded-lg bg-[#00FF9A]/10">
-                      {React.createElement(card.icon, { 
-                        className: "w-6 h-6 text-[#00FF9A]",
-                        strokeWidth: 2
-                      })}
-                    </div>
-                    <div>
-                      <h3 className="text-[#000080] text-xl font-bold mb-2">
+               <Card className="bg-white/10 backdrop-blur-md border-[#00FF9A]/20 rounded-xl hover:shadow-[0_0_30px_rgba(0,255,154,0.1)] transition-all duration-300">
+      <CardContent className="p-8">
+        <div className="flex items-start gap-4 mb-2">
+          <div className="relative">
+            {/* Gradient glow effect */}
+            <div className="absolute -inset-2 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg opacity-75 blur-md" />
+            {/* Icon container */}
+            <div className=" p-3 rounded-lg bg-[#046a38] ">
+              {React.createElement(card.icon, {
+                className: "w-6 h-6 text-black",
+                strokeWidth: 2
+              })}
+            </div>
+          </div>
+          <div>
+                      <h3 className="text-[#07038d] text-xl font-bold mb-2">
                         {card.title}
                       </h3>
-                      <p className="text-black text-sm leading-relaxed ">
+                      <p className="text-black leading-relaxed ">
                         {card.subtitle}
                       </p>
                     </div>
                   </div>
                   
-                  <p className="text-black text-sm mb-4 pl-16">
+                  <p className="text-black leading-relaxed mb-4 pl-16">
                     {card.description}
                   </p>
 
                   <motion.button
                     whileHover={{ x: 5 }}
                     whileTap={{ scale: 0.98 }}
-                    className="flex items-center text-[#00FF9A] font-medium group pl-16"
+                    className="flex items-center text-[#046a38] font-medium group pl-16"
                   >
                     {card.buttonText}
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

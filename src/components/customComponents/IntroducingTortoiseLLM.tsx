@@ -130,11 +130,11 @@ const IntroducingTortoiseLLM = () => {
     <div className="px-4 py-4 sm:p-4">
       {/* Header Section */}
       <div className="text-center max-w-5xl mx-auto mb-8">
-        <h1 className="text-[#000080] text-3xl sm:text-4xl font-bold mb-4">
+        <h1 className="text-[#07038d] text-3xl sm:text-4xl font-bold mb-4">
           Introducing Tortoise LLM: India&apos;s First Energy and Cost-Efficient AI Model
         </h1>
-        <p className="text-black font-bold text-base sm:text-lg">
-          We have developed our own LLM architecture – the Tortoise LLM Model, specifically designed to sustain and operate efficiently in limited-resource environments. This breakthrough reduces power consumption and costs, making AI more affordable and accessible.
+        <p className="text-black text-base sm:text-lg">
+        We developed the Tortoise LLM Model for efficient, low-resource AI, reducing power and costs for greater accessibility.
         </p>
       </div>
 

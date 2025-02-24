@@ -40,7 +40,7 @@ const VoiceAgentAI = () => {
           <p className="text-md sm:text-lg text-black mb-">
             Project Kalki
           </p>
-          <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-[#000080] leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-[#07038d] leading-tight">
             Key Objectives of Project Kalki
           </h1>
         </div>
@@ -76,7 +76,7 @@ const VoiceAgentAI = () => {
               className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="flex justify-between items-start mb-4">
-                <h2 className="text-xl font-medium text-gray-800">
+                <h2 className="text-xl font-medium text-[#07038d]">
                   {integration.title}
                 </h2>
                 <span className="text-gray-400">↗</span>

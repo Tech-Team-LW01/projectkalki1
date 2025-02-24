@@ -49,6 +49,7 @@ const roadmapItems: RoadmapItem[] = [
 
 const RoadmapProcess = () => {
   return (
+<<<<<<< HEAD
     <section className="max-w-6xl mx-auto px-4 py-12">
       <h2 className="text-2xl text-[#000080] md:text-4xl font-bold mb-8 text-center max-w-4xl mx-auto">
         Implementation Roadmap (10-Month Plan)
@@ -65,6 +66,39 @@ const RoadmapProcess = () => {
                 <div className="flex items-start gap-4 mb-4">
                   <div className={`${item.color} p-3 rounded-full flex items-center justify-center relative animate-glow border-4 border-transparent bg-clip-padding before:content-[""] before:absolute before:inset-[-2px] before:rounded-full before:p-1 before:bg-gradient-to-b before:from-[#FF9933] before:via-white before:to-[#138808] before:animate-spin-slow before:z-[-1]`}>
                     {item.icon}
+=======
+    <section className="py-6">
+      {/* Heading Section - Separated from main content */}
+      <h2 className="text-2xl text-[#07038d] md:text-4xl font-bold mb-2 text-center max-w-4xl mx-auto">
+        Scope of Implementation: 10-Month AI Roadmap
+      </h2>
+
+      {/* Main Content */}
+      <div className="bg-white py-8 flex items-center justify-center max-w-6xl mx-auto">
+        <div className="bg-white rounded-lg p-8 w-full max-w-5xl shadow-lg">
+          <div className="flex flex-col md:flex-row gap-8">
+            {/* Left side - Roadmap items */}
+            <div className="flex-1">
+              <div className="space-y-6">
+                {roadmapItems.map((item, index) => (
+                  <div 
+                    key={index} 
+                    className="flex items-start gap-4 transform transition-all duration-300 hover:scale-105"
+                  >
+                    <div 
+                      className={`${item.color} p-3 rounded-full flex items-center justify-center shadow-md`}
+                    >
+                      {item.icon}
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-semibold text-[#07038d] text-lg mb-1">
+                        {item.title}
+                      </h3>
+                      <p className="text-gray-600 text-sm">
+                        {item.description}
+                      </p>
+                    </div>
+>>>>>>> 210686d6e8694dd5396bda8c067129d87f71f48b
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-[#000080] text-lg mb-2">
