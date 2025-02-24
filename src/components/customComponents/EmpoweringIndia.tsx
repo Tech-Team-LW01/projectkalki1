@@ -78,11 +78,8 @@ const EmpoweringIndia = () => {
           <h2 className="md:text-4xl lg:text-4xl text-3xl font-bold text-[#07038d] mb-2">
             Empowering India with a <br className="hidden md:block" /> Self-Reliant AI Ecosystem
           </h2>
-          <p className="text-md text-black max-w-2xl mx-auto ">
-            India stands at the forefront of technological transformation. With Project Kalki, 
-            we are ushering in a new era of Sustainable AI, Data Sovereignty, and Indigenous 
-            Technological Innovation. As the pioneers of India&apos;s First Homegrown Foundation 
-            AI LLM, Tortoise LLM, we are redefining AI by building a model that is:
+          <p className=" text-black max-w-2xl mx-auto text-base ">
+          We developed the Tortoise LLM Model for efficient, low-resource AI, reducing power and costs for greater accessibility.
           </p>
         </motion.div>
 

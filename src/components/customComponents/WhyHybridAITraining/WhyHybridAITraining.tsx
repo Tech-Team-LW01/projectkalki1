@@ -15,7 +15,7 @@ const Benefit: React.FC<BenefitProps> = ({ icon, title, description }) => (
     </div>
     <div className="flex-grow">
       <h3 className="text-[#000080] font-semibold text-lg mb-2">{title}</h3>
-      <p className="text-black leading-relaxed">{description}</p>
+      <p className="text-black  leading-relaxed">{description}</p>
     </div>
   </div>
 );

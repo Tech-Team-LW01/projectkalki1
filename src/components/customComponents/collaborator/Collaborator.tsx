@@ -78,7 +78,7 @@ export function Collaborator() {
         <h2 className="font-bold text-3xl text-[#000080] lg:text-4xl md:text-4xl inline-block">
           Collaborator Section
         </h2>
-        <p className="text-gray-500 mt-2">
+        <p className="text-black mt-2 text-base sm:text-lg">
           With our DevOps Expert Program, IT professionals have transformed their careers and achieved their goals!
         </p>
       </div>
