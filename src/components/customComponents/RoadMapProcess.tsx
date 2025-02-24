@@ -23,7 +23,7 @@ const roadmapItems: RoadmapItem[] = [
     color: "bg-[#2196F3]",
   },
   {
-    icon: <Cpu className="w-6 h-6 text-gray-800" />,
+    icon: <Cpu className="w-6 h-6 text-gray-200" />,
     title: "Long-Term (8+ Months):",
     description: "Develop India's first fully trained foundational AI model.",
     color: "bg-[#4A148C]",
