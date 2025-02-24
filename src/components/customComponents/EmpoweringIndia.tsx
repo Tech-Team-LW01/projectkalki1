@@ -2,7 +2,6 @@
 
 
 
-
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
@@ -13,6 +12,7 @@ interface FeatureCardProps {
   title: string;
   description: string;
 }
+
 
 interface Feature {
   icon: LucideIcon;
@@ -33,11 +33,11 @@ const FeatureCard = ({ icon: Icon, title, description }: FeatureCardProps) => {
           <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg opacity-75 blur group-hover:opacity-100 transition duration-300" />
           
           {/* Icon container */}
-          <div className="relative p-2 rounded-lg bg-gray-100 border-2 border-white">
+          <div className="relative p-2 rounded-lg bg-white border-2 border-white">
             <Icon className="w-6 h-6 text-black" />
           </div>
         </div>
-        <h3 className="font-bold text-xl text-[#000080]">{title}</h3>
+        <h3 className="font-bold text-xl text-[#000080] md:pl-2 lg:pl-2">{title}</h3>
       </div>
       <p className="text-black leading-relaxed">{description}</p>
     </motion.div>

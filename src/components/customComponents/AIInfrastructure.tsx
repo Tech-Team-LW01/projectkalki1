@@ -41,7 +41,7 @@ const AIInfrastructure = () => {
   ];
 
   return (
-    <div className="bg-[#07038d] p-8 min-h-[400px]">
+    <div className="bg-[#07038d] p-8 min-h-[400px] py-6">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-4 text-center">

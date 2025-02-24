@@ -13,6 +13,9 @@ import GovernmentAndPrivateSector from "@/components/customComponents/Government
 import GlobalAILandscape from "@/components/customComponents/GlobalAILandscape";
 import { Collaborator } from "@/components/customComponents/collaborator/Collaborator";
 import JoinSection from "@/components/customComponents/Join/Join";
+import WhyDataFirstApproach from "@/components/customComponents/WhyDataFirstApproach"
+
+
 export default function Home() {
   return (
     <>
@@ -54,7 +57,9 @@ export default function Home() {
 <div id="hybrid-ai">
   <WhyHybridAITraining />
 </div>
-{/* why data first approach need to be here */}
+<div id="hybrid-ai">
+  <WhyDataFirstApproach />
+</div>
 
 <div id="products">
   <KalkiProducts />
