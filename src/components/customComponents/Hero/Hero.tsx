@@ -123,7 +123,7 @@ export const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/assets/Hero1.jpg"
+          src="/assets/mainhero.jpg"
           alt="Hero background"
           className="w-full h-full object-cover"
         />
