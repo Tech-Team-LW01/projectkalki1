@@ -89,7 +89,7 @@ const DataFirstApproach = () => {
         >
           <div className="inline-block p-4 bg-gray-50 rounded-lg">
             <p className="text-lg text-gray-700">
-              Our data-first strategy ensures robust foundation for India's AI ecosystem
+              Our data-first strategy ensures robust foundation for India&apos;s AI ecosystem
             </p>
           </div>
         </motion.div>
