@@ -12,22 +12,22 @@ const VoiceAgentAI = () => {
     {
       title: "National AI Data Repository",
       description: "Structure and manage large-scale AI datasets.",
-      image: "/assets/KrutrimProducts/Hybrid_AI_Training.jpeg"
+      image: "/assets/KrutrimProducts/2.jpeg"
     },
     {
       title: "Indigenous AI Model Development",
       description: "Build AI solutions tailored for Indian governance & industries.",
-      image: "/assets/KrutrimProducts/LLM_NURAL.jpeg"
+      image: "/assets/KrutrimProducts/3.jpeg"
     },
     {
       title: "Multilingual AI Ecosystem",
       description: "Collaborate with AI4Bharat to develop Indic AI models.",
-      image: "/assets/KrutrimProducts/Multilingual_LLM.jpeg"
+      image: "/assets/KrutrimProducts/4.jpeg"
     },
     {
       title: "AI Accessibility:",
       description: "Empower MSMEs, startups, and research labs with AI infrastructure",
-      image: "/assets/KrutrimProducts/National_AI_Data.jpeg"
+      image: "/assets/KrutrimProducts/5.jpeg"
     }
   ];
 
