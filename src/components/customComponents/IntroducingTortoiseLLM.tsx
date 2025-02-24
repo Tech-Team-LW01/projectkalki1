@@ -93,7 +93,7 @@ const content: ContentItem[] = [
         </li>
       </ul>
     ),
-    image: "/assets/2.webp",
+    image: "/assets/TortoiseLLM/4.jpeg",
   },
 ];
 
@@ -133,8 +133,8 @@ const IntroducingTortoiseLLM = () => {
         <h1 className="text-[#07038d] text-3xl sm:text-4xl font-bold mb-4">
           Introducing Tortoise LLM: India&apos;s First Energy and Cost-Efficient AI Model
         </h1>
-        <p className="text-black font-bold text-base sm:text-lg">
-          We have developed our own LLM architecture – the Tortoise LLM Model, specifically designed to sustain and operate efficiently in limited-resource environments. This breakthrough reduces power consumption and costs, making AI more affordable and accessible.
+        <p className="text-black text-base sm:text-lg">
+        We developed the Tortoise LLM Model for efficient, low-resource AI, reducing power and costs for greater accessibility.
         </p>
       </div>
 

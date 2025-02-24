@@ -9,13 +9,13 @@ interface BenefitProps {
 const Benefit: React.FC<BenefitProps> = ({ icon, title, description }) => (
   <div className="flex items-center bg-white rounded-xl shadow-md p-4 mb-4 hover:shadow-lg transition-shadow duration-300">
     <div className="flex-shrink-0 mr-6">
-      <div className="w-12 h-12 flex items-center justify-center text-blue-500 bg-blue-50 rounded-full">
+      <div className="w-12 h-12 flex items-center justify-center text-[#07038d] bg-blue-50 rounded-full">
         {icon}
       </div>
     </div>
     <div className="flex-grow">
       <h3 className="text-[#000080] font-semibold text-lg mb-2">{title}</h3>
-      <p className="text-black leading-relaxed">{description}</p>
+      <p className="text-black  leading-relaxed">{description}</p>
     </div>
   </div>
 );

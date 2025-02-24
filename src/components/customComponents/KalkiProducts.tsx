@@ -45,7 +45,7 @@ const KrutrimProducts = () => {
                 <li>Developed by <span className="font-bold">IIT Madras</span>, specializes in Indian language AI models. </li>
 <li>It advances <span className="font-bold">AI Solutions</span> for regional languages.</li>
               </ul>
-              <Button variant="outline" className="text-green-600 border-green-600 hover:bg-green-50">
+              <Button variant="outline" className="text-[#046a38] border-green-600 hover:bg-green-50">
                 Learn more →
               </Button>
               <div className="mt-6">

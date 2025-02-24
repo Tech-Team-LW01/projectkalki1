@@ -23,7 +23,7 @@ const FeatureCard = ({ icon: Icon, title, description }: FeatureCardProps) => {
       className="bg-white p-8 rounded-2xl border border-gray-100 transition-all hover:border-green-200"
     >
       <div className="flex items-center mb-4">
-        <Icon className="w-8 h-8 text-green-500 mr-4" />
+        <Icon className="w-8 h-8 text-[#046a38] mr-4" />
         <h3 className="font-bold text-xl text-[#000080]">{title}</h3>
       </div>
       <p className="text-black leading-relaxed">{description}</p>
@@ -78,11 +78,8 @@ const EmpoweringIndia = () => {
           <h2 className="md:text-4xl lg:text-4xl text-3xl font-bold text-[#07038d] mb-2">
             Empowering India with a <br className="hidden md:block" /> Self-Reliant AI Ecosystem
           </h2>
-          <p className="text-md text-black max-w-2xl mx-auto ">
-            India stands at the forefront of technological transformation. With Project Kalki, 
-            we are ushering in a new era of Sustainable AI, Data Sovereignty, and Indigenous 
-            Technological Innovation. As the pioneers of India&apos;s First Homegrown Foundation 
-            AI LLM, Tortoise LLM, we are redefining AI by building a model that is:
+          <p className=" text-black max-w-2xl mx-auto text-base ">
+          We developed the Tortoise LLM Model for efficient, low-resource AI, reducing power and costs for greater accessibility.
           </p>
         </motion.div>
 
@@ -113,7 +110,7 @@ const EmpoweringIndia = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center px-8 py-3 bg-green-500 text-white font-semibold rounded-full transition-all hover:bg-green-600"
+            className="inline-flex items-center px-8 py-3 bg-[#046a38] text-white font-semibold rounded-full transition-all hover:bg-green-600"
           >
             Learn more about Project Kalki →
           </motion.button>
