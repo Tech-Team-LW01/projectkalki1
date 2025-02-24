@@ -64,7 +64,9 @@ const RoadmapProcess = () => {
               >
                 <div className="flex items-start gap-4 mb-4">
                   {/* todo the the gradent to the icon of india flag color */}
-                  <div className={`${item.color} p-3 rounded-full flex items-center justify-center relative animate-glow border-4 border-transparent bg-clip-padding before:content-[""] before:absolute before:inset-[-2px] before:rounded-full before:p-1 before:bg-gradient-to-r before:from-[#FF9933] before:via-white before:to-[#138808] before:animate-spin-slow before:z-[-1] after:absolute after:inset-[-2px] after:rounded-full after:p-1 after:bg-gradient-to-l after:from-[#FF9933] after:via-white after:to-[#138808] after:animate-spin-slow after:z-[-2]`}>
+                  <div className={`${item.color} p-3 rounded-full flex items-center justify-center 
+                  
+                  bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-full opacity-75  group-hover:opacity-100 transition duration-300`}>
                     {item.icon}
                   </div>
                   <div className="flex-1">
