@@ -47,8 +47,8 @@ export default function JoinSection() {
             variants={fadeIn}
             className="max-w-3xl text-lg text-muted-foreground sm:text-xl leading-relaxed"
           >
-            With a team of 200+ AI experts, we are on a mission to create India's first Foundation AI Model that
-            prioritizes sustainability, sovereignty, and inclusivity.
+            With a team of 200+ AI experts, we are on a mission to create Indias first Foundation AI Model that prioritizes sustainability sovereignty and inclusivity.
+
           </motion.p>
           
           <motion.p 
@@ -103,9 +103,10 @@ export default function JoinSection() {
                 >
                   <Briefcase className="h-7 w-7 text-green-600" />
                 </motion.div>
-                <h2 className="text-2xl font-semibold tracking-tight">Career Opportunities</h2>
+                <h2 className="text-2xl font-semibold tracking-tight">The Future</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Join a community of forward-thinking pioneers shaping tomorrow's world - today.
+                📢 The Future of AI is Here. The Future of AI is India.
+
                 </p>
                 <Button 
                   variant="outline" 
@@ -134,10 +135,11 @@ export default function JoinSection() {
                   <Power className="h-7 w-7 text-green-600" />
                 </motion.div>
                 <h2 className="text-2xl font-semibold tracking-tight">
-                  Experience the Future of AI with Krutrim AI Labs
+                Get Involved
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Join us in shaping India's AI revolution
+                👉 Partner With Us - Contact Us
+
                 </p>
                 <Button 
                   variant="outline" 
