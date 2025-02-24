@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
    <Hero/>
-   <GlobalAILandscape />
+   
     <OurLargeLanguage/>
     <Collaborator />
 
@@ -26,7 +26,7 @@ export default function Home() {
     <AIInfrastructure/>
     <EmpoweringIndia/>
     <IndiasAIChallenge/>
- 
+    <GlobalAILandscape />
     <VoiceAgentAI />
     <RoadmapProcess />
     <KalkiProducts />
