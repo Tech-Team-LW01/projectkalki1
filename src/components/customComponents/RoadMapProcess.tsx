@@ -4,7 +4,7 @@ import { Database, TrendingUp, Cpu } from 'lucide-react';
 interface RoadmapItem {
   icon: React.ReactNode;
   title: string;
-  title2:string;
+  title2: string;
   description: string;
   color: string;
   subPoints: string[];
@@ -12,11 +12,11 @@ interface RoadmapItem {
 
 const roadmapItems: RoadmapItem[] = [
   {
-    icon: <Database className="w-6 h-6 text-gray-800" />,
+    icon: <Database className="w-6 h-6 text-black" />,
     title: "Phase 1 (0-3 Months):",
-    title2:"Research & Infrastructure Setup",
+    title2: "Research & Infrastructure Setup",
     description: "Establish AI infrastructure and research foundations",
-    color: "bg-white",
+    color: "bg-gray-100",
     subPoints: [
       "Identify key AI research institutions & computing resources",
       "Establish collaborations with AI4Bharat, universities, & private-sector players",
@@ -24,22 +24,22 @@ const roadmapItems: RoadmapItem[] = [
     ]
   },
   {
-    icon: <TrendingUp className="w-6 h-6 text-gray-200" />,
+    icon: <TrendingUp className="w-6 h-6 text-black" />,
     title: "Phase 2 (3-7 Months):",
-    title2:" AI Model Training & Optimization",
+    title2: " AI Model Training & Optimization",
     description: "Scale AI infrastructure and expand capabilities",
-    color: "bg-white",
+    color: "bg-gray-100",
     subPoints: [
       "Deploy Hybrid CPU-GPU AI models across HPC clusters",
       "Develop multilingual AI models using collected datasets"
     ]
   },
   {
-    icon: <Cpu className="w-6 h-6 text-gray-200" />,
+    icon: <Cpu className="w-6 h-6 text-black" />,
     title: "Phase 3 (7-10 Months):",
-    title2:" Deployment & Scaling",
+    title2: " Deployment & Scaling",
     description: "Implement and scale AI solutions nationwide",
-    color: "bg-white",
+    color: "bg-gray-100",
     subPoints: [
       "Implement AI solutions in governance, security, and smart city initiatives",
       "Scale training infrastructure for future AI expansion"
@@ -63,10 +63,17 @@ const RoadmapProcess = () => {
                 className="group transform transition-all duration-300 hover:scale-102"
               >
                 <div className="flex items-start gap-4 mb-4">
-                  {/* todo the the gradent to the icon of india flag color */}
-                  <div className={`${item.color} p-3 rounded-full flex items-center justify-center relative animate-glow border-4 border-transparent bg-clip-padding before:content-[""] before:absolute before:inset-[-2px] before:rounded-full before:p-1 before:bg-gradient-to-r before:from-[#FF9933] before:via-white before:to-[#138808] before:animate-spin-slow before:z-[-1] after:absolute after:inset-[-2px] after:rounded-full after:p-1 after:bg-gradient-to-l after:from-[#FF9933] after:via-white after:to-[#138808] after:animate-spin-slow after:z-[-2]`}>
-                    {item.icon}
+                  {/* Updated Icon Container with Gradient */}
+                  <div className="relative group">
+                    {/* Gradient effect */}
+                    <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg opacity-75 blur group-hover:opacity-100 transition duration-300" />
+                    
+                    {/* Icon container */}
+                    <div className={`relative p-3 rounded-lg ${item.color} border-2 border-white`}>
+                      {item.icon}
+                    </div>
                   </div>
+
                   <div className="flex-1">
                     <h3 className="font-semibold text-[#000080] text-lg mb-2">
                       {item.title}
@@ -104,21 +111,15 @@ const RoadmapProcess = () => {
                 />
               ))}
             </div>
-
-          
           </div>
-
-        
         </div>
 
         <div className="text-center p-2 bg-[#000080] mt-8">
-        <p className="text-2xl text-center item-center font-semibold text-white">
-          🚀 Outcome: AI-powered governance, national security, and self-reliance
-        </p>
+          <p className="text-2xl text-center item-center font-semibold text-white">
+            🚀 Outcome: AI-powered governance, national security, and self-reliance
+          </p>
+        </div>
       </div>
-      </div>
-      
-    {/*  */}
     </section>
   );
 };
