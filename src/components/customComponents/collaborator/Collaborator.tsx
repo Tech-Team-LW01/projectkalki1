@@ -88,7 +88,7 @@ export function Collaborator() {
         <div className="relative flex items-center">
           <div className="w-1/4 pr-4 z-30">
             <div className="sticky top-0">
-              <h3 className="text-2xl font-bold text-green-600 mb-3">
+              <h3 className="text-2xl font-bold text-[#ff6820] mb-3">
                 Industry Experts
               </h3>
               <p className="text-gray-700">
@@ -109,7 +109,7 @@ export function Collaborator() {
         <div className="relative flex items-center">
           <div className="w-1/4 pr-4 z-30">
             <div className="sticky top-0">
-              <h3 className="text-2xl font-bold text-orange-500 mb-3">
+              <h3 className="text-2xl font-bold text-[#07038d] mb-3">
                 Technical Leaders
               </h3>
               <p className="text-gray-700">
@@ -130,7 +130,7 @@ export function Collaborator() {
         <div className="relative flex items-center">
           <div className="w-1/4 pr-4 z-30">
             <div className="sticky top-0">
-              <h3 className="text-2xl font-bold text-green-600 mb-2">
+              <h3 className="text-2xl font-bold text-[#046a38] mb-2">
                 Innovation Leaders
               </h3>
               <p className="text-gray-700">
