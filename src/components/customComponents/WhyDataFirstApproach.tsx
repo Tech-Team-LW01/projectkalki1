@@ -56,7 +56,7 @@ const DataFirstApproach = () => {
               transition={{ delay: index * 0.2 }}
               className="relative group"
             >
-              <div className="relative p-6 bg-white rounded-xl border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="relative p-6 bg-white rounded-xl border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 h-[160px]"> {/* Fixed height */}
                 <div className="flex items-start gap-4">
                   {/* Icon with gradient background */}
                   <div className="relative flex-shrink-0">
@@ -67,11 +67,11 @@ const DataFirstApproach = () => {
                   </div>
 
                   {/* Content Container */}
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-gray-800 mb-1">
+                  <div className="flex-1 pl-2"> {/* Added padding-left */}
+                    <h3 className="text-xl font-semibold text-gray-800 mb-2 pl-2"> {/* Added padding-left */}
                       {point.title}
                     </h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-600 pl-2"> {/* Added padding-left */}
                       {point.description}
                     </p>
                   </div>
@@ -83,20 +83,6 @@ const DataFirstApproach = () => {
             </motion.div>
           ))}
         </div>
-
-        {/* Bottom Section */}
-        <motion.div 
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.8 }}
-          className="mt-12 text-center"
-        >
-          <div className="inline-block p-4 bg-gray-50 rounded-lg">
-            <p className="text-lg text-gray-700">
-              Our data-first strategy ensures robust foundation for India&apos;s AI ecosystem
-            </p>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
