@@ -45,19 +45,19 @@ const GovernmentAndPrivateSector = () => {
                 </div>
                 <ul className="space-y-4">
                   {/* List items with enhanced styling */}
-                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-2 rounded-lg transition-colors">
+                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-0 rounded-lg transition-colors">
                     <span className="text-blue-500 text-xl">✅</span>
                     <p className="text-black leading-relaxed">Policy incentives for hybrid CPU-GPU AI training</p>
                   </li>
-                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-2 rounded-lg transition-colors">
+                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-0 rounded-lg transition-colors">
                     <span className="text-blue-500 text-xl">✅</span>
                     <p className="text-black leading-relaxed">Launch of a National AI Data Repository</p>
                   </li>
-                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-2 rounded-lg transition-colors">
+                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-0 rounded-lg transition-colors">
                     <span className="text-blue-500 text-xl">✅</span>
                     <p className="text-black leading-relaxed">Integration of AI4Bharat and NSM supercomputers</p>
                   </li>
-                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-2 rounded-lg transition-colors">
+                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-0 rounded-lg transition-colors">
                     <span className="text-blue-500 text-xl">✅</span>
                     <p className="text-black leading-relaxed">Public-sector funding under IndiaAI Mission</p>
                   </li>
@@ -81,15 +81,15 @@ const GovernmentAndPrivateSector = () => {
                   <h3 className="text-xl font-bold text-[#07038d]">Private Sector Collaboration</h3>
                 </div>
                 <ul className="space-y-4">
-                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-2 rounded-lg transition-colors">
+                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-0 rounded-lg transition-colors">
                     <span className="text-purple-500 text-xl">✅</span>
                     <p className="text-black leading-relaxed">IT Giants (Reliance, Tata, Infosys) to support AI R&D</p>
                   </li>
-                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-2 rounded-lg transition-colors">
+                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-0 rounded-lg transition-colors">
                     <span className="text-purple-500 text-xl">✅</span>
                     <p className="text-black leading-relaxed">Cloud AI providers to enhance infrastructure scaling</p>
                   </li>
-                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-2 rounded-lg transition-colors">
+                  <li className="flex items-start space-x-3 group cursor-pointer hover:bg-gray-50 p-0 rounded-lg transition-colors">
                     <span className="text-purple-500 text-xl">✅</span>
                     <p className="text-black leading-relaxed">Startup incubation programs to accelerate AI entrepreneurship</p>
                   </li>
