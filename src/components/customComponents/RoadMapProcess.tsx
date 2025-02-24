@@ -50,7 +50,7 @@ const roadmapItems: RoadmapItem[] = [
 const RoadmapProcess = () => {
   return (
     <section className="max-w-6xl mx-auto px-4 py-12">
-      <h2 className="text-2xl text-[#000080] md:text-4xl font-bold mb-8 text-center max-w-4xl mx-auto">
+      <h2 className="text-3xl text-[#07038d] md:text-4xl font-bold mb-8 text-center max-w-4xl mx-auto">
         Implementation Roadmap (10-Month Plan)
       </h2>
 
@@ -75,17 +75,17 @@ const RoadmapProcess = () => {
                   </div>
 
                   <div className="flex-1">
-                    <h3 className="font-semibold text-[#000080] text-lg mb-2">
+                    <h3 className="font-bold text-[#07038d] text-lg mb-2 leading-relaxed">
                       {item.title}
                       <br/> 
-                      <span className='text-black'>{item.title2}</span>
+                      <span className='text-black leading-relaxed'>{item.title2}</span>
                     </h3>
-                    <p className="text-gray-600 mb-4">
+                    <p className="text-black mb-4 leading-relaxed">
                       {item.description}
                     </p>
                     <ul className="space-y-2">
                       {item.subPoints.map((point, idx) => (
-                        <li key={idx} className="flex items-start gap-2 text-gray-700">
+                        <li key={idx} className="flex items-start gap-2 text-black leading-relaxed">
                           <span className="text-blue-500 mt-1">🔹</span>
                           <span>{point}</span>
                         </li>
