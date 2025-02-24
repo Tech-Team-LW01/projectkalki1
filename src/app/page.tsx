@@ -8,7 +8,7 @@ import RoadmapProcess from "@/components/customComponents/RoadMapProcess";
 import VoiceAgentAI from "@/components/customComponents/VoiceAgentAi";
 import AIInfrastructure from "@/components/customComponents/AIInfrastructure";
 import { Hero } from "@/components/customComponents/Hero/Hero";
-import WhyHybridAITraining from "@/components/customComponents/WhyHybridAITraining/WhyHybridAITraining";
+import {WhyHybridAITraining} from "@/components/customComponents/WhyHybridAITraining/WhyHybridAITraining";
 import GovernmentAndPrivateSector from "@/components/customComponents/GovernmentAndPrivateSector/GovernmentAndPrivateSector";
 import GlobalAILandscape from "@/components/customComponents/GlobalAILandscape";
 import { Collaborator } from "@/components/customComponents/collaborator/Collaborator";

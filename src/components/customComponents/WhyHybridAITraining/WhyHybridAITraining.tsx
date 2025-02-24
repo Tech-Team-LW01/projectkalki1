@@ -1,108 +1,115 @@
-import React from 'react';
+"use client"
+import React from "react";
+import { motion } from "framer-motion";
+import { Card, CardHeader, CardContent } from "@/components/ui/card";
+import { Cpu, MemoryStick , Brain } from "lucide-react";
 
-interface BenefitProps {
-  icon: React.ReactNode;
-  title: string;
-  description: string;
-}
+const cardData = [
+  {
+    title: "Supercomputing Optimization",
+    description: "Optimizes India's existing supercomputing resources (PARAM, AUM, NEC HPCs) for maximum efficiency and performance.",
+    icon: Cpu,
+  },
+  {
+    title: "Workload Balancing",
+    description: "Balances CPU & GPU workloads strategically to achieve optimal cost efficiency and resource utilization.",
+    icon: MemoryStick ,
+  },
+  {
+    title: "Advanced AI Models",
+    description: "Leverages Mixture of Experts (MoE) models to deliver enhanced performance and adaptability.",
+    icon: Brain,
+  },
+];
 
-const Benefit: React.FC<BenefitProps> = ({ icon, title, description }) => (
-  <div className="flex items-center bg-white rounded-xl shadow-md p-4 mb-4 hover:shadow-lg transition-shadow duration-300">
-    <div className="flex-shrink-0 mr-6">
-      <div className="w-12 h-12 flex items-center justify-center text-[#07038d] bg-blue-50 rounded-full">
-        {icon}
-      </div>
-    </div>
-    <div className="flex-grow">
-      <h3 className="text-[#000080] font-semibold text-lg mb-2">{title}</h3>
-      <p className="text-black  leading-relaxed">{description}</p>
-    </div>
-  </div>
-);
+const cardData2 = [
+  {
+    title: "Supercomputing Optimization",
+    description: "Optimizes India's existing supercomputing resources (PARAM, AUM, NEC HPCs) for maximum efficiency and performance.",
+    icon: Cpu,
+  },
+  {
+    title: "Workload Balancing",
+    description: "Balances CPU & GPU workloads strategically to achieve optimal cost efficiency and resource utilization.",
+    icon: MemoryStick ,
+  },
 
-const WhyHybridAITraining: React.FC = () => {
-  const benefits = [
-    {
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-        </svg>
-      ),
-      title: "Optimizes",
-      description: "Optimizes India's existing supercomputing resources (PARAM, AUM, NEC HPCs)."
-    },
-    {
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      ),
-      title: "Balances",
-      description: "Balances CPU & GPU workloads for cost efficiency.."
-    },
-    {
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      ),
-      title: "Leverages",
-      description: "Leverages Mixture of Experts (MoE) models for better performance"
-    },
-    {
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l4-4 4 4m0 6l-4 4-4-4" />
-        </svg>
-      ),
-      title: "Decentralized",
-      description: "Decentralized AI training through universities, research labs, and government centers.."
-    },
-    {
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-        </svg>
-      ),
-      title: "Develop",
-      description: " Develop an indigenous AI Cloud infrastructure for scalability."
-    }
-  ];
+];
 
+
+const CardComponent = ({ title, description, icon: Icon, index }:any) => {
   return (
-    <section className="">
-      {/* Centered Heading with Decorative Elements */}
-     
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: index * 0.2 }}
+      className="w-full md:w-[calc(33.33%-1rem)] mb-6 md:mb-0"
+    >
+      <Card className="h-full bg-[#07038d] backdrop-blur-sm border-white/20 text-white hover:bg-[#07038d] transition-all duration-300">
+        <CardHeader className="flex flex-col items-center space-y-4 text-center">
+          <div className="p-3 rounded-full bg-gray-400">
+            <Icon className="w-8 h-8 text-black" />
+          </div>
+          <h3 className="text-xl font-bold text-white">{title}</h3>
+        </CardHeader>
+        <CardContent className="text-center text-gray-200">
+          <p>{description}</p>
+        </CardContent>
+      </Card>
+    </motion.div>
+  );
+};
 
-      {/* Main Content */}
-      <div className="  py-6 px-4">
-      <div className="text-center mb-6">
-        <div className="inline-block">
-          <h2 className="text-2xl md:text-4xl font-bold text-[#07038d] relative">
-            Why Hybrid AI Training?
-           
-          </h2>
-        </div>
-      </div>
-        <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-8">
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-6">
-              {benefits.map((benefit, index) => (
-                <Benefit
-                  key={index}
-                  icon={benefit.icon}
-                  title={benefit.title}
-                  description={benefit.description}
-                />
-              ))}
+export function WhyHybridAITraining() {
+  return (
+    <section className="w-full  mx-auto overflow-hidden">
+      <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full relative rounded-xl h-full md:h-full bg-fixed bg-cover bg-center min-h-full overflow-hidden bg-[url(/assets/TheGlobalAILandscape/1.jpeg)]">
+          <div className="absolute inset-0 bg-white  opacity-80"></div>
+          
+          <div className="flex flex-col items-center justify-center py-4 md:py-8 relative z-10">
+            <div className="relative mb-12 md:mb-8">
+              <motion.h2 
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                className="text-3xl md:text-4xl lg:text-4xl text-[#07038d] font-bold text-inter-var text-center px-4"
+              >
+                Why Hybrid AI Training?
+              </motion.h2>
+            </div>
+
+            {/* Cards Container */}
+            <div className="w-full max-w-7xl mx-auto px-4">
+              <div className="flex flex-col md:flex-row md:space-x-6 justify-center">
+                {cardData.map((card, index) => (
+                  <CardComponent key={index} {...card} index={index} />
+                ))}
+              </div>
+
+              <div className="flex mt-4 flex-col md:flex-row md:space-x-6 justify-center">
+                {cardData2.map((card, index) => (
+                  <CardComponent key={index} {...card} index={index} />
+                ))}
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-    
+      <style jsx>{`
+        @keyframes arrowPulse {
+          0% { transform: translateY(0); }
+          50% { transform: translateY(5px); }
+          100% { transform: translateY(0); }
+        }
+
+        .arrow-animation {
+          animation: arrowPulse 2s infinite;
+        }
+      `}</style>
     </section>
   );
-};
+}
 
 export default WhyHybridAITraining;
