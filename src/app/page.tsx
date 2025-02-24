@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import IntroducingTortoiseLLM from "./../components/customComponents/IntroducingTortoiseLLM"
 import EmpoweringIndia from "@/components/customComponents/EmpoweringIndia";
 import OurLargeLanguage from "@/components/customComponents/OurLargeLanguage";
@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
    <Hero/>
-  
+   <GlobalAILandscape />
     <OurLargeLanguage/>
     <Collaborator />
 

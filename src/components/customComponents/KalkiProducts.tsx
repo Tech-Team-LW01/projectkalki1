@@ -41,10 +41,10 @@ const KrutrimProducts = () => {
           <Card className="border rounded-lg overflow-hidden">
             <CardContent className="p-6">
               <h3 className="text-xl text-[#000080] font-semibold mb-2">AI4Bharat: A Key Collaborator </h3>
-              <p className="text-gray-600 mb-4">
-                
-Developed by <span className="font-bold ">IIT Madras</span>, specializes in Indian language AI models. 
-              </p>
+              <ul className="text-gray-600 mb-4 list-disc pl-4">
+                <li>Developed by <span className="font-bold">IIT Madras</span>, specializes in Indian language AI models. </li>
+<li>It advances <span className="font-bold">AI Solutions</span> for regional languages.</li>
+              </ul>
               <Button variant="outline" className="text-green-600 border-green-600 hover:bg-green-50">
                 Learn more →
               </Button>

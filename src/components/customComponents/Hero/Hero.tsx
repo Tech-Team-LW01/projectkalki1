@@ -55,7 +55,7 @@ const Navbar = () => {
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <NavigationMenuLink className="text-sm text-white font-medium hover:font-bold hover:cursor-pointer">
-                  Vison
+                  Vision
                   </NavigationMenuLink>
                 </NavigationMenuItem>
 
