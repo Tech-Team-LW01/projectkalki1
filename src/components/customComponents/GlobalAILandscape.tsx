@@ -52,22 +52,22 @@ const GlobalAILandscape = () => {
               className="flex items-start gap-6 group hover:bg-gray-50 p-4 rounded-lg transition-all duration-300"
             >
               <div className="relative">
-                <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-full opacity-75 blur group-hover:opacity-100 transition duration-300" />
-                <div className="relative w-16 h-16 flex-shrink-0 overflow-hidden rounded-full transform group-hover:scale-110 transition-transform duration-300">
+                <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-full opacity-75 blur group-hover:opacity-100 transition duration-300 " />
+                <div className="relative w-16 h-16 flex-shrink-0 overflow-hidden rounded-full transform group-hover:scale-110 border-white border-2 transition-transform duration-300">
                   <Image 
                     src={value.icon} 
                     alt={value.title} 
                     width={64} 
                     height={64} 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover "
                   />
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors duration-300">
+                <h3 className="text-xl font-semibold text-gray-800  mb-2 group-hover:text-[#07038d] transition-colors duration-300">
                   {value.title}
                 </h3>
-                <p className="text-gray-700 font-semibold">
+                <p className="text-black leading-relaxed">
                   {value.description}
                 </p>
               </div>

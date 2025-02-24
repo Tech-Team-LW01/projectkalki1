@@ -83,7 +83,7 @@ const IndiasAIChallenge = () => {
             {/* Gradient glow effect */}
             <div className="absolute -inset-2 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg opacity-75 blur-md" />
             {/* Icon container */}
-            <div className=" p-3 rounded-lg bg-[#046a38] ">
+            <div className=" p-3 rounded-lg bg-white border-2 border-white">
               {React.createElement(card.icon, {
                 className: "w-6 h-6 text-black",
                 strokeWidth: 2
