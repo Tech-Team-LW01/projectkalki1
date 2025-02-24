@@ -22,7 +22,7 @@ const values = [
 
 const GlobalAILandscape = () => {
   return (
-    <div className="bg-white py-6 px-4 md:px-8">
+    <div className="bg-white py-8 md:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left side - Heading, Description, and Image */}
