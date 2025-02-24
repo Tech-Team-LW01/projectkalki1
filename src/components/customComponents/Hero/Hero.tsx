@@ -192,8 +192,8 @@ const Navbar = () => {
 
 export const Hero = () => {
   return (
-    <div id="hero" className="relative w-full ">
-      <div className="mt-20"> < Navbar  /> </div>
+    <div id="hero" className="relative w-full min-h-screen ">
+      <div className="mt-12"> < Navbar  /> </div>
       <div className="relative w-full h-screen">
         <img
           src="/assets/mainhero.jpg"
