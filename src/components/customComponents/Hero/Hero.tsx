@@ -4,7 +4,7 @@
 "use client"
 import React, { useState, useEffect } from "react";
 import {
-  NavigationMenu,
+  NavigationMenu, 
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
@@ -192,8 +192,8 @@ const Navbar = () => {
 
 export const Hero = () => {
   return (
-    <div id="hero" className="relative w-full min-h-screen">
-      <Navbar />
+    <div id="hero" className="relative w-full ">
+      <div className="mb-20"> < Navbar  /> </div>
       <div className="relative w-full h-screen">
         <img
           src="/assets/mainhero.jpg"

@@ -82,7 +82,7 @@ const IndiasAIChallenge = () => {
                       />
                       
                       {/* Icon container */}
-                      <div className="relative p-3 rounded-lg bg-gray-200 border-2 border-white">
+                      <div className="relative p-3 rounded-lg bg-white border-2 border-white">
                         {React.createElement(card.icon, {
                           className: "w-6 h-6 text-black",
                           strokeWidth: 2
@@ -91,31 +91,19 @@ const IndiasAIChallenge = () => {
                     </div>
                     
                     <div>
-                      <h3 className="text-[#07038d] text-xl font-bold mb-2">
+                      <h3 className="text-[#07038d] text-xl font-bold mb- pl-2">
                         {card.title}
                       </h3>
-                      <p className="text-black leading-relaxed">
+                      <p className="text-black leading- pl-2">
                         {card.subtitle}
                       </p>
                     </div>
                   </div>
                   
-                  <div className="flex items-center gap-2 pl-16">
-                    <div className="flex items-center justify-center w-5 h-5 border-2 border-[#046a38] rounded">
-                      <svg 
-                        className="w-3 h-3 text-[#046a38]" 
-                        fill="none" 
-                        strokeLinecap="round" 
-                        strokeLinejoin="round" 
-                        strokeWidth="2" 
-                        viewBox="0 0 24 24" 
-                        stroke="currentColor"
-                      >
-                        <path d="M5 13l4 4L19 7"></path>
-                      </svg>
-                    </div>
-                    <p className="text-black leading-relaxed">
-                      {card.description}
+                  <div className="flex items-center gap-2 ">
+                     
+                    <p className="text-black leading-relaxed pl-20">
+                    *  {card.description}
                     </p>
                   </div>
                 </CardContent>
