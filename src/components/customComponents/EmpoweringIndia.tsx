@@ -22,10 +22,17 @@ const FeatureCard = ({ icon: Icon, title, description }: FeatureCardProps) => {
       whileHover={{ scale: 1.02, boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)" }}
       className="bg-white p-8 rounded-2xl border border-gray-100 transition-all hover:border-green-200"
     >
-      <div className="flex items-center mb-4">
-        <Icon className="w-8 h-8 text-[#046a38] mr-4" />
-        <h3 className="font-bold text-xl text-[#000080]">{title}</h3>
+     <div className="flex items-center mb-4">
+      <div className="relative group">
+        {/* Gradient shadow effect */}
+        <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg opacity-75 blur group-hover:opacity-100 transition duration-300" />
+        {/* Icon container */}
+        <div className="relative p-3 rounded-lg bg-white border-2 border-white">
+          <Icon className="w-6 h-6 text-[#07038d]" />
+        </div>
       </div>
+      <h3 className="font-bold text-xl text-[#07038d] ml-4">{title}</h3>
+    </div>
       <p className="text-black leading-relaxed">{description}</p>
     </motion.div>
   );
