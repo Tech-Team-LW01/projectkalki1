@@ -41,7 +41,7 @@ const AIInfrastructure = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-br from-black to-black p-8 min-h-[400px]">
+    <div className="bg-[#07038d] p-8 min-h-[400px]">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-4 text-center">

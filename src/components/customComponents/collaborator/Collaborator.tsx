@@ -13,7 +13,7 @@ export function Collaborator() {
   const thirdRowData = profileData.slice(Math.floor(2 * profileData.length / 3));
 
   return (
-    <div className="max-w-6xl px-4 md:py-4 lg:py-4 py-2 mx-auto">
+    <div className="max-w-6xl px-4 md:py-4 lg:py-4 py-2 mx-auto" id="collaborator">
       <div className="text-center mb-8">
         <h2 className="font-bold text-3xl text-[#000080] lg:text-4xl md:text-4xl inline-block">
           Collaborator Section
