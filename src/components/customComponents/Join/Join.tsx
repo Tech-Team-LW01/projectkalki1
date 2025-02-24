@@ -38,7 +38,7 @@ export default function JoinSection() {
         >
           <motion.h1 
             variants={fadeIn}
-            className="text-3xl font-bold tracking-tight sm:text-5xl md:text-6xl text-[#07038d] bg-clip-text "
+            className="text-3xl font-bold tracking-tight sm:text-5xl md:text-6xl text-[#07038d] bg-clip-text"
           >
             Join the AI Revolution
           </motion.h1>
@@ -47,8 +47,7 @@ export default function JoinSection() {
             variants={fadeIn}
             className="max-w-3xl text-lg text-black sm:text-xl leading-relaxed"
           >
-            With a team of 200+ AI experts, we are on a mission to create Indias first Foundation AI Model that prioritizes sustainability sovereignty and inclusivity.
-
+            With a team of 200+ AI experts, we are on a mission to create India's first Foundation AI Model that prioritizes sustainability sovereignty and inclusivity.
           </motion.p>
           
           <motion.p 
@@ -88,6 +87,7 @@ export default function JoinSection() {
             animate: { transition: { staggerChildren: 0.3 } }
           }}
         >
+          {/* First Card */}
           <motion.div
             variants={fadeIn}
             whileHover="hover"
@@ -96,29 +96,31 @@ export default function JoinSection() {
           >
             <Card className="border-none bg-white/50 backdrop-blur-sm hover:shadow-lg transition-shadow h-full">
               <CardContent className="space-y-6 p-8">
-                <motion.div 
-                  className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg bg-white border-2 border-white shadow-md shadow-from-r from-red-900 "
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.5 }}
-                >
-                  <Briefcase className="h-7 w-7 text-black" />
-                </motion.div>
-                <h2 className="text-3xl font-semibold tracking-tight">The Future</h2>
-                <p className="text-black leading-relaxed">
-                📢 The Future of AI is Here. The Future of AI is India.
+                <div className="relative group inline-flex">
+                  <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-2xl opacity-75 blur group-hover:opacity-100 transition duration-300" />
+                  <div className="relative inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white border-2 border-white">
+                    <Briefcase className="h-7 w-7 text-black" />
+                  </div>
+                </div>
 
+                <h2 className="text-3xl font-semibold tracking-tight">
+                  The Future
+                </h2>
+                <p className="text-black leading-relaxed">
+                  📢 The Future of AI is Here. The Future of AI is India.
                 </p>
                 <Button 
                   variant="outline" 
                   className="group hover:bg-green-600 hover:text-white transition-colors"
                 >
-                  Open Positionr
+                  Open Position
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" />
                 </Button>
               </CardContent>
             </Card>
           </motion.div>
 
+          {/* Second Card */}
           <motion.div
             variants={fadeIn}
             whileHover="hover"
@@ -127,19 +129,18 @@ export default function JoinSection() {
           >
             <Card className="border-none bg-white/50 backdrop-blur-sm hover:shadow-lg transition-shadow h-full">
               <CardContent className="space-y-6 p-8">
-                <motion.div 
-                  className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gray-300"
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.5 }}
-                >
-                  <Power className="h-7 w-7 text-black" />
-                </motion.div>
+                <div className="relative group inline-flex">
+                  <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-2xl opacity-75 blur group-hover:opacity-100 transition duration-300" />
+                  <div className="relative inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white border-2 border-white">
+                    <Power className="h-7 w-7 text-black" />
+                  </div>
+                </div>
+
                 <h2 className="text-2xl font-semibold tracking-tight">
-                Get Involved
+                  Get Involved
                 </h2>
                 <p className="text-black leading-relaxed">
-                👉 Partner With Us - Contact Us
-
+                  👉 Partner With Us - Contact Us
                 </p>
                 <Button 
                   variant="outline" 
