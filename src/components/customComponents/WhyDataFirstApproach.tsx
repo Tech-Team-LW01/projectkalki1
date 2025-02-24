@@ -32,7 +32,7 @@ const DataFirstApproach = () => {
   ];
 
   return (
-    <section className="py-12 bg-white">
+    <section className="py-6 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <motion.div 
@@ -43,7 +43,7 @@ const DataFirstApproach = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-[#07038d] mb-4">
             Why a Data-First Approach?
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-500 mx-auto"/>
+          
         </motion.div>
 
         {/* Cards Grid */}
