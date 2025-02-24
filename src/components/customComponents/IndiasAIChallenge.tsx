@@ -100,12 +100,11 @@ const IndiasAIChallenge = () => {
                     </div>
                   </div>
                   
-                  <div className="flex items-center gap-2 ">
-                     
-                    <p className="text-black leading-relaxed pl-20">
-                    *  {card.description}
-                    </p>
-                  </div>
+                  <div className="flex items-center gap-2">
+  <p className="text-black italic leading-relaxed pl-[75px] text-sm">
+    {card.description}
+  </p>
+</div>
                 </CardContent>
               </Card>
             </motion.div>
