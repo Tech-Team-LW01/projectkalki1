@@ -11,6 +11,7 @@ export function Collaborator() {
   const secondRowData = profileData.slice(Math.floor(profileData.length / 3), Math.floor(2 * profileData.length / 3));
   const thirdRowData = profileData.slice(Math.floor(2 * profileData.length / 3));
 
+
   return (
     <div className="max-w-7xl px-4 md:py-4 lg:py-4 py-2 mx-auto">
       <div className="text-center mb-2">
