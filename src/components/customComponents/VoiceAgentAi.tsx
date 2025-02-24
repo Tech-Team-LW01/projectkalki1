@@ -11,7 +11,7 @@ const VoiceAgentAI = () => {
     },
     {
       title: "National AI Data Repository",
-      description: "Structure and manage large-scale AI datasets.",
+      description: "Efficiently structure and manage large-scale AI datasets.",
       image: "/assets/KrutrimProducts/2.jpeg"
     },
     {
