@@ -27,7 +27,7 @@ const GlobalAILandscape = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left side - Heading, Description, and Image */}
           <div className="flex flex-col items-start space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#000080]">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#07038d]">
               The Global AI Landscape <br/> & India&apos;s Position
             </h2>
             <p className="text-gray-700 text-lg leading-relaxed">

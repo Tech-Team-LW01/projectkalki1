@@ -34,7 +34,7 @@ const RoadmapProcess = () => {
   return (
     <section className="py-6">
       {/* Heading Section - Separated from main content */}
-      <h2 className="text-2xl text-[#000080] md:text-4xl font-bold mb-2 text-center max-w-4xl mx-auto">
+      <h2 className="text-2xl text-[#07038d] md:text-4xl font-bold mb-2 text-center max-w-4xl mx-auto">
         Scope of Implementation: 10-Month AI Roadmap
       </h2>
 
@@ -56,7 +56,7 @@ const RoadmapProcess = () => {
                       {item.icon}
                     </div>
                     <div className="flex-1">
-                      <h3 className="font-semibold text-[#000080] text-lg mb-1">
+                      <h3 className="font-semibold text-[#07038d] text-lg mb-1">
                         {item.title}
                       </h3>
                       <p className="text-gray-600 text-sm">

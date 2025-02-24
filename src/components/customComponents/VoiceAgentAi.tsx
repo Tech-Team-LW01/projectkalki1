@@ -40,7 +40,7 @@ const VoiceAgentAI = () => {
           <p className="text-md sm:text-lg text-black mb-">
             Project Kalki
           </p>
-          <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-[#000080] leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-[#07038d] leading-tight">
             Key Objectives of Project Kalki
           </h1>
         </div>

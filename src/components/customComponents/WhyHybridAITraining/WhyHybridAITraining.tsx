@@ -78,7 +78,7 @@ const WhyHybridAITraining: React.FC = () => {
       <div className="  py-6 px-4">
       <div className="text-center mb-6">
         <div className="inline-block">
-          <h2 className="text-2xl md:text-4xl font-bold text-[#000080] relative">
+          <h2 className="text-2xl md:text-4xl font-bold text-[#07038d] relative">
             Why Hybrid AI Training?
            
           </h2>

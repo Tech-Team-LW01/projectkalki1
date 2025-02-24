@@ -75,7 +75,7 @@ const EmpoweringIndia = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-6"
         >
-          <h2 className="md:text-4xl lg:text-4xl text-3xl font-bold text-[#000080] mb-2">
+          <h2 className="md:text-4xl lg:text-4xl text-3xl font-bold text-[#07038d] mb-2">
             Empowering India with a <br className="hidden md:block" /> Self-Reliant AI Ecosystem
           </h2>
           <p className="text-md text-black max-w-2xl mx-auto ">
