@@ -93,7 +93,7 @@ const content: ContentItem[] = [
         </li>
       </ul>
     ),
-    image: "/assets/2.webp",
+    image: "/assets/TortoiseLLM/4.jpeg",
   },
 ];
 
