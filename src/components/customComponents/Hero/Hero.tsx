@@ -17,7 +17,7 @@ const navigationItems = [
   { name: "About", href: "#language-model", sectionId: "language-model" },
   { name: "Services", href: "#collaborator", sectionId: "collaborator" },
   { name: "Contact", href: "#tortoise", sectionId: "tortoise" },
-  { name: "Contributor", href: "#hybrid-ai", sectionId: "hybrid-ai" },
+  { name: "Contributor", href: "#collaborator", sectionId: "collaborator" },
   { name: "Vision", href: "#infrastructure", sectionId: "infrastructure" },
   { name: "Infrastructure", href: "#india-ai", sectionId: "india-ai" },
 ];
