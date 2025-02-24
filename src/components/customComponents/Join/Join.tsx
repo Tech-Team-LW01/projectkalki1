@@ -38,14 +38,14 @@ export default function JoinSection() {
         >
           <motion.h1 
             variants={fadeIn}
-            className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent"
+            className="text-3xl font-bold tracking-tight sm:text-5xl md:text-6xl text-[#07038d] bg-clip-text "
           >
             Join the AI Revolution
           </motion.h1>
           
           <motion.p 
             variants={fadeIn}
-            className="max-w-3xl text-lg text-muted-foreground sm:text-xl leading-relaxed"
+            className="max-w-3xl text-lg text-black sm:text-xl leading-relaxed"
           >
             With a team of 200+ AI experts, we are on a mission to create Indias first Foundation AI Model that prioritizes sustainability sovereignty and inclusivity.
 
@@ -103,8 +103,8 @@ export default function JoinSection() {
                 >
                   <Briefcase className="h-7 w-7 text-green-600" />
                 </motion.div>
-                <h2 className="text-2xl font-semibold tracking-tight">The Future</h2>
-                <p className="text-muted-foreground leading-relaxed">
+                <h2 className="text-3xl font-semibold tracking-tight">The Future</h2>
+                <p className="text-black leading-relaxed">
                 📢 The Future of AI is Here. The Future of AI is India.
 
                 </p>

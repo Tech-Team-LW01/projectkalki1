@@ -15,7 +15,7 @@ const VoiceAgentAI = () => {
       image: "/assets/KrutrimProducts/2.jpeg"
     },
     {
-      title: "Indigenous AI Model Development",
+      title: "Indigenous AI Development",
       description: "Build AI solutions tailored for Indian governance & industries.",
       image: "/assets/KrutrimProducts/3.jpeg"
     },
@@ -23,6 +23,11 @@ const VoiceAgentAI = () => {
       title: "Multilingual AI Ecosystem",
       description: "Collaborate with AI4Bharat to develop Indic AI models.",
       image: "/assets/KrutrimProducts/4.jpeg"
+    },
+    {
+      title: "AI Accessibility:",
+      description: "Empower MSMEs, startups, and research labs with AI infrastructure",
+      image: "/assets/KrutrimProducts/5.jpeg"
     },
     {
       title: "AI Accessibility:",
@@ -76,13 +81,13 @@ const VoiceAgentAI = () => {
               className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="flex justify-between items-start mb-4">
-                <h2 className="text-xl font-medium text-[#07038d]">
+                <h2 className="text-xl font-bold text-[#07038d]">
                   {integration.title}
                 </h2>
                 <span className="text-gray-400">↗</span>
               </div>
               
-              <p className="text-gray-600 text-sm mb-6">
+              <p className="text-black leading-relaxed mb-6">
                 {integration.description}
               </p>
 

@@ -17,11 +17,11 @@ const KrutrimProducts = () => {
             <div className="flex flex-col md:flex-row justify-between items-center gap-8">
               <div className="flex-1">
                 <h3 className="text-xl text-[#07038d] font-semibold mb-2">National Supercomputing Mission (NSM) Resources </h3>
-                <ul className="text-gray-600 pl-4 list-disc mb-2">
+                <ul className="text-black leading-relaxed pl-4 list-disc mb-2">
                   <li><span  className="font-bold ">PARAM Siddhi-AI:</span> India&apos;s fastest AI-ready supercomputer. </li>
                   <li><span  className="font-bold">Project AUM:</span> India&apos;s first indigenous HPC processor. </li>
                 </ul>
-                <Button variant="outline" className="text-green-600  border-green-600 hover:bg-green-50">
+                <Button variant="outline" className="text-green-600  border-green-600 hover:bg-green-50 mt-4">
                   Learn more →
                 </Button>
               </div>
@@ -41,7 +41,7 @@ const KrutrimProducts = () => {
           <Card className="border rounded-lg overflow-hidden">
             <CardContent className="p-6">
               <h3 className="text-xl text-[#07038d] font-semibold mb-2">AI4Bharat: A Key Collaborator </h3>
-              <ul className="text-gray-600 mb-4 list-disc pl-4">
+              <ul className="text-black leading-relaxed  mb-4 list-disc pl-4">
                 <li>Developed by <span className="font-bold">IIT Madras</span>, specializes in Indian language AI models. </li>
 <li>It advances <span className="font-bold">AI Solutions</span> for regional languages.</li>
               </ul>
@@ -61,7 +61,7 @@ const KrutrimProducts = () => {
           <Card className="border rounded-lg overflow-hidden">
             <CardContent className="p-6">
               <h3 className="text-xl text-[#07038d] font-semibold mb-2">Private-Sector Collaboration </h3>
-              <ul className="text-gray-600 mb-4 list-disc pl-4">
+              <ul className="text-black leading-relaxed  mb-4 list-disc pl-4">
                 <li><span className="font-bold">Reliance & Tata&apos;s Partnership with NVIDIA</span> to scale AI compute capacity. </li>
 <li><span className="font-bold">Infosys AI Model Training Initiatives</span> for enterprise solutions. </li>
               </ul>
@@ -84,11 +84,11 @@ const KrutrimProducts = () => {
           <CardContent className="p-6">
             <div className="flex flex-col md:flex-row justify-between items-center gap-8">
               <div className="flex-1">
-                <h3 className="text-xl font-semibold mb-2">India is READY for a Hybrid CPU-GPU AI training model today!</h3>
+                <h3 className="text-xl text-[#07038d] font-semibold mb-2">India is READY for a Hybrid CPU-GPU AI training model today!</h3>
                 {/* <p className="text-gray-600 mb-4">
                   Use our powerful mapping tools: real-time navigation, dynamic maps, precise routing and advanced location search.
                 </p> */}
-                <Button variant="outline" className="text-green-600 border-green-600 hover:bg-green-50">
+                <Button variant="outline" className="text-green-600 border-green-600 hover:bg-green-50 mt-4">
                   Learn more →
                 </Button>
               </div>
