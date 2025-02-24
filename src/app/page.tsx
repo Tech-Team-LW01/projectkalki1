@@ -19,6 +19,8 @@ export default function Home() {
   <div id="hero">
   <Hero />
 </div>
+
+
 <div id="language-model">
   <OurLargeLanguage />
 </div>
