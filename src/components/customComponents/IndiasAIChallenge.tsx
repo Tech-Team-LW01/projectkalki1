@@ -11,28 +11,28 @@ const IndiasAIChallenge = () => {
       subtitle: "India has only 18,000–19,000 GPUs, compared to AI leaders using millions.",
       icon: AlertTriangle,
       description: 'Critical infrastructure gap affecting AI development capacity',
-      buttonText: 'Learn More'
+      
     },
     {
       title: 'Data Deficiency',
       subtitle: 'India lacks structured, AI-ready datasets required for LLMs.',
       icon: Database,
       description: 'Limited high-quality training data for AI models',
-      buttonText: 'Explore Data'
+      
     },
     {
       title: 'Foreign Dependence',
       subtitle: '95% of India\'s AI solutions rely on foreign cloud services.',
       icon: Cloud,
       description: 'Significant security and sovereignty concerns',
-      buttonText: 'View Impact'
+      
     },
     {
       title: 'High Energy Costs',
       subtitle: 'AI training requires massive computational power.',
       icon: Zap,
       description: 'Need for sustainable AI infrastructure',
-      buttonText: 'See Solutions'
+      
     },
   ];
 
@@ -104,14 +104,7 @@ const IndiasAIChallenge = () => {
                     {card.description}
                   </p>
 
-                  <motion.button
-                    whileHover={{ x: 5 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="flex items-center text-[#046a38] font-medium group pl-16"
-                  >
-                    {card.buttonText}
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </motion.button>
+              
                 </CardContent>
               </Card>
             </motion.div>

@@ -16,24 +16,42 @@ import JoinSection from "@/components/customComponents/Join/Join";
 export default function Home() {
   return (
     <>
-   <Hero/>
-   
-    <OurLargeLanguage/>
-    <Collaborator />
-
-    <IntroducingTortoiseLLM/>
-    <WhyHybridAITraining/>
-    <AIInfrastructure/>
-    <EmpoweringIndia/>
-    <IndiasAIChallenge/>
-    <GlobalAILandscape />
-    <VoiceAgentAI />
-    <RoadmapProcess />
-    <KalkiProducts />
-    <GovernmentAndPrivateSector/>
-    <GlobalAILandscape />
-    <JoinSection/>
-    </>
-   
+  <div id="hero">
+  <Hero />
+</div>
+<div id="language-model">
+  <OurLargeLanguage />
+</div>
+<div id="collaborator">
+  <Collaborator />
+</div>
+<div id="tortoise">
+  <IntroducingTortoiseLLM />
+</div>
+<div id="hybrid-ai">
+  <WhyHybridAITraining />
+</div>
+<div id="infrastructure">
+  <AIInfrastructure />
+</div>
+<div id="india-ai">
+  <EmpoweringIndia />
+</div>
+<div id="challenges">
+  <IndiasAIChallenge />
+</div>
+<div id="global-ai">
+  <GlobalAILandscape />
+</div>
+<div id="voice-agent">
+  <VoiceAgentAI />
+</div>
+<div id="roadmap">
+  <RoadmapProcess />
+</div>
+<div id="products">
+  <KalkiProducts />
+</div>
+   </>
   );
 }
