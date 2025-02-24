@@ -82,7 +82,7 @@ const IndiasAIChallenge = () => {
                   <div className="flex items-start gap-4 mb-2">
                     <div className="p-3 rounded-lg bg-[#00FF9A]/10">
                       {React.createElement(card.icon, { 
-                        className: "w-6 h-6 text-[#00FF9A]",
+                        className: "w-6 h-6 text-[#046a38]",
                         strokeWidth: 2
                       })}
                     </div>
@@ -103,7 +103,7 @@ const IndiasAIChallenge = () => {
                   <motion.button
                     whileHover={{ x: 5 }}
                     whileTap={{ scale: 0.98 }}
-                    className="flex items-center text-[#00FF9A] font-medium group pl-16"
+                    className="flex items-center text-[#046a38] font-medium group pl-16"
                   >
                     {card.buttonText}
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

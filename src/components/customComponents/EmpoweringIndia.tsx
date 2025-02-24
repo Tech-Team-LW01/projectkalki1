@@ -23,7 +23,7 @@ const FeatureCard = ({ icon: Icon, title, description }: FeatureCardProps) => {
       className="bg-white p-8 rounded-2xl border border-gray-100 transition-all hover:border-green-200"
     >
       <div className="flex items-center mb-4">
-        <Icon className="w-8 h-8 text-green-500 mr-4" />
+        <Icon className="w-8 h-8 text-[#046a38] mr-4" />
         <h3 className="font-bold text-xl text-[#000080]">{title}</h3>
       </div>
       <p className="text-black leading-relaxed">{description}</p>
@@ -113,7 +113,7 @@ const EmpoweringIndia = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center px-8 py-3 bg-green-500 text-white font-semibold rounded-full transition-all hover:bg-green-600"
+            className="inline-flex items-center px-8 py-3 bg-[#046a38] text-white font-semibold rounded-full transition-all hover:bg-green-600"
           >
             Learn more about Project Kalki →
           </motion.button>
