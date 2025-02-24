@@ -181,7 +181,7 @@ export const InfiniteMovingCards = ({
 
 const ProfileCard = ({ profile }: { profile: ProfileData }) => {
   return (
-    <div className="w-56 backdrop-blur-md bg-white/90 rounded-2xl p-4 border border-white/20 shadow-lg hover:shadow-xl transition-all duration-300">
+    <div className="w-full backdrop-blur-md bg-white/90 rounded-2xl p-4 border border-white/20 shadow-lg hover:shadow-xl transition-all duration-300">
       <div className="flex flex-col items-center">
         {/* Profile Image with Gradient Ring */}
         <div className="relative mb-3 group">
