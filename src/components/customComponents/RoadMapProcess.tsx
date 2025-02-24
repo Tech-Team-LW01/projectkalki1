@@ -66,16 +66,16 @@ const RoadmapProcess = () => {
                   {/* Updated Icon Container with Gradient */}
                   <div className="relative group">
                     {/* Gradient effect */}
-                    <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg opacity-75 blur group-hover:opacity-100 transition duration-300" />
+                    <div className="absolute -inset-1  bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg opacity-75 blur group-hover:opacity-100 transition duration-300" />
                     
                     {/* Icon container */}
-                    <div className={`relative p-3 rounded-lg ${item.color} border-2 border-white`}>
+                    <div className={`relative p-3 rounded-lg ${item.color} border-2  border-white`}>
                       {item.icon}
                     </div>
                   </div>
 
-                  <div className="flex-1">
-                    <h3 className="font-bold text-[#07038d] text-lg mb-2 leading-relaxed">
+                  <div className="flex-1 pl-2">
+                    <h3 className="font-bold text-[#07038d] text-lg mb-2 leading-relaxed ">
                       {item.title}
                       <br/> 
                       <span className='text-black leading-relaxed'>{item.title2}</span>
