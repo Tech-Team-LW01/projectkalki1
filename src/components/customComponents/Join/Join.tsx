@@ -97,7 +97,7 @@ export default function JoinSection() {
             <Card className="border-none bg-white/50 backdrop-blur-sm hover:shadow-lg transition-shadow h-full">
               <CardContent className="space-y-6 p-8">
                 <motion.div 
-                  className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg bg-white border-2 border-white shadow-md shadow-from-r from-red-900 "
+                  className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white border-2 border-white shadow-md shadow-from-r-to"
                   whileHover={{ rotate: 360 }}
                   transition={{ duration: 0.5 }}
                 >

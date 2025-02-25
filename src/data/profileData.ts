@@ -5,19 +5,22 @@ interface Profile {
     name: string;
     profilePicture: string;
     company: string;
+    linkedin?: string;
   }
   
   // Main profile data array
   export const profileData: Profile[] = [
     {
-      name: "Ashutosh Purohit",
-      profilePicture: "https://media.licdn.com/dms/image/v2/C4E03AQGVyeWNBih1Jg/profile-displayphoto-shrink_800_800/0/1618541496907?e=1742428800&v=beta&t=oAKv8llW2k6RyJKGwkb1hXA2wWffPjK8yYh41aVkkq8",
-      company: "Senior DevOps Engineer @ Cashfree Payments",
+      name: "Vaibhav Jain",
+      profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQEAOan6KE2Arw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1670820791314?e=1746057600&v=beta&t=t8gSIYvswbkCfFFW953EzgOWWly6alCZQkkio1Ge2HA",
+      company: "Lead Engineer @ UKG",
+      linkedin: "https://www.linkedin.com/in/vaibhav-jain-a923a0110?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
     {
-      name: "Prabir Dey",
-      profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQFxdMt0rX5nsw/profile-displayphoto-shrink_400_400/0/1706241759798?e=1742428800&v=beta&t=sCgO5-kXhovO0UPMbxQV2UYPJnG8ZiAheJWyUBqaH1o",
-      company: "Cloud & DevOps Engineer @ Amazon",
+      name: "Rahul Kumar Sarraf",
+      profilePicture: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      company: "IT Administrator",
+      linkedin: "https://media.licdn.com/dms/image/v2/D4D03AQGHjtaIvvsaNQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1695575644606?e=1746057600&v=beta&t=7jBQPOqmYR-Q8hsZ4r2UMsNJ2yPniXUv9BqqfPGLxVU"
     },
     {
       name: "Rutwik Kshirsagar",
