@@ -131,12 +131,12 @@ export default function JoinSection() {
               <CardContent className="space-y-2 p-6">
                 <div className="relative group inline-flex">
                   <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-2xl opacity-75 blur group-hover:opacity-100 transition duration-300" />
-                  <div className="relative inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-white border-2 border-white">
+                  <div className="relative inline-flex  h-12 w-12 items-center justify-center rounded-2xl bg-white border-2 border-white">
                     <Power className="h-6 w-6 text-black" />
                   </div>
                 </div>
 
-                <h2 className="text-xl lg:text-2xl font-semibold tracking-tight">
+                <h2 className="text-xl lg:text-2xl font-semibold tracking-tight ">
                   Get Involved
                 </h2>
                 <p className="text-black text-base lg:text-lg leading-relaxed">

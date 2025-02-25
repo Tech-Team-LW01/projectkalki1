@@ -38,9 +38,9 @@ const DataFirstApproach = () => {
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-center mb-12"
+          className="text-center mb-1"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-[#07038d] mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#07038d] ">
             Why a Data-First Approach?
           </h2>
           
