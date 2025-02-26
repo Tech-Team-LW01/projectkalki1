@@ -117,7 +117,7 @@ export const profileData: Profile[] = [
   {
     name: "Darshit Srivastava",
     profilePicture: "https://media.licdn.com/dms/image/v2/C4E03AQGNEiIK_Hdp1A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1663585351751?e=1746057600&v=beta&t=EIU_wWMMO45ODd_toGDsql3OPh9fSVVPUsU0HOpKDKM",
-    company: "ABES Engineering College, Ghaziabad",
+    company: "ABES Engineering College",
     category: "data-specialist"
   },
   {
@@ -128,7 +128,7 @@ export const profileData: Profile[] = [
   },
   {
     name: "Surendiran S",
-    profilePicture: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    profilePicture: "/assets/Collabrote/surendiran - Surendiran S.jpg",
     company: "TCS",
     category: "data-specialist"
   },
@@ -153,7 +153,7 @@ export const profileData: Profile[] = [
     category: "ai-tool-expert"
 },{
   name: "Anish Mishra",
-  profilePicture: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7", // Note: No LinkedIn profile picture available
+  profilePicture: "/assets/Collabrote/Anish Mishra.jpg", 
   company: "Wipro",
   category: "ai-tool-expert"
 },{
@@ -210,7 +210,7 @@ export const profileData: Profile[] = [
 
 {
   name: "Krishan Antil",
-  profilePicture: "https://media.licdn.com/dms/image/v2/C5603AQHFgRIcGGduGQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516453080898?e=1746057600&v=beta&t=XQInOAJyz5iothi-t2owGnvqi9xX2hfBiFhJGcwtt_Y",
+  profilePicture: "/assets/Collabrote/Krishan_Antil - krishan antil.jpg",
   company: "Mahindra",
   category: "data-center-expert"
 },
@@ -250,7 +250,7 @@ export const profileData: Profile[] = [
 
   // Data Scrapping Team
   {
-    name: "Aravind Reddy Singanapalli",
+    name: "Aravind Reddy",
     profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGxzLHts8o1Rw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724022449925?e=1746057600&v=beta&t=GVwZRYqhQ8AwO7DZnPGI87qafWnB1nXPHMjiMt6O3MA",
     company: "CGI",
     category: "data-scrapping-team"
@@ -258,8 +258,8 @@ export const profileData: Profile[] = [
 
 {
     name: "Sharan Hiremani",
-    profilePicture: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7", // Base64 placeholder image
-    company: "KLS Gogte Institute of Technology Belagavi",
+    profilePicture: "/assets/Collabrote/Sharan Hiremani.jpg", // Base64 placeholder image
+    company: "KLS GIT",
     category: "data-scrapping-team"
 },
 
@@ -273,7 +273,7 @@ export const profileData: Profile[] = [
 {
     name: "Nikhil",
     profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQF2hTQeH6YoIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1731132380817?e=1746057600&v=beta&t=hHMISOilo59ZLHhaUPbffB7LLhila3TU21AgMQQP6rw",
-    company: "The Technological Institute of Textile and Sciences",
+    company: "TITS",
     category: "ai-tool-expert"
 }
 ];

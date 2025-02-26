@@ -43,7 +43,7 @@ export function Collaborator() {
               <InfiniteMovingCards
                 items={category.profiles}
                 direction={index % 2 === 0 ? "right" : "left"}
-                speed="slow"
+                speed="fast"
               />
             </div>
           </div>
