@@ -138,7 +138,19 @@ export const profileData: Profile[] = [
     company: "UKG",
     category: "data-specialist"
   },
-
+  {
+    name: "Harshit Gupta",
+    profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQFz8-VPn-4vJQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707321514557?e=2147483647&v=beta&t=c6VwjBASbRVnMDm9HvG44LBCA6AOCyJRFSNshdOD_gs",
+    company: "Harman India",
+    category: "data-specialist"
+  },
+  {
+    name: "Astha Goel",
+    profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQE1eYXr8Vbd2w/profile-displayphoto-shrink_200_200/B56ZSJBGN0HoAc-/0/1737465555751?e=2147483647&v=beta&t=0xlnSyWYeYHb032cXzXHX85bGwUpU_RhTDupk2isN7Y",
+    company: "Girikon Solutions ",
+    category: "data-specialist"
+  },
+  
   // AI Tools Expert
   {
     name: "Amish Agarwal",
