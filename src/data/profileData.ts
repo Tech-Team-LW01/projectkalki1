@@ -365,7 +365,7 @@ export const profileData: Profile[] = [
 },
 {
   name: "Arti Bansal",
-  profilePicture: "/assets/Collabrote/Arti.jpeg",
+  profilePicture: "/assets/Collabrote/Aarti.jpeg",
   company: "LW India",
   category: "Support Team"
 },
