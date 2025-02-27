@@ -99,7 +99,7 @@ const RoadmapProcess = () => {
 
           <div className="hidden md:block flex-1 relative">
             <img 
-              src="/assets/roadmap/roadmap.jpeg" 
+              src="/assets/roadmap.jpg" 
               alt="Roadmap visualization" 
               className="w-full h-auto rounded-lg shadow-md"
             />
