@@ -1,6 +1,3 @@
-
-
-// components/customComponents/Hero/Hero.tsx
 "use client"
 import React, { useState, useEffect } from "react";
 import {
@@ -160,7 +157,7 @@ const Navbar = () => {
             overflow-hidden
           `}
         >
-          <div className="px-2 pt-2 pb-3 space-y-1">
+          <div className="px-2 pt-2 pb-2 space-y-1">
             {navigationItems.map((item) => (
               <a
                 key={item.name}
@@ -191,17 +188,54 @@ const Navbar = () => {
 };
 
 export const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Check if we're on the client side
+    if (typeof window !== 'undefined') {
+      // Set initial state
+      setIsMobile(window.innerWidth < 768);
+      
+      // Add event listener for window resize
+      const handleResize = () => {
+        setIsMobile(window.innerWidth < 768);
+      };
+      
+      window.addEventListener('resize', handleResize);
+      
+      // Clean up
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }
+  }, []);
+
   return (
-    <div id="hero" className="relative w-full min-h-screen ">
-      <div className="mt-12"> < Navbar  /> </div>
-      <div className="relative w-full h-screen">
-        <img
-          src="/assets/mainhero.jpg"
-          alt="Hero background"
-          className="w-full h-full object-cover"
-          loading="eager"
+    <div id="hero" className="relative w-full md:min-h-screen h-full py-0">
+      <div className="md:mt-12 mt-0 lg:mt-12"  > <Navbar /> </div>
+      <div className="relative w-full mt-12 py-0 ">
+        {isMobile ? (
           
-        />
+          <div className="w-full h-full flex items-center justify-center py-4 md:py-0">
+            <div className="relative w-full h-auto  py-2">
+              <img
+                src="/assets/kalki.jpg" 
+                alt="Hero background for mobile"
+                className="w-full object-cover"
+                loading="eager"
+                style={{ maxHeight: "calc(100vh - 120px)" }}
+              />
+            </div>
+          </div>
+        ) : (
+          // Desktop hero image
+          <img
+            src="/assets/mainhero.jpg"
+            alt="Hero background for desktop"
+            className="w-full h-full object-cover"
+            loading="eager"
+          />
+        )}
       </div>
     </div>
   );
