@@ -419,7 +419,7 @@ export const profileData: Profile[] = [
 },
 {
   name: "Aashana Sancheti",
-  profilePicture: "/assets/Collabrote/AashanaS.jpg",
+  profilePicture: "/assets/Collabrote/AAShana.jpg",
   company: "LW India",
   category: "Support Team"
 },
