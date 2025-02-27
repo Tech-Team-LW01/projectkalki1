@@ -109,6 +109,7 @@ export default function JoinSection() {
                 <p className="text-black text-base lg:text-lg leading-relaxed">
                   📢 The Future of AI is Here. The Future of AI is India.
                 </p>
+                <a target="blank" href="https://forms.gle/bCrh7DJSyvwE5ZmC7 ">
                 <Button 
                   variant="outline" 
                   className="group hover:bg-green-600 hover:text-white transition-colors"
@@ -116,6 +117,7 @@ export default function JoinSection() {
                   Open Position
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" />
                 </Button>
+                </a>
               </CardContent>
             </Card>
           </motion.div>
@@ -142,6 +144,7 @@ export default function JoinSection() {
                 <p className="text-black text-base lg:text-lg leading-relaxed">
                   👉 Partner With Us - Contact Us
                 </p>
+                <a target="blank" href="https://forms.gle/Efamoe3Ec5R8AKRx5 ">
                 <Button 
                   variant="outline" 
                   className="group hover:bg-green-600 hover:text-white transition-colors"
@@ -149,6 +152,7 @@ export default function JoinSection() {
                   Contact Us
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" />
                 </Button>
+                </a>
               </CardContent>
             </Card>
           </motion.div>

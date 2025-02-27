@@ -15,12 +15,7 @@ export interface Category {
   description: string;
 }
 export const categories: Category[] = [
-  {
-    id: "core-team",
-    title: "Core Team Members",
-    color: "#ff6820",  // 1st color
-    description: "Learn from professionals with years of experience in leading tech companies."
-  },
+  
   {
     id: "data-specialist",
     title: "Data Specialist",
@@ -104,9 +99,16 @@ export const categories: Category[] = [
     title: "Data Scrapping Team",
     color: "#046a38",  // 3rd color
     description: "Meet the innovators who drive technological advancement."
-  }
+  },
+  {
+    id: "Support Team",
+    title: "LW India Support Team",
+    color: "#ff6820",  // 1st color
+    description: "Learn from professionals with years of experience in leading tech companies."
+  },
 ];
 export const profileData: Profile[] = [
+  
   // Data Specialist
   {
     name: "Vaibhav Sarkar",
@@ -215,12 +217,7 @@ export const profileData: Profile[] = [
   category: "ai-model-trainer"
 },
 
-{
-  name: "Tanmay agarwal",
-  profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQFXTTr4YmNrSw/profile-displayphoto-shrink_200_200/B56ZRmSL9AGsAY-/0/1736882831613?e=2147483647&v=beta&t=HoK3UBeDMCUq303npzjfDVqzcKzq1Ff1Oi0ft2_R1Tk",
-  company: "Okta",
-  category: "ai-model-trainer"
-},
+
 
 // data center expert
 {
@@ -243,18 +240,7 @@ export const profileData: Profile[] = [
   company: "Mahindra",
   category: "data-center-expert"
 },
-{
-  name: "Anand Kumar",
-  profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQHFS-YzemPF4g/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1715078135641?e=1741165200&v=beta&t=T5Rh4Kr2S3QNaCwCa3c5ZCtcytsSongcNMl70_iJOO8",
-  company: "Infinite computer solutions ",
-  category: "data-center-expert"
-},
-{
-  name: "Rohit khapre",
-  profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQFZOkBTNajpoQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698177448028?e=1746057600&v=beta&t=w-me26LE06G_cKVPnRsKr0vN7coscQQiRoA2mp2sGW0",
-  company: "Atrina technologies ",
-  category: "data-center-expert"
-},
+
 
 
 
@@ -320,12 +306,6 @@ export const profileData: Profile[] = [
     category: "ai-tool-expert"
 },
 {
-  name: "Puru Sharma",
-  profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGlge4hPijydg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709662571114?e=1746057600&v=beta&t=e4oyvOyc_2nesNWoZctj1eNjzExVrUGfcFDOxnUxczI",
-  company: "Edurigo Technologies",
-  category: "ai-tool-expert"
-},
-{
   name: "Tanmay Agarwal",
   profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQFXTTr4YmNrSw/profile-displayphoto-shrink_400_400/B56ZRmSL9AGsAg-/0/1736882831629?e=1746057600&v=beta&t=1Rk-xuR1vZENb3m8_fhnvp_UGgOGByfPiDaP7qG39vA",
   company: "Okta",
@@ -342,7 +322,107 @@ export const profileData: Profile[] = [
   profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGlge4hPijydg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709662571114?e=1746057600&v=beta&t=e4oyvOyc_2nesNWoZctj1eNjzExVrUGfcFDOxnUxczI",
   company: "Edurigo Technologies",
   category: "ai-tool-expert"
-}
+},
+
+
+
+//Support team
+{
+  name: "Preeti Chandak",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQFarJixbGWYIA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1731416197695?e=1741075200&v=beta&t=0TWpRJwET2aiICaqSPvBo6JCCgkiH0HDzWc3meJKBTg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Ajay Meena",
+  profilePicture: "/assets/Collabrote/Ajay.jpg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Sharwan Singh",
+  profilePicture: "/assets/Collabrote/Shrwan.jpeg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Mona Jain",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQFarJixbGWYIA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1731416197695?e=1741075200&v=beta&t=0TWpRJwET2aiICaqSPvBo6JCCgkiH0HDzWc3meJKBTg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Syed Jibbran Ali",
+  profilePicture: "/assets/Collabrote/Jibbran.jpeg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Priyanka Arora",
+  profilePicture: "/assets/Collabrote/Priyanka.jpg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Arti Bansal",
+  profilePicture: "/assets/Collabrote/Arti.jpeg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Kirtan khuswaha",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQFSrc8hAj_4HA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1732614295929?e=1746057600&v=beta&t=NAAuhQl4GD8EU4B6LB5H-HKZ5R1TVo0P4rjGrZQnnCo",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Bhupesh Choudhary",
+  profilePicture: "/assets/Collabrote/Bhupesh.png",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Sumit Pal",
+  profilePicture: "/assets/Collabrote/Sumit.jpg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Syeed Firoz",
+  profilePicture: "/assets/Collabrote/sayeed.jpg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Dilip Jarwal",
+  profilePicture: "/assets/Collabrote/Dilip2.jpg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Anshu Raghav",
+  profilePicture: "/assets/Collabrote/Anshu.jpg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Priyanka Poonia",
+  profilePicture: "/assets/Collabrote/PP.jpg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Tamanna Prajapati",
+  profilePicture: "/assets/Collabrote/Tamanna.jpg",
+  company: "LW India",
+  category: "Support Team"
+},
+{
+  name: "Aashana Sancheti",
+  profilePicture: "/assets/Collabrote/AashanaS.jpg",
+  company: "LW India",
+  category: "Support Team"
+},
 ];
 // Export the categorized data directly
 export const categorizedProfiles = categories.map(category => ({
