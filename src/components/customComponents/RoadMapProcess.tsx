@@ -101,7 +101,7 @@ const RoadmapProcess = () => {
             <img 
               src="/assets/roadmap.jpg" 
               alt="Roadmap visualization" 
-              className="w-full h-auto rounded-lg shadow-md"
+              className="w-full h-full rounded-lg shadow-md"
             />
             <div className="absolute inset-0 flex flex-col justify-between py-8">
               {roadmapItems.map((item, index) => (
