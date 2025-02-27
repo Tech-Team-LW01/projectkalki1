@@ -329,7 +329,7 @@ export const profileData: Profile[] = [
 //Support team
 {
   name: "Preeti Chandak",
-  profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQFarJixbGWYIA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1731416197695?e=1741075200&v=beta&t=0TWpRJwET2aiICaqSPvBo6JCCgkiH0HDzWc3meJKBTg",
+  profilePicture: "/assets/Collabrote/DSC_1023.JPG",
   company: "LW India",
   category: "Support Team"
 },
@@ -347,7 +347,7 @@ export const profileData: Profile[] = [
 },
 {
   name: "Mona Jain",
-  profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQFarJixbGWYIA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1731416197695?e=1741075200&v=beta&t=0TWpRJwET2aiICaqSPvBo6JCCgkiH0HDzWc3meJKBTg",
+  profilePicture: "/assets/Collabrote/IMG-20250226-WA0003.jpg",
   company: "LW India",
   category: "Support Team"
 },
