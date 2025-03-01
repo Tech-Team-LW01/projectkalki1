@@ -25,12 +25,12 @@ const VoiceAgentAI = () => {
       image: "/assets/KrutrimProducts/4.jpeg"
     },
     {
-      title: "AI Accessibility:",
+      title: "AI Accessibility",
       description: "Empower MSMEs, startups, and research labs with AI infrastructure",
       image: "/assets/KrutrimProducts/5.jpeg"
     },
     {
-      title: "Sustainable AI Infrastructure:",
+      title: "Sustainable AI Infrastructure",
       description: "Leverage renewable energy and refurbished hardware to power AI sustainably.",
       image: "/assets/KrutrimProducts/5.jpeg"
     }
