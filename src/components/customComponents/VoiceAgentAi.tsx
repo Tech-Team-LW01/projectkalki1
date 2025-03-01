@@ -32,7 +32,7 @@ const VoiceAgentAI = () => {
     {
       title: "Sustainable AI Infrastructure",
       description: "Leverage renewable energy and refurbished hardware to power AI sustainably.",
-      image: "/assets/KrutrimProducts/5.jpeg"
+      image: "/assets/TortoiseLLM/3.jpeg"
     }
   ];
 
