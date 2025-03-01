@@ -46,24 +46,24 @@ export const categories: Category[] = [
     color: "#046a38",  // 3rd color
     description: "Meet the innovators who drive technological advancement."
   },
-  // {
-  //   id: "solar-energy-advisor",
-  //   title: "Networking Specialist",
-  //   color: "#ff6820",  // 1st color
-  //   description: "Meet the innovators who drive technological advancement."
-  // },
+  {
+    id: "solar-energy-advisor",
+    title: "Networking Specialist",
+    color: "#ff6820",  // 1st color
+    description: "Meet the innovators who drive technological advancement."
+  },
   {
     id: "cooling-system-innovator",
     title: "Cooling System Innovator",
     color: "#07038d",  // 2nd color
     description: "Meet the innovators who drive technological advancement."
   },
-  // {
-  //   id: "proposal-&-documentaion-expert",
-  //   title: "Proposal & Documentation Expert",
-  //   color: "#046a38",  // 3rd color
-  //   description: "Meet the innovators who drive technological advancement."
-  // },
+  {
+    id: "proposal-&-documentaion-expert",
+    title: "Proposal & Documentation Expert",
+    color: "#046a38",  // 3rd color
+    description: "Meet the innovators who drive technological advancement."
+  },
   // {
   //   id: "pitch-deck-creator",
   //   title: "Pitch Deck Creator",
@@ -88,12 +88,12 @@ export const categories: Category[] = [
   //   color: "#ff6820",  // 1st color
   //   description: "Meet the innovators who drive technological advancement."
   // },
-  // {
-  //   id: "video-editor",
-  //   title: "Video Editor",
-  //   color: "#07038d",  // 2nd color
-  //   description: "Meet the innovators who drive technological advancement."
-  // },
+  {
+    id: "video-editor",
+    title: "Video Editor",
+    color: "#07038d",  // 2nd color
+    description: "Meet the innovators who drive technological advancement."
+  },
   {
     id: "data-scrapping-team",
     title: "Data Scrapping Team",
@@ -234,7 +234,24 @@ export const profileData: Profile[] = [
   company: "Ai Enthusiast",
   category: "ai-model-trainer"
 },
-
+{
+  name: "Vineet Negi",
+  profilePicture: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+  company: "Cloudthat",
+  category: "ai-model-trainer"
+},
+{
+  name: "Soumen Bhunia",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1660002772504?e=1741431600&v=beta&t=sE7qjAT3JWYidoGJz8y2zViC7nkOyW3BinFsS3WGpdc",
+  company: "Ai Enthausist",
+  category: "ai-model-trainer"
+},
+{
+  name: "Srashti Gupta",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1660002772504?e=1741431600&v=beta&t=sE7qjAT3JWYidoGJz8y2zViC7nkOyW3BinFsS3WGpdc",
+  company: "Ai Enthausist",
+  category: "ai-model-trainer"
+},
 
 
 // data center expert
@@ -258,6 +275,18 @@ export const profileData: Profile[] = [
   company: "Mahindra",
   category: "data-center-expert"
 },
+{
+  name: "DIWAKAR SHARMA",
+  profilePicture: "/assets/Collabrote/DIWAKAR SHARMA.jpg",
+  company: "JAD GLOBAL TRADERS",
+  category: "data-center-expert"
+},
+{
+  name: "Payal Gurunani",
+  profilePicture: "/assets/Collabrote/Payal Gurunani.jpg",
+  company: "Ai Enthausist",
+  category: "data-center-expert"
+},
 
 
 
@@ -268,14 +297,32 @@ export const profileData: Profile[] = [
   name: "Atharv Bharadwaj",
   profilePicture: "", // No LinkedIn profile picture available in Column 9
   company: "Ai Enthusiast",
-  category: "networking-specialist"
+  category: "solar-energy-advisor"
 },
 
 {
   name: "Vishal Sharma",
   profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQERzifyqgxsrg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723282016908?e=1746057600&v=beta&t=sBR-Wwsl4pBjtWkpwUFI7xky5tkqIp3OC7URyq4Rvh0",
   company: "Mercer",
-  category: "networking-specialist"
+  category: "solar-energy-advisor"
+},
+{
+  name: "Jakkala Varaprasad",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQFYWPXZ0_jq5Q/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1718220505322?e=1741431600&v=beta&t=msXWhOoGVTd4QpMCDxEa6MOxvwNufyypt5rnYsfh0tE",
+  company: "Ai Enthusiast",
+  category: "solar-energy-advisor"
+},
+{
+  name: "Deepali Pateriya",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D4D35AQELQMXoOdjasQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1732347243635?e=1741431600&v=beta&t=u8jpEZU5c4Za3Rcr3HnSpPi3l85kO6EEKqoYFnCrmJw",
+  company: "Ai Enthusiast",
+  category: "solar-energy-advisor"
+},
+{
+  name: "Ritik kumar sahu",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQHCWuUkP54Otw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722094955997?e=1746057600&v=beta&t=oGV25M9Z10hUqi6jqtcdCmWM0ApoVDnDdT5AYGooA0M",
+  company: "Ai Enthusiast",
+  category: "solar-energy-advisor"
 },
 
 
@@ -287,12 +334,37 @@ export const profileData: Profile[] = [
   company: "Ai Enthusiast",
   category: "cooling-system-innovator"
 },
+{
+  name: "Dayasagar Barre",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQH4J5i3RwolaQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1672766567423?e=1741431600&v=beta&t=Z2nyI33Yk5FV_4w2V0p1eu0af4wOEhS8a-ejX-gJtaA",
+  company: "Edugenius",
+  category: "cooling-system-innovator"
+},
   // Social Media Manager
   {
     name: "Sayantan Samanta",
     profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQFMUB-gK3bhXw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1680722905923?e=1746057600&v=beta&t=LxiWZXlZ0aG1x3JLzwNa-Zz51ZZZJ130Dv3DQeRbmBw",
     company: "Ai Enthusiast",
     category: "social-media-manager"
+  },
+  {
+    name: "Suhani thakur",
+    profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGtOK9OFfnNXA/profile-displayphoto-shrink_400_400/B56ZUzdymRGQAg-/0/1740325203831?e=1746057600&v=beta&t=COSVxRnzFNnrXI0yHN_4RyHsFsHcea_kA4cHDxxR2yM",
+    company: "Ai Enthusiast",
+    category: "social-media-manager"
+  },
+  //video-editor
+  {
+    name: "Ajay kumar shah",
+    profilePicture: "https://drive.google.com/open?id=182caBNl8J5FTQk9Ssc9Ovi23T15y75cw",
+    company: "Ai Enthausiast",
+    category: "video-editor"
+  },
+  {
+    name: "Raghav Tiwari",
+    profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQHdZRPEWvku2g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702651390564?e=1746057600&v=beta&t=9Qu3vqf0XyDDEB8g8rTOzbPaX4SmBcx4bR0GPxCzY5g",
+    company: "Ai Enthausiast",
+    category: "video-editor"
   },
 
   // Data Scrapping Team
@@ -383,7 +455,25 @@ export const profileData: Profile[] = [
   company: "Ai ENthausist",
   category: "data-scrapping-team"
 },
-
+//"Proposal & Documentation Team"
+{
+  name: "Nikhil Garhwal",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D4E03AQGIG_VmAAqXPQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719942448318?e=1746057600&v=beta&t=z19srmSFcf3AQRgYlNnG17Y8NmeeFtT5L4o7Jbklsw0",
+  company: "Ai Enthausist",
+  category: "proposal-&-documentaion-expert"
+},
+{
+  name: "Hardesh Chaudhary",
+  profilePicture: "https://media.licdn.com/dms/image/v2/C4E03AQFGD9bc9MqG6Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1597590974440?e=1746057600&v=beta&t=YTb2Cj1pfi_ynjNE4p_AeIAo5OMdHV9iZsjGXjIWx1U",
+  company: "Ai Enthausist",
+  category: "proposal-&-documentaion-expert"
+},
+{
+  name: "Devesh Panwar",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQGKwaSSw2iCYg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714066687277?e=1746057600&v=beta&t=J1MEotIbgbXECwFfiIqeSuRqvfXyOyLi4zZEyCb-2Cc",
+  company: "Ai Ebnthausist",
+  category: "proposal-&-documentaion-expert"
+},
 
 //Support team
 {
@@ -483,7 +573,7 @@ export const profileData: Profile[] = [
   category: "Support Team"
 },
 
-//Management Tem
+//Management Team
 
   {
     name: "Pavan Sai Punna",
@@ -497,6 +587,7 @@ export const profileData: Profile[] = [
     company: "Ai Enthausist",
     category: "Management Team"
   },
+  
 
 ];
 // Export the categorized data directly
