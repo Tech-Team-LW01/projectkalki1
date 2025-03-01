@@ -12,11 +12,12 @@ import { Menu, X } from "lucide-react";
 const navigationItems = [
   { name: "Home", href: "#hero", sectionId: "hero" },
   { name: "About", href: "#language-model", sectionId: "language-model" },
-  { name: "Services", href: "#collaborator", sectionId: "collaborator" },
-  { name: "Contact", href: "#tortoise", sectionId: "tortoise" },
+  // { name: "Services", href: "#collaborator", sectionId: "collaborator" },
+  // { name: "Contact", href: "#tortoise", sectionId: "tortoise" },
   { name: "Contributor", href: "#collaborator", sectionId: "collaborator" },
-  { name: "Vision", href: "#infrastructure", sectionId: "infrastructure" },
-  { name: "Infrastructure", href: "#india-ai", sectionId: "india-ai" },
+  { name: "Roadmap", href: "#roadmap", sectionId: "roadmap" },
+  { name: "Infrastructure", href: "#infrastructure", sectionId: "india-ai" },
+  { name: "Connect with us", href: "#join", sectionId: "join" },
 ];
 
 const NavLink = ({ href, children, isActive }: { href: string; children: React.ReactNode; isActive: boolean }) => (
