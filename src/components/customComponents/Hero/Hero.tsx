@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const navigationItems = [
   { name: "Home", href: "#hero", sectionId: "hero" },
@@ -18,6 +19,8 @@ const navigationItems = [
   { name: "Roadmap", href: "#roadmap", sectionId: "roadmap" },
   { name: "Infrastructure", href: "#infrastructure", sectionId: "india-ai" },
   { name: "Contact Us", href: "#join", sectionId: "join" },
+ 
+
 ];
 
 const NavLink = ({ href, children, isActive }: { href: string; children: React.ReactNode; isActive: boolean }) => (
@@ -126,8 +129,28 @@ const Navbar = () => {
                     >
                       {item.name}
                     </NavLink>
+                  
                   </NavigationMenuItem>
                 ))}
+                <NavigationMenuItem>
+                  <a className=" text-sm font-medium px-3 py-2 text-gray-200
+                  
+                  after:content-['']
+      after:absolute
+      after:w-0
+      after:h-0.5
+      after:bg-white
+      after:left-0
+      after:bottom-0
+      after:transition-all
+      after:duration-300
+                  " href="https://chat.projectkalki.com/" target="blank" >
+                    <Button 
+              variant="default"
+              className="bg-white text-black hover:bg-white hover:text-black   "
+            >  Try Now  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" /></Button>
+                  </a>
+                </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
           </div>
@@ -180,7 +203,15 @@ const Navbar = () => {
               >
                 {item.name}
               </a>
+
+            
             ))}
+
+            <a className={`
+                  block px-3 py-2 text-base font-medium
+                  transition-all duration-300 text-gray-200
+                  hover:bg-white/10 hover:text-white rounded-md
+                   text-white `} href="https://chat.projectkalki.com/">Try Now</a>
           </div>
         </div>
       </div>
