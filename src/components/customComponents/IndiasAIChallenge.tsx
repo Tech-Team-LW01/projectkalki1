@@ -87,8 +87,8 @@ const IndiasAIChallenge = () => {
                       </div>
                     </div>
                     
-                    <div className="flex-1">
-                      <h3 className="text-[#07038d] text-lg sm:text-xl font-bold mb-1 sm:mb-2">
+                    <div className="flex-1 pl-4">
+                      <h3 className="text-[#07038d] text-lg sm:text-xl font-bold mb-1 sm:mb-2 ">
                         {card.title}
                       </h3>
                       <p className="text-black text-sm sm:text-base leading-tight sm:leading-relaxed">
@@ -97,7 +97,7 @@ const IndiasAIChallenge = () => {
                     </div>
                   </div>
                   
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 pl-12  md:pl-2">
                     <p className="text-black italic leading-relaxed pl-4 sm:pl-[75px] text-xs sm:text-sm">
                       {card.description}
                     </p>
