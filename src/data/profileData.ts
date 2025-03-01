@@ -40,60 +40,60 @@ export const categories: Category[] = [
     color: "#07038d",  // 2nd color
     description: "Meet the innovators who drive technological advancement."
   },
-  {
-    id: "solar-energy-advisor",
-    title: "Solar Energy Advisor",
-    color: "#046a38",  // 3rd color
-    description: "Meet the innovators who drive technological advancement."
-  },
-  {
-    id: "solar-energy-advisor",
-    title: "Networking Specialist",
-    color: "#ff6820",  // 1st color
-    description: "Meet the innovators who drive technological advancement."
-  },
+  // {
+  //   id: "solar-energy-advisor",
+  //   title: "Solar Energy Advisor",
+  //   color: "#046a38",  // 3rd color
+  //   description: "Meet the innovators who drive technological advancement."
+  // },
+  // {
+  //   id: "solar-energy-advisor",
+  //   title: "Networking Specialist",
+  //   color: "#ff6820",  // 1st color
+  //   description: "Meet the innovators who drive technological advancement."
+  // },
   {
     id: "cooling-system-innovator",
     title: "Cooling System Innovator",
     color: "#07038d",  // 2nd color
     description: "Meet the innovators who drive technological advancement."
   },
-  {
-    id: "proposal-&-documentaion-expert",
-    title: "Proposal & Documentation Expert",
-    color: "#046a38",  // 3rd color
-    description: "Meet the innovators who drive technological advancement."
-  },
-  {
-    id: "pitch-deck-creator",
-    title: "Pitch Deck Creator",
-    color: "#ff6820",  // 1st color
-    description: "Meet the innovators who drive technological advancement."
-  },
-  {
-    id: "sponsorship-&-fundraising-manager",
-    title: "Sponsorship & Fundraising Manager",
-    color: "#07038d",  // 2nd color
-    description: "Meet the innovators who drive technological advancement."
-  },
+  // {
+  //   id: "proposal-&-documentaion-expert",
+  //   title: "Proposal & Documentation Expert",
+  //   color: "#046a38",  // 3rd color
+  //   description: "Meet the innovators who drive technological advancement."
+  // },
+  // {
+  //   id: "pitch-deck-creator",
+  //   title: "Pitch Deck Creator",
+  //   color: "#ff6820",  // 1st color
+  //   description: "Meet the innovators who drive technological advancement."
+  // },
+  // {
+  //   id: "sponsorship-&-fundraising-manager",
+  //   title: "Sponsorship & Fundraising Manager",
+  //   color: "#07038d",  // 2nd color
+  //   description: "Meet the innovators who drive technological advancement."
+  // },
   {
     id: "social-media-manager",
     title: "Social Media Manager",
     color: "#046a38",  // 3rd color
     description: "Meet the innovators who drive technological advancement."
   },
-  {
-    id: "content-writer",
-    title: "Content Writer",
-    color: "#ff6820",  // 1st color
-    description: "Meet the innovators who drive technological advancement."
-  },
-  {
-    id: "video-editor",
-    title: "Video Editor",
-    color: "#07038d",  // 2nd color
-    description: "Meet the innovators who drive technological advancement."
-  },
+  // {
+  //   id: "content-writer",
+  //   title: "Content Writer",
+  //   color: "#ff6820",  // 1st color
+  //   description: "Meet the innovators who drive technological advancement."
+  // },
+  // {
+  //   id: "video-editor",
+  //   title: "Video Editor",
+  //   color: "#07038d",  // 2nd color
+  //   description: "Meet the innovators who drive technological advancement."
+  // },
   {
     id: "data-scrapping-team",
     title: "Data Scrapping Team",

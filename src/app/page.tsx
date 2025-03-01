@@ -69,9 +69,7 @@ export default function Home() {
 <div id="goverment">
   <GovernmentAndPrivateSector />
 </div>
-<div id="join">
-  <JoinSection />
-</div>
+
 {/* ============================== */}
 
 
@@ -81,6 +79,10 @@ export default function Home() {
 </div>
 <div id="tortoise">
   <IntroducingTortoiseLLM />
+</div>
+
+<div id="join">
+  <JoinSection />
 </div>
 
 
