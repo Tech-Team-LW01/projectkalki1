@@ -24,7 +24,7 @@ const OurLargeLanguage = () => {
             
             Our Large Language Model (LLM) 
             <br />
-            named <span className='text-[#ff6820]'>  Tortoise </span> LLM
+            named <span className='text-[#ff6820]'>  Astra </span> LLM
           </h2>
           <p className='text-black max-w-3xl mx-auto text-lg'>
           Model  is designed to be multilingual, culturally aware, and optimized for India-specific use cases. It will serve industries including education, healthcare, finance, and governance, enhancing accessibility to AI-driven solutions for all.

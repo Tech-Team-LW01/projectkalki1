@@ -131,10 +131,10 @@ const IntroducingTortoiseLLM = () => {
       {/* Header Section */}
       <div className="text-center max-w-5xl mx-auto mb-8">
         <h1 className="text-[#07038d] text-3xl sm:text-4xl font-bold mb-4">
-          Introducing Tortoise LLM: India&apos;s First Energy and Cost-Efficient AI Model
+          Introducing Astra LLM: India&apos;s First Energy and Cost-Efficient AI Model
         </h1>
         <p className="text-black text-base sm:text-lg">
-        We developed the Tortoise LLM Model for efficient, low-resource AI, reducing power and costs for greater accessibility.
+        We developed the Astra LLM Model for efficient, low-resource AI, reducing power and costs for greater accessibility.
         </p>
       </div>
 

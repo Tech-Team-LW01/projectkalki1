@@ -92,7 +92,7 @@ const EmpoweringIndia = () => {
             Empowering India with a <br className="hidden md:block" /> Self-Reliant AI Ecosystem
           </h2>
           <p className="text-black max-w-2xl mx-auto text-base">
-            We developed the Tortoise LLM Model for efficient, low-resource AI, reducing power and costs for greater accessibility.
+            We developed the  Astra LLM Model for efficient, low-resource AI, reducing power and costs for greater accessibility.
           </p>
         </motion.div>
 
