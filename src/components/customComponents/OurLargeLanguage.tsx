@@ -12,7 +12,7 @@ const OurLargeLanguage = () => {
   });
 
   return (
-    <div className='w-full bg-white py-12 md:pt-8 md:pb-2 '>
+    <div className='w-full bg-white md:py-12  lg:py-12 py-2 md:pt-8 md:pb-2 '>
       <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8' ref={containerRef}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
