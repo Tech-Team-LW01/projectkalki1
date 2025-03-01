@@ -17,7 +17,7 @@ const navigationItems = [
   { name: "Contributor", href: "#collaborator", sectionId: "collaborator" },
   { name: "Roadmap", href: "#roadmap", sectionId: "roadmap" },
   { name: "Infrastructure", href: "#infrastructure", sectionId: "india-ai" },
-  { name: "Connect with us", href: "#join", sectionId: "join" },
+  { name: "Contact Us", href: "#join", sectionId: "join" },
 ];
 
 const NavLink = ({ href, children, isActive }: { href: string; children: React.ReactNode; isActive: boolean }) => (

@@ -62,18 +62,28 @@ export default function JoinSection() {
             variants={fadeIn}
             className="flex flex-wrap gap-4 justify-center"
           >
-            <Button 
+            {/* <Button 
               variant="default"
               className="bg-gradient-to-r from-[#046a38] to-[#ff6820] hover:opacity-90 transition-opacity"
             >
               Get Involved
-            </Button>
-            <Button variant="outline" className="hover:bg-green-50 transition-colors">
-              Partner With Us
-            </Button>
-            <Button variant="outline" className="hover:bg-green-50 transition-colors">
+            </Button> */}
+<a target="blank" href="https://forms.gle/bCrh7DJSyvwE5ZmC7 ">
+<Button 
+              variant="default"
+              className="bg-gradient-to-r from-[#046a38] to-[#ff6820] hover:opacity-90 transition-opacity"
+            >
+             Support Us
+            </Button></a>
+
+            <a target="blank" href="https://forms.gle/Efamoe3Ec5R8AKRx5 ">
+            <Button 
+              variant="default"
+              className="bg-gradient-to-r from-[#046a38] to-[#ff6820] hover:opacity-90 transition-opacity"
+            >
               Contact Us
             </Button>
+            </a>
           </motion.div>
         </motion.div>
 
@@ -96,7 +106,7 @@ export default function JoinSection() {
           >
             <Card className="border-none bg-white/50 backdrop-blur-sm hover:shadow-lg transition-shadow h-full">
               <CardContent className="space-y-2 p-6">
-                <div className="relative group inline-flex">
+                <div className="relative group inline-flex mb-4">
                   <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-2xl opacity-75 blur group-hover:opacity-100 transition duration-300" />
                   <div className="relative inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-white border-2 border-white">
                     <Briefcase className="h-6 w-6 text-black" />
@@ -109,15 +119,16 @@ export default function JoinSection() {
                 <p className="text-black text-base lg:text-lg leading-relaxed">
                   📢 The Future of AI is Here. The Future of AI is India.
                 </p>
+                <div className="mt-4">
                 <a target="blank" href="https://forms.gle/bCrh7DJSyvwE5ZmC7 ">
                 <Button 
                   variant="outline" 
-                  className="group hover:bg-green-600 hover:text-white transition-colors"
+                  className="group hover:bg-green-600 hover:text-white transition-colors  "
                 >
-                  Open Position
+                  Support Us
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" />
                 </Button>
-                </a>
+                </a></div>
               </CardContent>
             </Card>
           </motion.div>
@@ -131,7 +142,7 @@ export default function JoinSection() {
           >
             <Card className="border-none bg-white/50 backdrop-blur-sm hover:shadow-lg transition-shadow h-full">
               <CardContent className="space-y-2 p-6">
-                <div className="relative group inline-flex">
+                <div className="relative group mb-4 inline-flex">
                   <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-2xl opacity-75 blur group-hover:opacity-100 transition duration-300" />
                   <div className="relative inline-flex  h-12 w-12 items-center justify-center rounded-2xl bg-white border-2 border-white">
                     <Power className="h-6 w-6 text-black" />
@@ -139,11 +150,12 @@ export default function JoinSection() {
                 </div>
 
                 <h2 className="text-xl lg:text-2xl font-semibold tracking-tight ">
-                  Get Involved
+                Partner With Us
                 </h2>
                 <p className="text-black text-base lg:text-lg leading-relaxed">
-                  👉 Partner With Us - Contact Us
+                  👉  Contact Us: +91 9829105960 | preeti@lwindia.com
                 </p>
+                <div className='mt-4'>
                 <a target="blank" href="https://forms.gle/Efamoe3Ec5R8AKRx5 ">
                 <Button 
                   variant="outline" 
@@ -152,7 +164,7 @@ export default function JoinSection() {
                   Contact Us
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" />
                 </Button>
-                </a>
+                </a></div>
               </CardContent>
             </Card>
           </motion.div>
