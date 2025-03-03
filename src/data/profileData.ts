@@ -153,12 +153,7 @@ export const profileData: Profile[] = [
     company: "Quantiphi ",
     category: "data-specialist"
   },
-  {
-    name: "Jayasurya Charugndla",
-    profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQFRdpAWPqL28g/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1730728468925?e=1741424400&v=beta&t=-geIQkzB3gDxDo9R9ZU-xw0tmK6NBwiyVh2OBWwBOVs",
-    company: "Ai Enthusiast",
-    category: "data-specialist"
-  },
+ 
   {
     name: "Akash Dey",
     profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQG8UMqvvx3I9Q/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1736619173432?e=1741424400&v=beta&t=mKK5f2IIAJsBJK3jep1k1_9YlTp19Ab8aU9SUHmiYoY",
@@ -183,6 +178,12 @@ export const profileData: Profile[] = [
     company: "AI Enthusiast",
     category: "data-specialist"
   },
+  {
+    name: "Jayasurya Charugndla",
+    profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQFRdpAWPqL28g/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1730728468925?e=1741424400&v=beta&t=-geIQkzB3gDxDo9R9ZU-xw0tmK6NBwiyVh2OBWwBOVs",
+    company: "AI Enthusiast",
+    category: "data-specialist"
+  },
   
   // AI Tools Expert
  
@@ -196,7 +197,33 @@ export const profileData: Profile[] = [
   profilePicture: "/assets/Collabrote/Anish Mishra.jpg", 
   company: "Wipro",
   category: "ai-tool-expert"
-},{
+},
+
+{
+name: "Tanmay Agarwal",
+profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQFXTTr4YmNrSw/profile-displayphoto-shrink_400_400/B56ZRmSL9AGsAg-/0/1736882831629?e=1746057600&v=beta&t=1Rk-xuR1vZENb3m8_fhnvp_UGgOGByfPiDaP7qG39vA",
+company: "Okta",
+category: "ai-tool-expert"
+},
+{
+name: "Rahul Bharuka,",
+profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQHsco_gb7JIDw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696185408620?e=1746057600&v=beta&t=biNEo2r3z5XCR54wm4xa36dpLl0uEyTZT6xiv6JQIas",
+company: "Dentrils ",
+category: "ai-tool-expert"
+},
+{
+name: "Puru Sharma",
+profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGlge4hPijydg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709662571114?e=1746057600&v=beta&t=e4oyvOyc_2nesNWoZctj1eNjzExVrUGfcFDOxnUxczI",
+company: "Edurigo Technologies",
+category: "ai-tool-expert"
+},
+{
+name: "Urmil",
+profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQHnzEzmou82Bg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685143396730?e=1746057600&v=beta&t=7kYGFoanCV1kGdgHlrtQR_E2u_LZEEbX6dnMT_pfZFQ",
+company: "accenture- DevSecOpss",
+category: "ai-tool-expert"
+},
+{
   name: "Harvinder Singh",
   profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQE9LIF5v8rRJw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1735738339169?e=1741075200&v=beta&t=uKQOVESWSjg6wQmjAr3p1bECmBYNfOB2wrv4yYpkYPk",
   company: "AI Enthusiast",
@@ -206,6 +233,12 @@ export const profileData: Profile[] = [
   name: "Amish Agarwal",
   profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQENsoHoFIbJSw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1710400296916?e=1741075200&v=beta&t=__n7bDMCfnfho2H4rD7meLq4bBU-V_3NZIJEteAXkvs",
   company: "AI Enthusiast ",
+  category: "ai-tool-expert"
+},
+{
+  name: "Nikhil",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQF2hTQeH6YoIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1731132380817?e=1746057600&v=beta&t=hHMISOilo59ZLHhaUPbffB7LLhila3TU21AgMQQP6rw",
+  company: "AI Enthusiast",
   category: "ai-tool-expert"
 },
   // AI Model Trainer
@@ -343,20 +376,20 @@ category: "ai-model-trainer"
   {
     name: "Sayantan Samanta",
     profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQFMUB-gK3bhXw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1680722905923?e=1746057600&v=beta&t=LxiWZXlZ0aG1x3JLzwNa-Zz51ZZZJ130Dv3DQeRbmBw",
-    company: "Ai Enthusiast",
+    company: "AI Enthusiast",
     category: "social-media-manager"
   },
   {
     name: "Suhani thakur",
     profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGtOK9OFfnNXA/profile-displayphoto-shrink_400_400/B56ZUzdymRGQAg-/0/1740325203831?e=1746057600&v=beta&t=COSVxRnzFNnrXI0yHN_4RyHsFsHcea_kA4cHDxxR2yM",
-    company: "Ai Enthusiast",
+    company: "AI Enthusiast",
     category: "social-media-manager"
   },
   //video-editor
   {
     name: "Ajay kumar shah",
     profilePicture: "https://drive.google.com/open?id=182caBNl8J5FTQk9Ssc9Ovi23T15y75cw",
-    company: "Ai Enthausiast",
+    company: "AI Enthusiast",
     category: "video-editor"
   },
   {
@@ -382,36 +415,7 @@ category: "ai-model-trainer"
     category: "data-scrapping-team"
 },
 
-{
-    name: "Nikhil",
-    profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQF2hTQeH6YoIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1731132380817?e=1746057600&v=beta&t=hHMISOilo59ZLHhaUPbffB7LLhila3TU21AgMQQP6rw",
-    company: "AI Enthusiast",
-    category: "ai-tool-expert"
-},
-{
-  name: "Tanmay Agarwal",
-  profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQFXTTr4YmNrSw/profile-displayphoto-shrink_400_400/B56ZRmSL9AGsAg-/0/1736882831629?e=1746057600&v=beta&t=1Rk-xuR1vZENb3m8_fhnvp_UGgOGByfPiDaP7qG39vA",
-  company: "Okta",
-  category: "ai-tool-expert"
-},
-{
-  name: "Rahul Bharuka,",
-  profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQHsco_gb7JIDw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696185408620?e=1746057600&v=beta&t=biNEo2r3z5XCR54wm4xa36dpLl0uEyTZT6xiv6JQIas",
-  company: "Dentrils ",
-  category: "ai-tool-expert"
-},
-{
-  name: "Puru Sharma",
-  profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGlge4hPijydg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709662571114?e=1746057600&v=beta&t=e4oyvOyc_2nesNWoZctj1eNjzExVrUGfcFDOxnUxczI",
-  company: "Edurigo Technologies",
-  category: "ai-tool-expert"
-},
-{
-  name: "Urmil",
-  profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQHnzEzmou82Bg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685143396730?e=1746057600&v=beta&t=7kYGFoanCV1kGdgHlrtQR_E2u_LZEEbX6dnMT_pfZFQ",
-  company: "accenture- DevSecOpss",
-  category: "ai-tool-expert"
-},
+
 
 {
   name: "Soniya Jain",
