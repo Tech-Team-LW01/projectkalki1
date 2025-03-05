@@ -144,7 +144,7 @@ const Navbar = () => {
       after:bottom-0
       after:transition-all
       after:duration-300
-                  " href="https://chat.projectkalki.com/" target="blank" >
+                  " href="https://forms.gle/QMamhHCGvGpQGf896" target="blank" >
                     <Button 
               variant="default"
               className="bg-white text-black hover:bg-white hover:text-black   "
