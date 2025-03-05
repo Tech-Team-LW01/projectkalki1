@@ -184,6 +184,12 @@ export const profileData: Profile[] = [
     company: "AI Enthusiast",
     category: "data-specialist"
   },
+  {
+    name: "Priyam Sanodiya",
+    profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQFA-EfmMxpK-Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721656769897?e=1746662400&v=beta&t=_RFm_1mCV1-b0LxyC7G1rS84XCbvtYhX_evh_YpDNf0",
+    company: "AI Enthusiast",
+    category: "data-specialist"
+  },
   
   // AI Tools Expert
  
@@ -250,6 +256,12 @@ category: "ai-tool-expert"
   category: "ai-model-trainer"
 },
 {
+  name: "Manish Thapa",
+  profilePicture: "https://media.licdn.com/dms/image/v2/C5103AQH2BVbMVBUqqg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1581600315910?e=1746662400&v=beta&t=L0Uw1P9S3zeruseMAajWlMARq36x7LwAyX170Z-TGjg",
+  company: "Bluetris Technology Pvt Ltd",
+  category: "ai-model-trainer"
+  },
+{
   name: "Soumen Bhunia",
   profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1660002772504?e=1741431600&v=beta&t=sE7qjAT3JWYidoGJz8y2zViC7nkOyW3BinFsS3WGpdc",
   company: "AI Enthusiast",
@@ -288,6 +300,13 @@ profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQEdlf4PBpP9Mg/profil
 company: "AI Enthusiast",
 category: "ai-model-trainer"
 },
+
+  {
+    name: "Alok Tamrakar ",
+    profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQH1kPshYMfNCg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1728542201560?e=1741777200&v=beta&t=fTyDO5OBG2_WRiieOL29xg1herUQHN0qCnPGK4FgAdg",
+    company: "AI Enthusiast",
+    category: "ai-model-trainer"
+    },
 
 
 // data center expert
@@ -335,6 +354,12 @@ category: "ai-model-trainer"
   name: "Vishal Sharma",
   profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQERzifyqgxsrg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723282016908?e=1746057600&v=beta&t=sBR-Wwsl4pBjtWkpwUFI7xky5tkqIp3OC7URyq4Rvh0",
   company: "Mercer",
+  category: "solar-energy-advisor"
+},
+{
+  name: "Ajit Yadav",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQG7UzDVYP8nvw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722675163369?e=1746662400&v=beta&t=MlbH3KPFzVC7r6ANVLBs7h-yUNlo1c08UPOXs-A5CBA",
+  company: "F5 Networks ",
   category: "solar-energy-advisor"
 },
 {
@@ -415,6 +440,12 @@ category: "ai-model-trainer"
     category: "data-scrapping-team"
 },
 
+{
+  name: "Pawan S",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGX9v1hKkZwRw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1692765389853?e=1746662400&v=beta&t=R1F7T5I29-KuFsPwr5VhguQn4-bJQADa2oB-tfcvPc4",
+  company: "Beamteq",
+  category: "data-scrapping-team"
+},
 
 
 {
