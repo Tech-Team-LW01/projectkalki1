@@ -211,7 +211,7 @@ const Navbar = () => {
                   block px-3 py-2 text-base font-medium
                   transition-all duration-300 text-gray-200
                   hover:bg-white/10 hover:text-white rounded-md
-                   text-white `} href="https://chat.projectkalki.com/">Try Now</a>
+                   text-white `} href="https://forms.gle/QMamhHCGvGpQGf896">Try Now</a>
           </div>
         </div>
       </div>
