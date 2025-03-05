@@ -132,6 +132,36 @@ const Navbar = () => {
                   
                   </NavigationMenuItem>
                 ))}
+
+
+{/* Join our team */}
+
+<NavigationMenuItem>
+                  <a className=" text-sm font-medium px-3 py-2 text-gray-200
+                  
+                  after:content-['']
+      after:absolute
+      after:w-0
+      after:h-0.5
+      after:bg-white
+      after:left-0
+      after:bottom-0
+      after:transition-all
+      after:duration-300
+                  " href="https://forms.gle/bCrh7DJSyvwE5ZmC7" target="blank" >
+                    <Button 
+              variant="default"
+              className="bg-white text-black hover:bg-white hover:text-black"
+            >  Join our Team 
+            
+             {/* <ArrowRight className=" h-4 w-4 transition-transform group-hover:translate-x-2" /> */}
+            
+            </Button>
+                  </a>
+                </NavigationMenuItem>
+
+
+
                 <NavigationMenuItem>
                   <a className=" text-sm font-medium px-3 py-2 text-gray-200
                   
@@ -151,6 +181,9 @@ const Navbar = () => {
             >  Try Now  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" /></Button>
                   </a>
                 </NavigationMenuItem>
+
+
+
               </NavigationMenuList>
             </NavigationMenu>
           </div>
