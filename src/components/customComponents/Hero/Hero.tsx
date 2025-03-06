@@ -240,6 +240,14 @@ const Navbar = () => {
             
             ))}
 
+{/* Join our Team in desktop menu  */}
+
+<a className={`
+                  block px-3 py-2 text-base font-medium
+                  transition-all duration-300 text-gray-200
+                  hover:bg-white/10 hover:text-white rounded-md
+                   text-white `} href="https://forms.gle/bCrh7DJSyvwE5ZmC7">Join our Team</a>
+
             <a className={`
                   block px-3 py-2 text-base font-medium
                   transition-all duration-300 text-gray-200
