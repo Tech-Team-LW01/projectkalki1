@@ -618,6 +618,12 @@ category: "ai-model-trainer"
 },
 
 //Management Team
+{
+  name: "Chandra Mohan ",
+  profilePicture: "https://media.licdn.com/dms/image/v2/D4E03AQFFcxzoerQOdg/profile-displayphoto-shrink_400_400/B4EZVjxiMaH0Ak-/0/1741135684882?e=1746662400&v=beta&t=_-d3YVdwZDd9Aoyj9FEgBKznrlW_xioBncLDNmmBAPM",
+  company: "Cognizant technology solutions ",
+  category: "Management Team"
+},
 
   {
     name: "Pavan Sai Punna",
