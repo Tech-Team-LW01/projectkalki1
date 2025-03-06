@@ -143,7 +143,7 @@ export const profileData: Profile[] = [
   },
   {
     name: "Ishank Agarwal",
-    profilePicture: "https://media.licdn.com/dms/image/v2/C4E03AQGIuD9OsJVPZA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517469314609?e=1746057600&v=beta&t=LWze2-KybTgq5T-CnpTKxSc7UkiGV1GOHqn7TjXbUYY",
+    profilePicture: "/assets/Collabrote/IshankAgrwal copy.jpeg",
     company: "Upwork ",
     category: "data-specialist"
   },
@@ -625,13 +625,42 @@ category: "ai-model-trainer"
     category: "Management Team"
   },
   {
+    name: "Arman Mishra ",
+    profilePicture: "/assets/Collabrote/_DSC4426a.jpg",
+    company: "Ai Enthausist",
+    category: "Management Team"
+  },
+  {
+    name: "Ram Prasad Pokhrel ",
+    profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQHwzEgGbLdVhQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715440870395?e=1746662400&v=beta&t=OKYOoMPPEXDEx8yAEHOwk1bQUYZJZCim0-H2Ys0e3Bs",
+    company: "Ai Enthausist",
+    category: "Management Team"
+  },
+  {
+    name: "Kamal Kishor ",
+    profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQFhA5UHV5UQiQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1738123248805?e=1741845600&v=beta&t=Cl__pIkWBAvKvAPaR9OgvT_vbst8ddmIAIXHMgkkbO8",
+    company: "Ai Enthausist",
+    category: "Management Team"
+  },
+  {
+    name: "Shreya Singh",
+    profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQHDN5DJm-U4WA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711444494283?e=1746662400&v=beta&t=OgbeDCH_bIy3EV4gFNblB56M9lz8sdGsVIIR6KlAgJI",
+    company: "Ai Enthausist",
+    category: "Management Team"
+  },
+  {
     name: "Surinder Jungral ",
     profilePicture: "https://media.licdn.com/dms/image/v2/D4D35AQGmXwzo56pLYQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1735728465395?e=1741420800&v=beta&t=2XtIZQ_U3VO71cwzA_veC2GZlV26icl3cRlGMApfRB0",
     company: "Ai Enthausist",
     category: "Management Team"
   },
+  {
+    name: "Parv Agarwal",
+    profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQEZqdWgpdsMWQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724757447120?e=1746662400&v=beta&t=a15W5ChTZLXl9yg0gVmax4GwHzjavJ_Cnyy5BMBeAMQ",
+    company: "Ai Enthausist",
+    category: "Management Team"
+  },
   
-
 ];
 // Export the categorized data directly
 export const categorizedProfiles = categories.map(category => ({
