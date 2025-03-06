@@ -198,7 +198,8 @@ export const profileData: Profile[] = [
     profilePicture: "https://media.licdn.com/dms/image/v2/D4D35AQEmTKq1PlmJrw/profile-framedphoto-shrink_800_800/B4DZU4HZENGkAo-/0/1740403217004?e=1741075200&v=beta&t=5aT0N2QIFAvm0lwTgKokIqxXaLGOuW240ehhshYvUCQ",
     company: "ALLIANZ TECHNOLOGY SE",
     category: "ai-tool-expert"
-},{
+},
+{
   name: "Anish Mishra",
   profilePicture: "/assets/Collabrote/Anish Mishra.jpg", 
   company: "Wipro",
