@@ -1,11 +1,13 @@
 "use client"
-import react from 'react';
+import React from 'react';
+import Hero from '@/components/customComponents/upskillComponents/Hero';
+import Modules from '@/components/customComponents/upskillComponents/Modules';
 
 const page = () => {    
-
     return (
         <div>
-            <h1>Upskills</h1>
+            <Hero/>
+            <Modules/>
         </div>
     )
 }
