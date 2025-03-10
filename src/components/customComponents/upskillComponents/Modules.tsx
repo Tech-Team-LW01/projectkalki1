@@ -145,7 +145,116 @@ type Module = {
           ]}
         ]
       }
-    }
+    },
+    {
+        title: "Convolutional Neural Networks (CNNs)",
+        description: "Dummy description for Convolutional Neural Networks (CNNs).",
+        content: {
+          sections: [
+            {
+              title: "Understanding Convolutional Layers",
+              topics: [
+                "Filters, strides, and feature maps"
+              ]
+            },
+            {
+              title: "Pooling, Padding, and Stride in CNNs",
+              topics: [
+                "Role of max pooling and average pooling"
+              ]
+            },
+            {
+              title: "Transfer Learning and Fine-tuning",
+              topics: [
+                "Using pre-trained models for custom applications"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        title: "Natural Language Processing (NLP)",
+        description: "Dummy description for Natural Language Processing (NLP).",
+        content: {
+          sections: [
+            {
+              title: "Introduction to NLP & Text Processing",
+              topics: [
+                "Understanding text as data",
+                "Tokenization, Lemmatization, and Stopwords"
+              ]
+            },
+            {
+              title: "Processing raw text data",
+              topics: []
+            },
+            {
+              title: "Word Embeddings",
+              topics: [
+                "Word2Vec, GloVe, and BERT models"
+              ]
+            },
+            {
+              title: "Sentiment Analysis & Text Classification",
+              topics: [
+                "Analyzing customer reviews and feedback"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        title: "AI for Real-world Applications",
+        description: "Dummy description for AI for Real-world Applications.",
+        content: {
+          sections: [
+            {
+              title: "AI in Various Industries",
+              topics: [
+                "Healthcare, finance, e-commerce, manufacturing"
+              ]
+            },
+            {
+              title: "Basics of Reinforcement Learning",
+              topics: [
+                "Understanding rewards and policy learning"
+              ]
+            },
+            {
+              title: "AI for Edge Devices",
+              topics: [
+                "TinyML and On-device AI applications"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        title: "AI Model Deployment & MLOps",
+        description: "Dummy description for AI Model Deployment & MLOps.",
+        content: {
+          sections: [
+            {
+              title: "Model Deployment with Flask/FastAPI",
+              topics: [
+                "Serving AI models as web APIs"
+              ]
+            },
+            {
+              title: "Using Docker & Kubernetes for AI Models",
+              topics: [
+                "Containerization and orchestration of AI applications"
+              ]
+            },
+            {
+              title: "CI/CD for AI Pipelines",
+              topics: [
+                "Automating model training and deployment"
+              ]
+            }
+          ]
+        }
+      }
   ];
 
 const Modules = () => {
