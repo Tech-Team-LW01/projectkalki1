@@ -6,6 +6,7 @@ import Mentor from "@/components/customComponents/upskillComponents/Mentor";
 import CertificateDisplay from "@/components/customComponents/upskillComponents/Certificate";
 import VideoCourseCard from "@/components/customComponents/upskillComponents/Video";
 import Navbar from '@/components/customComponents/upskillComponents/Navbar';
+import DeveloperCommunity from '@/components/customComponents/upskillComponents/Community';
 const page = () => {    
     return (
         <div>
@@ -15,6 +16,7 @@ const page = () => {
             <VideoCourseCard/>
             <Mentor/>
             <CertificateDisplay/>
+            <DeveloperCommunity/>
         </div>
     )
 }
