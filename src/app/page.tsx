@@ -16,6 +16,7 @@ import JoinSection from "@/components/customComponents/Join/Join";
 import WhyDataFirstApproach from "@/components/customComponents/WhyDataFirstApproach"
 
 
+
 export default function Home() {
   return (
     <>
