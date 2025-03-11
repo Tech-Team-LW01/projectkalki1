@@ -31,7 +31,7 @@ const Mentor = () => {
   ];
 
   return (
-    <section className="w-full bg-black">
+    <section className="w-full bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
           {/* Left Section */}
@@ -48,7 +48,7 @@ const Mentor = () => {
                 <p className="text-[#ff0000]">Your Summer Mentor: <br/> Mr Vimal Daga</p>
               </h1>
               
-              <p className={`text-md md:text-2xl text-center md:text-left text-white mb-6 ${poppins.className}`}>
+              <p className={`text-md md:text-2xl text-center md:text-left text-black mb-6 ${poppins.className}`}>
                 Visionary Leader Committed to &quot;Making India Future-Ready&quot;
               </p>
               <div className="grid gap-4">
@@ -69,7 +69,7 @@ const Mentor = () => {
               </div>
 
               <blockquote className="text-base sm:text-lg italic mt-8 
-                pl-4 border-l-4 border-[#ff0000] text-white">
+                pl-4 border-l-4 border-[#ff0000] text-black">
                 Mentor to Fortune 500 executives, specializing in knowledge transfer to <br/>
                 <span className="text-[#ff0000] font-medium"> C-level technologists</span> 
                 {" "}across cutting-edge domains.
@@ -81,7 +81,7 @@ const Mentor = () => {
           <div className="w-full lg:w-1/2">
             <div className="relative w-full aspect-[3/4] rounded-xl overflow-hidden group">
               <img 
-                src="/assets/Mentor/vimalsir.webp"
+                src="/assets/vimalsir.png"
                 alt="Mentor Profile"
                 className="w-full h-full object-cover object-center transform 
                   group-hover:scale-105 transition-transform duration-300"
