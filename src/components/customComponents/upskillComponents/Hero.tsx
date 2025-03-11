@@ -29,11 +29,11 @@ const Hero = () => {
               any LLM and cloud platform.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-[#000080] hover:bg-[#000080] text-white">Start Free Trial</Button>
-              <Button variant="outline">I Want A Demo</Button>
+              <Button className="bg-gradient-to-r from-[#046a38] to-[#ff6820] hover:opacity-90 transition-opacity text-white">Start Free Trial</Button>
+              <Button variant="outline" className="hover:bg-gradient-to-r from-[#046a38] to-[#ff6820]" >I Want A Demo</Button>
             </div>
             <div className="pt-8">
-              <p className="text-5xl font-bold text-[#000080]">2,500,000</p>
+              <p className="text-5xl font-bold text-[#ff6820]">2,500,000</p>
               <p className="text-lg text-gray-600">Multi-Agent Crews run using CrewAI</p>
             </div>
           </div>

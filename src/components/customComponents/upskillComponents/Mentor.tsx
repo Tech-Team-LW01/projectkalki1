@@ -108,11 +108,11 @@ const Mentor = () => {
                       rounded-lg flex items-center gap-2 
                       border-[#000080] shadow-xl transform hover:scale-105 
                       transition-transform">
-                      <div className="bg-[#000080] p-1.5 rounded-full">
-                        <transfer.logo className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
+                      <div className="bg-white p-1.5 rounded-full">
+                        <transfer.logo className="w-3 h-3 sm:w-4 sm:h-4 text-[#000080]" />
                       </div>
                       <div className="text-white">
-                        <div className="text-xs sm:text-sm font-medium text-[#000080]">
+                        <div className="text-xs sm:text-sm font-medium text-white">
                           {transfer.plateform}
                         </div>
                         <div className="text-[10px] sm:text-xs font-semibold">

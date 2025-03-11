@@ -5,25 +5,25 @@ import { FaCertificate, FaShareAlt, FaUserTie, FaSuitcase } from "react-icons/fa
 // Hardcoded certification features data
 const certificationFeatures = [
   {
-    icon: <FaCertificate className="text-white text-xl" />,
+    icon: <FaCertificate className="text-black bg-white text-xl" />,
     title: "Official and Verified",
     description:
       "Receive an instructor-signed certificate with the institution's logo to verify your achievements and increase your job prospects.",
   },
   {
-    icon: <FaShareAlt className="text-white text-xl" />,
+    icon: <FaShareAlt className="text-black text-xl" />,
     title: "Easily Shareable",
     description:
       "Add the certificate to your CV or Resume, or post it directly on LinkedIn, Instagram, and Twitter.",
   },
   {
-    icon: <FaUserTie className="text-white text-xl" />,
+    icon: <FaUserTie className="text-black text-xl" />,
     title: "Enhances Credibility",
     description:
       "Use your certificate to enhance your professional credibility and stand out among your peers as an expert.",
   },
   {
-    icon: <FaSuitcase className="text-white text-xl" />,
+    icon: <FaSuitcase className="text-black text-xl" />,
     title: "Increase Opportunities",
     description:
       "Showcase your achieved skill set using your certificate to attract employers for desired job opportunities.",
@@ -64,17 +64,38 @@ const CertificateDisplay: React.FC = () => {
                   key={index}
                   className="bg-white p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-300"
                 >
-                  <div className="flex flex-col space-y-2">
-                    <div className="p-2 bg-[#000080] rounded-full w-fit">
-                      {feature.icon}
-                    </div>
-                    <h3 className="text-base font-bold text-gray-800">
-                      {feature.title}
-                    </h3>
-                    <p className="text-sm text-gray-600 leading-relaxed">
-                      {feature.description}
-                    </p>
-                  </div>
+                 <div className="flex flex-col space-y-2">
+
+
+ 
+  
+  {/* White background container */}
+  {/* <div className="relative p-2 bg-white rounded-full 
+    shadow-[0_0_20px_theme(colors.orange.400),0_0_25px_theme(colors.green.500),0_0_30px_theme(colors.blue.900)]
+    hover:shadow-[0_0_30px_theme(colors.orange.400),0_0_35px_theme(colors.green.500),0_0_40px_theme(colors.blue.900)]
+    transition-all duration-300 ease-in-out transform hover:scale-105 z-10"
+  >
+    {feature.icon}
+  </div> */}
+
+<div className="relative group mr-4 w-fit">
+          {/* Gradient effect */}
+          <div className="absolute -inset-1 bg-gradient-to-r from-green-500 via-orange-400 to-orange-500 rounded-lg opacity-75 blur group-hover:opacity-100 transition duration-300" />
+          
+          {/* Icon container */}
+          <div className="relative p-2 rounded-lg bg-white border-2 border-white">
+{feature.icon}
+          </div>
+        </div>
+
+                   
+  <h3 className="text-base font-bold text-gray-800">
+    {feature.title}
+  </h3>
+  <p className="text-sm text-gray-600 leading-relaxed">
+    {feature.description}
+  </p>
+</div>
                 </div>
               ))}
             </div>
