@@ -32,10 +32,12 @@ export default function VideoCourseCard() {
       <Card className="w-full overflow-hidden">
         <div className="relative aspect-video bg-gray-200">
           <img
-            src="/placeholder.svg?height=400&width=600"
+            src="/assets/video-thumbnail.jpg"
             alt="Video thumbnail showing course instructors"
             className="w-full h-full object-cover"
           />
+
+          {/* todo , add video /asstes/video.mp4 when click on play button then hide tuhumnail and start playing video, and when click on paush button hide vide and show tuumbnail */}
 
           {/* Small red label in top left */}
           <div className="absolute top-2 left-2 bg-[#000080] text-white text-xs px-2 py-1 rounded">DeepLearning.AI</div>
