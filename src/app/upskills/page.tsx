@@ -5,9 +5,11 @@ import Modules from '@/components/customComponents/upskillComponents/Modules';
 import Mentor from "@/components/customComponents/upskillComponents/Mentor";
 import CertificateDisplay from "@/components/customComponents/upskillComponents/Certificate";
 import VideoCourseCard from "@/components/customComponents/upskillComponents/Video";
+import Navbar from '@/components/customComponents/upskillComponents/Navbar';
 const page = () => {    
     return (
         <div>
+            <Navbar/>
             <Hero/>
             <Modules/>
             <VideoCourseCard/>

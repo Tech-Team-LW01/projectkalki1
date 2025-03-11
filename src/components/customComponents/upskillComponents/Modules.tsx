@@ -273,7 +273,7 @@ const Modules = () => {
               }}
               onClick={() => setActiveModule(index)}
             >
-              <h3 className={`text-2xl font-semibold mb-2 transition-colors ${activeModule === index ? 'text-black' : 'text-gray-400'}`}>
+              <h3 className={`text-2xl font-semibold mb-2 transition-colors ${activeModule === index ? 'text-[#000080]' : 'text-gray-400'}`}>
                 {module.title}
               </h3>
               {activeModule === index && (
@@ -293,7 +293,7 @@ const Modules = () => {
             <div className="space-y-6">
               {modules[activeModule].content?.sections.map((section, idx) => (
                 <div key={idx} className="space-y-3">
-                  <h4 className="text-xl font-semibold text-gray-800">
+                  <h4 className="text-xl font-semibold text-[#000080]">
                     {section.title}
                   </h4>
                   <ul className="list-disc pl-5 space-y-2">
