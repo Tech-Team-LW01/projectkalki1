@@ -22,8 +22,8 @@ export default function VideoCourseCard() {
     <div className="max-w-5xl mx-auto flex flex-col items-center space-y-4">
       {/* Header - Outside the card */}
       <div className="text-center">
-        <h2 className="text-xl font-medium">
-          Become An <span className="text-[#000080] font-semibold">Multi-Agent Expert</span> in Hours
+        <h2 className="text-3xl font-medium">
+          Become An <span className="text-[#000080]  font-bold">Multi-Agent Expert</span> in Hours
         </h2>
       </div>
 

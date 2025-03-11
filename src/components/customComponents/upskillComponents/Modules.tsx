@@ -262,6 +262,13 @@ const Modules = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
+      <div className="flex justify-center item-center">
+
+      <h2 className="text-3xl text-[#07038d] font-bold mb-6">
+      Course Modules
+        
+      </h2>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="space-y-6">
           {modules.map((module, index) => (

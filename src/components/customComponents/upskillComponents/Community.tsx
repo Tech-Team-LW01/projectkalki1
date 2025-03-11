@@ -5,11 +5,11 @@ import { Button } from "@/components/ui/button"
 export default function DeveloperCommunity() {
   return (
     <div className="bg-white text-black py-12 px-6 flex flex-col items-center text-center">
-      <h2 className="text-4xl font-bold mb-6 max-w-xl">
+      <h2 className="text-3xl text-[#000080] font-bold mb-6 max-w-xl">
         Be Part of a{" "}
         <span className="relative">
           Global
-          <span className="absolute bottom-1 left-0 w-full h-[3px] bg-[#000080]"></span>
+          {/* <span className="absolute bottom-1 left-0 w-full h-[3px] bg-[#000080]"></span> */}
         </span>{" "}
         Developer Community
       </h2>
