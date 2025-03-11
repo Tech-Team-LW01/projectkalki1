@@ -37,7 +37,7 @@ interface CertificateDetailsProps {
   };
 }
 
-const defaultCertificate = "/assets/devops2.jpg";
+const defaultCertificate = "/assets/cert.jpg";
 
 const CertificateDisplay: React.FC = () => {
   return (
