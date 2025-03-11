@@ -39,13 +39,13 @@ const Mentor = () => {
             <div className="prose prose-invert max-w-none">
               {/* this is for desktop */}
               <h1 className="text-3xl hidden md:block md:text-4xl lg:text-4xl text-center md:text-left font-bold mb-3">
-                <p className="text-[#ff0000]">Your Summer Internship Mentor: <br/> Mr Vimal Daga</p>
+                <p className="text-[#000080]">Your Summer Internship Mentor: <br/> Mr Vimal Daga</p>
               </h1>
 
               {/* for mobile  */}
 
               <h1 className="text-3xl sm:block md:hidden md:text-4xl lg:text-4xl text-center md:text-left font-bold mb-3">
-                <p className="text-[#ff0000]">Your Summer Mentor: <br/> Mr Vimal Daga</p>
+                <p className="text-[#000080]">Your Summer Mentor: <br/> Mr Vimal Daga</p>
               </h1>
               
               <p className={`text-md md:text-2xl text-center md:text-left text-black mb-6 ${poppins.className}`}>
@@ -55,8 +55,8 @@ const Mentor = () => {
                 {achievements.map((item, index) => (
                   <Card 
                     key={index} 
-                    className="p-3 bg-gradient-to-r from-[#ff0000] to-black/80 
-                      border-[#f0c8c8] hover:bg-red-900/90 transition-colors"
+                    className="p-3 bg-gradient-to-r from-[#000080] to-black/80 
+                      border-[#f0c8c8] hover:bg-[#000080] transition-colors"
                   >
                     <div className="flex items-center gap-3">
                       <item.icon className="w-6 h-6 text-white" />
@@ -69,9 +69,9 @@ const Mentor = () => {
               </div>
 
               <blockquote className="text-base sm:text-lg italic mt-8 
-                pl-4 border-l-4 border-[#ff0000] text-black">
+                pl-4 border-l-4 border-[#000080] text-black">
                 Mentor to Fortune 500 executives, specializing in knowledge transfer to <br/>
-                <span className="text-[#ff0000] font-medium"> C-level technologists</span> 
+                <span className="text-[#000080] font-medium"> C-level technologists</span> 
                 {" "}across cutting-edge domains.
               </blockquote>
             </div>
@@ -106,13 +106,13 @@ const Mentor = () => {
                   >
                     <Card className="bg-black/90 backdrop-blur-sm p-2 
                       rounded-lg flex items-center gap-2 
-                      border-red-200 shadow-xl transform hover:scale-105 
+                      border-[#000080] shadow-xl transform hover:scale-105 
                       transition-transform">
-                      <div className="bg-[#ff0000] p-1.5 rounded-full">
+                      <div className="bg-[#000080] p-1.5 rounded-full">
                         <transfer.logo className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
                       </div>
                       <div className="text-white">
-                        <div className="text-xs sm:text-sm font-medium text-[#ff0000]">
+                        <div className="text-xs sm:text-sm font-medium text-[#000080]">
                           {transfer.plateform}
                         </div>
                         <div className="text-[10px] sm:text-xs font-semibold">
