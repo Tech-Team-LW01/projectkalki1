@@ -23,12 +23,14 @@ export default function VideoCourseCard() {
       {/* Header - Outside the card */}
       <div className="text-center">
         <h2 className="text-3xl font-medium">
-          Become An <span className="text-[#000080]  font-bold">Multi-Agent Expert</span> in Hours
+  
+
+ What Leaders <span className="text-[#000080]  font-bold">Say About AI </span> & Its Future in India
         </h2>
       </div>
 
       {/* Bullet points - Outside the card */}
-      <div className="flex justify-center gap-4 text-sm">
+      {/* <div className="flex justify-center gap-4 text-sm">
         <div className="flex items-center gap-1">
           <Circle className="h-3 w-3 fill-[#000080] text-[#000080]" />
           <span>Designing Multi-Agent Systems</span>
@@ -41,7 +43,7 @@ export default function VideoCourseCard() {
           <Circle className="h-3 w-3 fill-[#000080] text-[#000080]" />
           <span>Real-World Applications</span>
         </div>
-      </div>
+      </div> */}
 
       {/* Video Card */}
       <Card className="w-full overflow-hidden">

@@ -22,7 +22,7 @@ const navigationItems = [
     { name: "Roadmap", href: "#roadmap", sectionId: "roadmap" },
     { name: "Infrastructure", href: "#infrastructure", sectionId: "india-ai" },
     { name: "Contact Us", href: "#join", sectionId: "join" },
-    {name:"upskilling",href:"/upskills",sectionId:""}
+    {name:"Upskilling",href:"/upskills",sectionId:""}
   
   ];
   
