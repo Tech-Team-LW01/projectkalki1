@@ -31,13 +31,13 @@ const LogoColumn = ({ startIndex }: { startIndex: number }) => {
       }}
     >
       {columnLogos.map((logo, index) => (
-        <div key={index} className="w-24 h-24 p-4 bg-white rounded-lg shadow-md">
+        <div key={index} className="w-32 h-32 p-4 bg-white rounded-lg shadow-md">
           <img src={logo} alt={`Logo ${startIndex + index + 1}`} className="w-full h-full object-contain" />
         </div>
       ))}
       {/* Duplicate logos for seamless loop */}
       {columnLogos.map((logo, index) => (
-        <div key={`duplicate-${index}`} className="w-24 h-24 p-4 bg-white rounded-lg shadow-md">
+        <div key={`duplicate-${index}`} className="w-32 h-32 p-4 bg-white rounded-lg shadow-md">
           <img src={logo} alt={`Logo ${startIndex + index + 1}`} className="w-full h-full object-contain" />
         </div>
       ))}
