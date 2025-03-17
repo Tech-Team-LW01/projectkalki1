@@ -30,7 +30,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-gradient-to-r from-[#046a38] to-[#ff6820] hover:opacity-90 transition-opacity text-white">Start Free Trial</Button>
-              <Button variant="outline" className="hover:bg-gradient-to-r from-[#046a38] to-[#ff6820]" >I Want A Demo</Button>
+              <Button variant="outline" className="hover:bg-gradient-to-r from-[#046a38] to-[#ff6820] hover:text-white" >I Want A Demo</Button>
             </div>
             <div className="pt-8">
               <p className="text-5xl font-bold text-[#ff6820]">2,500,000</p>
