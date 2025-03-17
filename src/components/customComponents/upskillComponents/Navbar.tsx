@@ -72,7 +72,7 @@ const navigationItems = [
             <div className="flex-shrink-0 w-24 transition-transform duration-300 hover:scale-105">
               <img 
                 className="w-16 h-12 object-contain" 
-                src="/assets/logo.webp" 
+                src="/assets/logo.png" 
                 alt="Logo"
                 loading="eager"
               />
