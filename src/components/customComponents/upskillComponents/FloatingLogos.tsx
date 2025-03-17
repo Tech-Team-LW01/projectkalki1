@@ -16,14 +16,14 @@ const logos = [
   "/assets/logo3.svg",
 ]
 
-const LogoColumn = ({ startIndex }: { startIndex: number }) => {
+const LogoColumn = ({ startIndex, direction = "down" }: { startIndex: number, direction?: "up" | "down" }) => {
   const columnLogos = logos.slice(startIndex, startIndex + 4)
   
   return (
     <motion.div
       className="flex flex-col gap-4"
       initial={{ y: 0 }}
-      animate={{ y: ["-100%", "0%"] }}
+      animate={{ y: direction === "down" ? ["-100%", "0%"] : ["0%", "-100%"] }}
       transition={{
         duration: 20,
         repeat: Number.POSITIVE_INFINITY,
@@ -49,8 +49,12 @@ export function FloatingLogos() {
   return (
     <div className="relative w-full h-full overflow-hidden">
       <div className="absolute inset-0 flex justify-between px-8">
-        {[0, 4, 8].map((startIndex) => (
-          <LogoColumn key={startIndex} startIndex={startIndex} />
+        {[0, 4, 8].map((startIndex, index) => (
+          <LogoColumn 
+            key={startIndex} 
+            startIndex={startIndex}
+            direction={index === 1 ? "up" : "down"} // Middle column (index 1) moves upward
+          />
         ))}
       </div>
     </div>
