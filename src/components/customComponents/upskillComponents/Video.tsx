@@ -3,6 +3,10 @@ import { Button } from "@/components/ui/button"
 import { Circle, Play, Pause } from "lucide-react"
 import { useState, useRef } from "react"
 
+
+
+
+
 export default function VideoCourseCard() {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -23,29 +27,26 @@ export default function VideoCourseCard() {
       {/* Header - Outside the card */}
       <div className="text-center">
         <h2 className="text-3xl font-bold text-[#000080] ">
-  
+  {/* some of the  */}
 
  What Leaders  About AI  & Its Future in India
         </h2>
+
+        {/*   */}
       </div>
 
-      {/* Bullet points - Outside the card */}
-      {/* <div className="flex justify-center gap-4 text-sm">
-        <div className="flex items-center gap-1">
-          <Circle className="h-3 w-3 fill-[#000080] text-[#000080]" />
-          <span>Designing Multi-Agent Systems</span>
-        </div>
-        <div className="flex items-center gap-1">
-          <Circle className="h-3 w-3 fill-[#000080] text-[#000080]" />
-          <span>Tool Integration</span>
-        </div>
-        <div className="flex items-center gap-1">
-          <Circle className="h-3 w-3 fill-[#000080] text-[#000080]" />
-          <span>Real-World Applications</span>
-        </div>
-      </div> */}
+    
 
       {/* Video Card */}
+      {/* todo this is make video frame make vidoe section should be auto play */}
+      {/* todo billow make video from we have 4 more video frame , video should be paush when user click on these card that perticular vidoe should play in make video sectoin  */}
+      {/* // video url
+
+// 1)  https://www.youtube.com/watch?v=gtcAmtPnjBw -> default video in make vidoe frame
+// 2)  https://www.youtube.com/watch?v=xkmOvydcWSY 
+// 3)  https://www.youtube.com/watch?v=UQ3PcWOI2DY 
+// 4)  https://www.youtube.com/watch?v=9M-wOFpCja4
+// 5)  https://www.youtube.com/watch?v=l7zBE-3cH5g */}
       <Card className="w-full overflow-hidden">
         <div className="relative aspect-video bg-gray-200">
           {!isPlaying && (
