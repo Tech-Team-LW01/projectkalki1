@@ -67,10 +67,10 @@ export default function ProgramDetails() {
                   
                   {/* Action button - same for both mobile and desktop */}
                   <div>
-                    <a href="#bookyourseat">
+                    <a href="https://forms.gle/qwzu4w367nP59mgU6">
                    
                       <Button className="w-full sm:w-auto bg-[#000080]  hover:bg-[#000080] ">
-                        Book your Seat 
+                        Book your Free Seat 
                       </Button>
                     </a>
                   </div>
