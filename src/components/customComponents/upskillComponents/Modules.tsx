@@ -147,7 +147,7 @@ const Modules = () => {
       <div className="flex justify-center item-center">
 
       <h2 className="text-3xl text-[#07038d] font-bold mb-6">
-      Course Modules
+      What Will You Learn with Hands-On
         
       </h2>
       </div>

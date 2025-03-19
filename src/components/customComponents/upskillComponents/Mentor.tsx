@@ -52,7 +52,7 @@ const Mentor = () => {
               </h1>
               
               <p className="text-md md:text-xl text-center md:text-left text-black mb-6">
-              A visionary mentor and tech innovator, Mr. Vimal Daga has been instrumental in AI and Cloud adoption, empowering India’s youth with cutting-edge skills to make them industry and future-ready. His past contributions supported India’s Cloud First Policy, and now, through this Free AI Enablement Training, he aligns with the IndiaAI Mission to democratize AI education.
+              A visionary mentor and tech innovator, Mr. Vimal Daga has been instrumental in AI and Cloud adoption, empowering India’s youth with cutting-edge skills to make them industry and future-ready. His past contributions supported India’s Cloud First Policy, and now, through this Free AI Foundation Training, he aligns with the IndiaAI Mission to democratize AI education.
 
                 {/* Visionary Leader Committed to &quot;Making India Future-Ready&quot; */}
               </p>
