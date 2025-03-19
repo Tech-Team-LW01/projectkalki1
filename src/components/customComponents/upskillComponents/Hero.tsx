@@ -5,25 +5,29 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { FloatingLogos } from "./FloatingLogos"
+
 const Hero = () => {
 
     return (
         <div className="max-w-6xl mt-16  mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
-            <h1 className="text-3xl md:text-4xl font-bold leading-tight">
+            <h1 className="text-3xl md:text-5xl font-bold leading-tight">
   
 
               
             Empower{" "}
               <span className="text-[#000080] relative">
               India's AI
-                <motion.span
+                {/* <motion.span
                   className="absolute bottom-0 left-0 w-full h-[2px] bg-[#000080]"
                   initial={{ width: 0 }}
                   animate={{ width: "100%" }}
                   transition={{ duration: 0.5, delay: 0.2 }}
-                />
+                /> */}
+{/* todo chage svg color to #000080 */}
+{/* todo make it mobile responsive */}
+<img src="/assets/CurlLine.svg" alt="curve line" className=' absolute w-full  bottom-0 left-0  h-[5px]' />
               </span>{" "}
               Future
             </h1>
@@ -32,7 +36,9 @@ const Hero = () => {
 
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-gradient-to-r from-[#046a38] to-[#ff6820] hover:opacity-90 transition-opacity text-white">Join Now</Button>
+            {/* https://forms.gle/qwzu4w367nP59mgU6 */}
+            <a href="https://forms.gle/qwzu4w367nP59mgU6" target="blank">
+              <Button className="bg-gradient-to-r from-[#046a38] to-[#ff6820] hover:opacity-90 transition-opacity text-white">Join Now</Button></a>
               <a href="https://www.linkedin.com/in/vimaldaga/" target="blank">
               <Button variant="outline" className="hover:bg-gradient-to-r from-[#046a38] to-[#ff6820] hover:text-white" >
  By Mr Vimal Daga

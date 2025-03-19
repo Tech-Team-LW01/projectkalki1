@@ -22,10 +22,10 @@ export default function VideoCourseCard() {
     <div className="max-w-5xl mx-auto flex flex-col items-center space-y-4">
       {/* Header - Outside the card */}
       <div className="text-center">
-        <h2 className="text-3xl font-medium">
+        <h2 className="text-3xl font-bold text-[#000080] ">
   
 
- What Leaders <span className="text-[#000080]  font-bold">Say About AI </span> & Its Future in India
+ What Leaders  About AI  & Its Future in India
         </h2>
       </div>
 
