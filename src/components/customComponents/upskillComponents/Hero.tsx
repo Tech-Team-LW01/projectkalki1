@@ -20,7 +20,7 @@ const Hero = () => {
               <span className="text-[#000080] relative">
               India's AI
               
-<img src="/assets/CurlLine.svg" alt="curve line" className="absolute w-full bottom-[-2px] left-0 h-[5px] md:h-[10px] transform scale-x-105" />
+<img src="/assets/CurlLine.svg" alt="curve line" className="absolute w-full bottom-[-2px] left-0    transform " />
               </span>{" "}
               Future
             </h1>
