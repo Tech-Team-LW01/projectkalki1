@@ -17,7 +17,7 @@ export default function ProgramDetails() {
             {/* Card Header */}
             <div className="flex flex-wrap items-center gap-3">
               <h3 className="text-sm sm:text-lg text-black">
-                LW Winter Industrial Training Program 2024
+              Training details
               </h3>
               <span className="px-3 py-1 bg-orange-100 text-orange-600 text-sm rounded-full">
                 Limited Seats available
@@ -28,9 +28,9 @@ export default function ProgramDetails() {
             <div className="space-y-4">
               {/* Header row - hidden on mobile, visible on desktop */}
               <div className="hidden sm:grid sm:grid-cols-4 text-sm text-gray-500 pb-2">
-                <div className="flex items-center text-sm text-black gap-2">Duration</div>
+                <div className="flex items-center text-sm text-black gap-2">Date</div>
                 <div className="flex text-black items-center gap-2">Time</div>
-                <div className="text-black text-sm">Location</div>
+                <div className="text-black text-sm">Mode</div>
                 <div className="text-black text-sm">Action</div>
               </div>
 
@@ -38,12 +38,9 @@ export default function ProgramDetails() {
               {[
                 {
                   date: "26th Dec, 2024 - 1st Jan, 2025",
-                  time: "10:00 am - 07:00 pm IST",
+                  time: "02:00 pm - 08:00 pm IST",
                 },
-                {
-                  date: "3rd Jan, 2025 - 9th Jan, 2025",
-                  time: "10:00 am - 07:00 pm IST",
-                },
+                
               ].map((program, index) => (
                 <div
                   key={index}
@@ -58,7 +55,7 @@ export default function ProgramDetails() {
                     <div className="text-black text-sm mb-2">{program.time}</div>
                     
                     <div className="font-medium text-sm text-black">Location</div>
-                    <div className="text-black text-sm mb-2">Jaipur</div>
+                    <div className="text-black text-sm mb-2">Online</div>
                   </div>
 
                   {/* Desktop: Grid layout (unchanged) */}
@@ -66,13 +63,13 @@ export default function ProgramDetails() {
                     <div className="font-medium text-sm text-black">{program.date}</div>
                   </div>
                   <div className="hidden sm:block text-black text-sm">{program.time}</div>
-                  <div className="hidden sm:block text-black text-sm">Jaipur</div>
+                  <div className="hidden sm:block text-black text-sm">Online</div>
                   
                   {/* Action button - same for both mobile and desktop */}
                   <div>
                     <a href="#bookyourseat">
                    
-                      <Button className="w-full sm:w-auto bg-[#000080] hover:shadow-black hover:shadow-md hover:bg-[#ff0000]">
+                      <Button className="w-full sm:w-auto bg-[#000080]  hover:bg-[#000080] ">
                         Book your Seat 
                       </Button>
                     </a>

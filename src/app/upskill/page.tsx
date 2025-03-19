@@ -8,17 +8,20 @@ import VideoCourseCard from "@/components/customComponents/upskillComponents/Vid
 import Navbar from '@/components/customComponents/upskillComponents/Navbar';
 import DeveloperCommunity from '@/components/customComponents/upskillComponents/Community';
 import ProgramDetails from "@/components/customComponents/upskillComponents/ProgramDetails";
+import Cta from "@/components/customComponents/upskillComponents/Cta";
 const page = () => {    
     return (
         <div>
             <Navbar/>
             <Hero/>
+            <ProgramDetails/>
             <Modules/>
             <VideoCourseCard/>
             <Mentor/>
             <CertificateDisplay/>
             <DeveloperCommunity/>
-            <ProgramDetails/>
+            <Cta/>
+            {/* <ProgramDetails/> */}
         </div>
     )
 }

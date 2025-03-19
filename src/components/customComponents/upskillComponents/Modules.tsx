@@ -16,245 +16,127 @@ type Module = {
 
   const modules: Module[] = [
     {
-      "title": "Introduction to AI & Machine Learning",
-      "description": "Learn the fundamentals of AI and its real-world applications.",
+      "title": "Introduction to Machine Learning",
+      "description": "Explore the fundamentals of machine learning, its types, and real-world applications across industries. Gain hands-on experience with datasets and visualization tools.",
       "content": {
         "sections": [
-          { "title": "Overview of Artificial Intelligence", "topics": [
-            "Definition and history of AI",
-            "Key milestones in AI development",
-            "Types of AI: Narrow AI, General AI, Super AI",
-            "Examples and real-world applications"
-          ]},
-          { "title": "AI vs. Machine Learning vs. Deep Learning", "topics": [
-            "Key differences and similarities",
-            "When to use each approach"
-          ]},
-          { "title": "Real-world Applications of AI", "topics": [
-            "AI in healthcare, finance, education, and other industries",
-            "Case studies of AI implementation"
-          ]},
-          { "title": "Ethical Considerations in AI", "topics": [
-            "Bias in AI models",
-            "Explainability and transparency",
-            "AI governance and regulations"
-          ]}
-        ]
-      }
-    },
-    {
-      "title": "Python for AI & ML",
-      "description": "Learn Python programming essentials for AI and ML development.",
-      "content": {
-        "sections": [
-          { "title": "Introduction to Python for AI", "topics": [
-            "Setting up the development environment",
-            "Jupyter Notebooks and IDEs",
-            "Essential Libraries: NumPy, Pandas, Matplotlib"
-          ]},
-          { "title": "Data Structures and Manipulation", "topics": [
-            "Lists, dictionaries, and data frames",
-            "Indexing and slicing techniques"
-          ]},
-          { "title": "Basic Data Visualization", "topics": [
-            "Creating histograms, scatter plots, and box plots",
-            "Understanding trends and patterns in data"
-          ]}
+          {
+            "title": "Understanding Machine Learning",
+            "topics": [
+              "Definition and importance.",
+              "Real-world applications (healthcare, finance, e-commerce)."
+            ]
+          },
+          {
+            "title": "Types of Machine Learning",
+            "topics": [
+              "Supervised Learning: Regression for prediction, Classification for categorization.",
+              "Unsupervised Learning: Dimensionality reduction and clustering.",
+              "Reinforcement Learning: Basics of reward-based learning."
+            ]
+          },
+          {
+            "title": "Industry Use Cases",
+            "topics": [
+              "Customer segmentation in marketing.",
+              "Fraud detection in finance.",
+              "Demand forecasting in retail."
+            ]
+          },
+          {
+            "title": "Hands-On Activity",
+            "topics": [
+              "Dataset: Real-world customer transaction data.",
+              "Load and explore the dataset using Pandas.",
+              "Visualizing customer demographics (age, income, spending scores) using Matplotlib & Seaborn."
+            ]
+          },
+          {
+            "title": "Learning Outcomes",
+            "topics": [
+              "Understand the fundamentals of machine learning and its types.",
+              "Identify real-world ML applications across industries."
+            ]
+          }
         ]
       }
     },
     {
       "title": "Data Preprocessing & Feature Engineering",
-      "description": "Master data cleaning and feature engineering for AI models.",
+      "description": "Learn essential techniques for cleaning, preprocessing, and transforming raw data into a machine-learning-ready format. Master feature engineering to enhance model performance.",
       "content": {
         "sections": [
-          { "title": "Data Cleaning: Handling Missing Values & Outliers", "topics": [
-            "Techniques to handle missing data",
-            "Identifying and treating outliers"
-          ]},
-          { "title": "Encoding Categorical Data", "topics": [
-            "One-hot encoding vs. label encoding",
-            "When to use each method"
-          ]},
-          { "title": "Feature Scaling and Normalization", "topics": [
-            "Min-max scaling, standardization, and robust scaling"
-          ]},
-          { "title": "Feature Selection Techniques", "topics": [
-            "Correlation matrix analysis",
-            "Recursive feature elimination (RFE)"
-          ]}
+          {
+            "title": "Data Cleaning",
+            "topics": [
+              "Handling missing values using mean, median, and mode imputation.",
+              "Removing duplicates and irrelevant data."
+            ]
+          },
+          {
+            "title": "Feature Engineering",
+            "topics": [
+              "Encoding Categorical Variables: One-hot encoding for nominal variables, Label encoding for ordinal variables.",
+              "Feature Scaling Techniques: Min-max scaling and standardization.",
+              "Feature Selection: Correlation matrix analysis, Recursive Feature Elimination (RFE) for selecting key features."
+            ]
+          },
+          {
+            "title": "Hands-On Activity",
+            "topics": [
+              "Clean and preprocess dataset.",
+              "Apply one-hot encoding & scale numerical features.",
+              "Select key features using correlation matrix and RFE."
+            ]
+          },
+          {
+            "title": "Learning Outcomes",
+            "topics": [
+              "Clean, preprocess, and transform raw data into a machine-learning-ready format.",
+              "Apply feature engineering techniques to improve model performance."
+            ]
+          }
         ]
       }
     },
     {
-      "title": "Supervised Learning",
-      "description": "Understand the fundamentals of supervised learning algorithms.",
+      "title": "Supervised Learning: Regression & Classification",
+      "description": "Dive into supervised learning techniques, including regression and classification. Learn to build, evaluate, and interpret models using real-world datasets.",
       "content": {
         "sections": [
-          { "title": "Introduction to Supervised Learning", "topics": [
-            "Definition and types of supervised learning problems"
-          ]},
-          { "title": "Regression Techniques", "topics": [
-            "Linear regression: Model building and interpretation",
-            "Logistic regression: Binary classification problems"
-          ]},
-          { "title": "Classification Algorithms", "topics": [
-            "Decision Trees and Random Forest",
-            "Support Vector Machines (SVM) and their applications"
-          ]},
-          { "title": "Model Evaluation Metrics", "topics": [
-            "Accuracy, Precision, Recall, F1-Score",
-            "Confusion matrix interpretation"
-          ]}
+          {
+            "title": "Regression",
+            "topics": [
+              "Linear Regression on Salary Data: Analyzing salary data using sklearn, Checking coefficients for the model, Visualizing the model using Matplotlib, Error analysis (Cost, Residuals).",
+              "Multiple Linear Regression: Using multiple features to predict target variables, Evaluating impact of multiple factors.",
+              "Model Evaluation Metrics: R² Score, Mean Absolute Error (MAE), Root Mean Squared Error (RMSE)."
+            ]
+          },
+          {
+            "title": "Classification",
+            "topics": [
+              "Logistic Regression: Understanding classification problems, Binary vs. Multiclass classification, Model interpretation and decision boundaries.",
+              "Implementation on Titanic Dataset: Data preprocessing and handling missing values, Feature engineering and data imputation, Training and evaluating logistic regression model."
+            ]
+          },
+          {
+            "title": "Hands-On Activity",
+            "topics": [
+              "Train Linear Regression on Salary Data.",
+              "Implement Logistic Regression on Titanic Dataset.",
+              "Evaluate classification model performance (Confusion Matrix, Precision, Recall)."
+            ]
+          },
+          {
+            "title": "Learning Outcomes",
+            "topics": [
+              "Understand and apply regression & classification techniques.",
+              "Evaluate models with appropriate performance metrics."
+            ]
+          }
         ]
       }
-    },
-    {
-      "title": "Unsupervised Learning",
-      "description": "Explore clustering, anomaly detection, and dimensionality reduction.",
-      "content": {
-        "sections": [
-          { "title": "Introduction to Clustering", "topics": [
-            "Understanding K-Means, DBSCAN, and Hierarchical clustering"
-          ]},
-          { "title": "Dimensionality Reduction", "topics": [
-            "Principal Component Analysis (PCA)",
-            "t-SNE for visualization"
-          ]},
-          { "title": "Anomaly Detection Techniques", "topics": [
-            "Application of unsupervised learning in fraud detection"
-          ]}
-        ]
-      }
-    },
-    {
-      "title": "Deep Learning & Neural Networks",
-      "description": "Master the foundations of neural networks and backpropagation.",
-      "content": {
-        "sections": [
-          { "title": "Basics of Neural Networks & Perceptron", "topics": [
-            "Structure of an artificial neuron",
-            "Single-layer vs. multi-layer perceptrons"
-          ]},
-          { "title": "Activation Functions and Loss Functions", "topics": [
-            "ReLU, Sigmoid, Softmax, etc.",
-            "Loss functions for regression and classification problems"
-          ]},
-          { "title": "Feedforward and Backpropagation", "topics": [
-            "Weight updates and optimization techniques"
-          ]}
-        ]
-      }
-    },
-    {
-        title: "Convolutional Neural Networks (CNNs)",
-        description: "Dummy description for Convolutional Neural Networks (CNNs).",
-        content: {
-          sections: [
-            {
-              title: "Understanding Convolutional Layers",
-              topics: [
-                "Filters, strides, and feature maps"
-              ]
-            },
-            {
-              title: "Pooling, Padding, and Stride in CNNs",
-              topics: [
-                "Role of max pooling and average pooling"
-              ]
-            },
-            {
-              title: "Transfer Learning and Fine-tuning",
-              topics: [
-                "Using pre-trained models for custom applications"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        title: "Natural Language Processing (NLP)",
-        description: "Dummy description for Natural Language Processing (NLP).",
-        content: {
-          sections: [
-            {
-              title: "Introduction to NLP & Text Processing",
-              topics: [
-                "Understanding text as data",
-                "Tokenization, Lemmatization, and Stopwords"
-              ]
-            },
-            {
-              title: "Processing raw text data",
-              topics: []
-            },
-            {
-              title: "Word Embeddings",
-              topics: [
-                "Word2Vec, GloVe, and BERT models"
-              ]
-            },
-            {
-              title: "Sentiment Analysis & Text Classification",
-              topics: [
-                "Analyzing customer reviews and feedback"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        title: "AI for Real-world Applications",
-        description: "Dummy description for AI for Real-world Applications.",
-        content: {
-          sections: [
-            {
-              title: "AI in Various Industries",
-              topics: [
-                "Healthcare, finance, e-commerce, manufacturing"
-              ]
-            },
-            {
-              title: "Basics of Reinforcement Learning",
-              topics: [
-                "Understanding rewards and policy learning"
-              ]
-            },
-            {
-              title: "AI for Edge Devices",
-              topics: [
-                "TinyML and On-device AI applications"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        title: "AI Model Deployment & MLOps",
-        description: "Dummy description for AI Model Deployment & MLOps.",
-        content: {
-          sections: [
-            {
-              title: "Model Deployment with Flask/FastAPI",
-              topics: [
-                "Serving AI models as web APIs"
-              ]
-            },
-            {
-              title: "Using Docker & Kubernetes for AI Models",
-              topics: [
-                "Containerization and orchestration of AI applications"
-              ]
-            },
-            {
-              title: "CI/CD for AI Pipelines",
-              topics: [
-                "Automating model training and deployment"
-              ]
-            }
-          ]
-        }
-      }
+    }
   ];
 
 const Modules = () => {
