@@ -43,7 +43,8 @@ export default function VideoCourseCard() {
         <h2 className="text-3xl font-bold text-[#000080] ">
   {/* some of the  */}
 
- What Leaders  About AI  & Its Future in India
+  What Leaders Say About AI & Its Future in India
+
         </h2>
 
         {/*   */}

@@ -71,7 +71,8 @@ export default function ProgramDetails() {
                   {/* Action button - same for both mobile and desktop */}
                   <div>
                     <a href="#bookyourseat">
-                      <Button className="w-full sm:w-auto bg-[#ff0000] hover:shadow-black hover:shadow-md hover:bg-[#ff0000]">
+                   
+                      <Button className="w-full sm:w-auto bg-[#000080] hover:shadow-black hover:shadow-md hover:bg-[#ff0000]">
                         Book your Seat 
                       </Button>
                     </a>
