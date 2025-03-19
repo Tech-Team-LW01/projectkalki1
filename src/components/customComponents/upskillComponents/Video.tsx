@@ -1,24 +1,38 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Circle, Play, Pause } from "lucide-react"
-import { useState, useRef } from "react"
+import { Play, Pause } from "lucide-react"
+import { useState, useEffect } from "react"
 
 
 
 
+
+interface VideoData {
+  id: string;
+  title: string;
+}
 
 export default function VideoCourseCard() {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isPlaying, setIsPlaying] = useState(true);
+  const [currentVideo, setCurrentVideo] = useState<VideoData>({
+    id: 'gtcAmtPnjBw',
+    title: 'Default Video'
+  });
+
+  const videos: VideoData[] = [
+    { id: 'gtcAmtPnjBw', title: 'Video 1' },
+    { id: 'xkmOvydcWSY', title: 'Video 2' },
+    { id: 'UQ3PcWOI2DY', title: 'Video 3' },
+    { id: '9M-wOFpCja4', title: 'Video 4' },
+    
+  ];
+
+  const handleVideoSelect = (video: VideoData) => {
+    setCurrentVideo(video);
+    setIsPlaying(true);
+  };
 
   const handlePlayPause = () => {
-    if (!videoRef.current) return;
-    
-    if (isPlaying) {
-      videoRef.current.pause();
-    } else {
-      videoRef.current.play();
-    }
     setIsPlaying(!isPlaying);
   };
 
@@ -49,21 +63,16 @@ export default function VideoCourseCard() {
 // 5)  https://www.youtube.com/watch?v=l7zBE-3cH5g */}
       <Card className="w-full overflow-hidden">
         <div className="relative aspect-video bg-gray-200">
-          {!isPlaying && (
-            <img
-              src="/assets/kalki.jpg"
-              alt="Video thumbnail showing course instructors"
-              className="w-full h-full object-cover"
-            />
-          )}
-
-          <video
-            ref={videoRef}
-            src="/assets/video.mp4"
-            className={`w-full h-full object-cover ${!isPlaying ? 'hidden' : ''}`}
+          <iframe
+            width="100%"
+            height="100%"
+            src={`https://www.youtube.com/embed/${currentVideo.id}?autoplay=1&mute=1&enablejsapi=1&controls=1&modestbranding=1&playsinline=1&rel=0${isPlaying ? '' : '&pause=1'}`}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="absolute inset-0"
           />
 
-          {/* Small red label in top left */}
+          {/* Small label in top left */}
           <div className="absolute top-2 left-2 bg-[#000080] text-white text-xs px-2 py-1 rounded">
             DeepLearning.AI
           </div>
@@ -82,12 +91,31 @@ export default function VideoCourseCard() {
             </div>
           </div>
         </div>
+
+        {/* Video Thumbnails Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4 p-4">
+          {videos.map((video) => (
+            <div
+              key={video.id}
+              className={`relative aspect-video cursor-pointer overflow-hidden rounded-lg ${currentVideo.id === video.id ? 'ring-2 ring-[#000080]' : ''}`}
+              onClick={() => handleVideoSelect(video)}
+            >
+              <img
+                src={`https://img.youtube.com/vi/${video.id}/mqdefault.jpg`}
+                alt={video.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          ))}
+        </div>
       </Card>
 
       {/* Button - Outside the card */}
+      <a href="https://forms.gle/qwzu4w367nP59mgU6" target="blank">
       <Button className="bg-[#000080] hover:bg-[#000080] text-white rounded-full px-6">
         Take the Course for Free
       </Button>
+      </a>
     </div>
   )
 }

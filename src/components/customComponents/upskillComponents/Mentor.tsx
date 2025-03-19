@@ -39,17 +39,22 @@ const Mentor = () => {
             <div className="prose prose-invert max-w-none">
               {/* this is for desktop */}
               <h1 className="text-3xl hidden md:block md:text-4xl lg:text-4xl text-center md:text-left font-bold mb-3">
-                <p className="text-[#000080]">Your Summer Internship Mentor: <br/> Mr Vimal Daga</p>
+             {/* . Vimal Daga –  */}
+              
+                <p className="text-[#000080]">  Mr Vimal Daga Driving AI Transformation for India</p>
               </h1>
 
               {/* for mobile  */}
 
               <h1 className="text-3xl sm:block md:hidden md:text-4xl lg:text-4xl text-center md:text-left font-bold mb-3">
-                <p className="text-[#000080]">Your Summer Mentor: <br/> Mr Vimal Daga</p>
+              
+                <p className="text-[#000080]">Mr Vimal Daga Driving AI Transformation for India</p>
               </h1>
               
-              <p className={`text-md md:text-2xl text-center md:text-left text-black mb-6 ${poppins.className}`}>
-                Visionary Leader Committed to &quot;Making India Future-Ready&quot;
+              <p className="text-md md:text-xl text-center md:text-left text-black mb-6">
+              A visionary mentor and tech innovator, Mr. Vimal Daga has been instrumental in AI and Cloud adoption, empowering India’s youth with cutting-edge skills to make them industry and future-ready. His past contributions supported India’s Cloud First Policy, and now, through this Free AI Enablement Training, he aligns with the IndiaAI Mission to democratize AI education.
+
+                {/* Visionary Leader Committed to &quot;Making India Future-Ready&quot; */}
               </p>
               <div className="grid gap-4">
                 {achievements.map((item, index) => (
@@ -70,9 +75,14 @@ const Mentor = () => {
 
               <blockquote className="text-base sm:text-lg italic mt-8 
                 pl-4 border-l-4 border-[#000080] text-black">
-                Mentor to Fortune 500 executives, specializing in knowledge transfer to <br/>
-                <span className="text-[#000080] font-medium"> C-level technologists</span> 
-                {" "}across cutting-edge domains.
+
+With a mission to bridge the gap between learning and real-world applications, he continues to mentor young minds, fostering AI-driven innovation, entrepreneurship, and national growth.
+
+
+
+               <br/>
+                {/* <span className="text-[#000080] font-medium"> C-level technologists</span> 
+                {" "}across cutting-edge domains. */}
               </blockquote>
             </div>
           </div>
