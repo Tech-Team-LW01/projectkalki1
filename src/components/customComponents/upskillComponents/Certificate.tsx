@@ -67,16 +67,6 @@ const CertificateDisplay: React.FC = () => {
                  <div className="flex flex-col space-y-2">
 
 
- 
-  
-  {/* White background container */}
-  {/* <div className="relative p-2 bg-white rounded-full 
-    shadow-[0_0_20px_theme(colors.orange.400),0_0_25px_theme(colors.green.500),0_0_30px_theme(colors.blue.900)]
-    hover:shadow-[0_0_30px_theme(colors.orange.400),0_0_35px_theme(colors.green.500),0_0_40px_theme(colors.blue.900)]
-    transition-all duration-300 ease-in-out transform hover:scale-105 z-10"
-  >
-    {feature.icon}
-  </div> */}
 
 <div className="relative group mr-4 w-fit">
           {/* Gradient effect */}
@@ -89,10 +79,11 @@ const CertificateDisplay: React.FC = () => {
         </div>
 
                    
-  <h3 className="text-base font-bold text-gray-800">
+  <h3 className="text-base pt-2 font-bold text-gray-800">
     {feature.title}
   </h3>
-  <p className="text-sm text-gray-600 leading-relaxed">
+  {/* <br></br> */}
+  <p className="text-sm   text-gray-600 leading-relaxed">
     {feature.description}
   </p>
 </div>
