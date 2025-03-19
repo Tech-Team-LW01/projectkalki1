@@ -177,7 +177,7 @@ const Modules = () => {
             </motion.div>
           ))}
         </div>
-        <div className="relative h-auto min-h-[400px] bg-gray-100 rounded-lg p-6 overflow-y-auto">
+        <div className="relative h-[400px] bg-gray-100 rounded-lg p-6 overflow-y-auto">
           {modules[activeModule].content && (
             <div className="space-y-6">
               {modules[activeModule].content?.sections.map((section, idx) => (

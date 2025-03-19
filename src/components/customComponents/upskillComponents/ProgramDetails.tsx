@@ -16,7 +16,7 @@ export default function ProgramDetails() {
 
             {/* Card Header */}
             <div className="flex flex-wrap items-center gap-3">
-              <h3 className="text-sm sm:text-lg text-black">
+              <h3 className="text-sm sm:text-lg font-bold text-black">
               Training details
               </h3>
               <span className="px-3 py-1 bg-orange-100 text-orange-600 text-sm rounded-full">
@@ -28,10 +28,10 @@ export default function ProgramDetails() {
             <div className="space-y-4">
               {/* Header row - hidden on mobile, visible on desktop */}
               <div className="hidden sm:grid sm:grid-cols-4 text-sm text-gray-500 pb-2">
-                <div className="flex items-center text-sm text-black gap-2">Date</div>
-                <div className="flex text-black items-center gap-2">Time</div>
-                <div className="text-black text-sm">Mode</div>
-                <div className="text-black text-sm">Action</div>
+                <div className="flex items-center text-sm text-black font-bold gap-2">Date</div>
+                <div className="flex text-black items-center gap-2 font-bold">Time</div>
+                <div className="text-black text-sm font-bold">Mode</div>
+                <div className="text-black text-sm font-bold">Action</div>
               </div>
 
               {/* Program Induction Rows with different date ranges */}
@@ -67,7 +67,7 @@ export default function ProgramDetails() {
                   
                   {/* Action button - same for both mobile and desktop */}
                   <div>
-                    <a href="https://forms.gle/qwzu4w367nP59mgU6">
+                    <a href="https://forms.gle/qwzu4w367nP59mgU6" target="blank">
                    
                       <Button className="w-full sm:w-auto bg-[#000080]  hover:bg-[#000080] ">
                         Book your Free Seat 

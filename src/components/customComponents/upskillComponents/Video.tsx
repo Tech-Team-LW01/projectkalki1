@@ -37,7 +37,7 @@ export default function VideoCourseCard() {
   };
 
   return (
-    <div className="max-w-5xl mx-auto flex flex-col items-center space-y-4">
+    <div className="max-w-5xl mb-6 mx-auto flex flex-col items-center space-y-4">
       {/* Header - Outside the card */}
       <div className="text-center">
         <h2 className="text-3xl font-bold text-[#000080] ">
