@@ -19,15 +19,8 @@ const Hero = () => {
             Empower{" "}
               <span className="text-[#000080] relative">
               India's AI
-                {/* <motion.span
-                  className="absolute bottom-0 left-0 w-full h-[2px] bg-[#000080]"
-                  initial={{ width: 0 }}
-                  animate={{ width: "100%" }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                /> */}
-{/* todo chage svg color to #000080 */}
-{/* todo make it mobile responsive */}
-<img src="/assets/CurlLine.svg" alt="curve line" className=' absolute w-full  bottom-0 left-0  h-[5px]' />
+              
+<img src="/assets/CurlLine.svg" alt="curve line" className="absolute w-full bottom-[-2px] left-0 h-[5px] md:h-[10px] transform scale-x-105" />
               </span>{" "}
               Future
             </h1>
