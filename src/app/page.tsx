@@ -14,7 +14,7 @@ import GlobalAILandscape from "@/components/customComponents/GlobalAILandscape";
 import { Collaborator } from "@/components/customComponents/collaborator/Collaborator";
 import JoinSection from "@/components/customComponents/Join/Join";
 import WhyDataFirstApproach from "@/components/customComponents/WhyDataFirstApproach"
-
+import ProgramDetails from "@/components/customComponents/upskillComponents/ProgramDetails";
 export default function Home() {
   return (
     <>
@@ -84,6 +84,10 @@ export default function Home() {
   <JoinSection />
 </div>
 
+
+<div id="programdetails">
+  <ProgramDetails />
+</div>
 
 
 
