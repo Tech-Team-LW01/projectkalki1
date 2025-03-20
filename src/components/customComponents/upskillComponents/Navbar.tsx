@@ -11,17 +11,17 @@ import {
   import { Button } from "@/components/ui/button";
   import { Menu, X } from "lucide-react";
   import { ArrowRight } from "lucide-react";
-
+import Link from "next/link";
 
 const navigationItems = [
-    { name: "Home", href: "#hero", sectionId: "hero" },
-    { name: "About", href: "#language-model", sectionId: "language-model" },
+    { name: "Home", href: "https://www.projectkalki.com/#hero", sectionId: "hero" },
+    { name: "About", href: "https://www.projectkalki.com/#language-model", sectionId: "language-model" },
     // { name: "Services", href: "#collaborator", sectionId: "collaborator" },
     // { name: "Contact", href: "#tortoise", sectionId: "tortoise" },
-    { name: "Contributor", href: "#collaborator", sectionId: "collaborator" },
-    { name: "Roadmap", href: "#roadmap", sectionId: "roadmap" },
-    { name: "Infrastructure", href: "#infrastructure", sectionId: "india-ai" },
-    { name: "Contact Us", href: "#join", sectionId: "join" },
+    { name: "Contributor", href: "https://www.projectkalki.com/#collaborator", sectionId: "collaborator" },
+    { name: "Roadmap", href: "https://www.projectkalki.com/#roadmap", sectionId: "roadmap" },
+    { name: "Infrastructure", href: "https://www.projectkalki.com/#infrastructure", sectionId: "india-ai" },
+    { name: "Contact Us", href: "#join", sectionId: "https://www.projectkalki.com/#join" },
     {name:"Upskilling",href:"/upskills",sectionId:""}
   
   ];
@@ -70,12 +70,14 @@ const navigationItems = [
           <div className="flex justify-between items-center relative">
             {/* Logo */}
             <div className="flex-shrink-0 w-24 transition-transform duration-300 hover:scale-105">
+              <Link href="/">
               <img 
                 className="w-16 h-12 object-contain" 
                 src="/assets/logo.png" 
                 alt="Logo"
                 loading="eager"
               />
+              </Link>
             </div>
   
             {/* Desktop Navigation */}

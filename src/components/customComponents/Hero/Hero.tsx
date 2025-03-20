@@ -19,7 +19,7 @@ const navigationItems = [
   { name: "Roadmap", href: "#roadmap", sectionId: "roadmap" },
   { name: "Infrastructure", href: "#infrastructure", sectionId: "india-ai" },
   { name: "Contact Us", href: "#join", sectionId: "join" },
-  {name:"upskilling",href:"/upskill",sectionId:""}
+  {name:"Upskilling",href:"/upskill",sectionId:""}
 
 ];
 
