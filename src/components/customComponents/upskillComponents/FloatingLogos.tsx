@@ -2,18 +2,18 @@
 import { motion } from "framer-motion"
 
 const logos = [
-  "/assets/logo1.svg",
-  "/assets/logo2.svg",
-  "/assets/logo3.svg",
-  "/assets/logo4.svg",
+  "/assets/logo1.png",
+  "/assets/logo2.png",
+  "/assets/logo3.png",
+  "/assets/logo4.png",
   "/assets/logo5.svg",
   "/assets/logo6.svg",
   "/assets/logo7.svg",
   "/assets/logo8.svg",
   "/assets/logo9.svg",
-  "/assets/logo1.svg",
-  "/assets/logo4.svg",
-  "/assets/logo3.svg",
+  "/assets/logo1.png",
+  "/assets/logo4.png",
+  "/assets/logo3.png",
 ]
 
 const LogoColumn = ({ startIndex, direction = "down" }: { startIndex: number, direction?: "up" | "down" }) => {
