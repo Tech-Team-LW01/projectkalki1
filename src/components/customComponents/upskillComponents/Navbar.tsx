@@ -18,10 +18,11 @@ const navigationItems = [
     { name: "About", href: "https://www.projectkalki.com/#language-model", sectionId: "language-model" },
     // { name: "Services", href: "#collaborator", sectionId: "collaborator" },
     // { name: "Contact", href: "#tortoise", sectionId: "tortoise" },
+    
     { name: "Contributor", href: "https://www.projectkalki.com/#collaborator", sectionId: "collaborator" },
     { name: "Roadmap", href: "https://www.projectkalki.com/#roadmap", sectionId: "roadmap" },
     { name: "Infrastructure", href: "https://www.projectkalki.com/#infrastructure", sectionId: "india-ai" },
-    { name: "Contact Us", href: "#join", sectionId: "https://www.projectkalki.com/#join" },
+    { name: "Contact Us", href: "https://www.projectkalki.com/#join", sectionId: "join" },
     {name:"Upskilling",href:"/upskills",sectionId:""}
   
   ];
