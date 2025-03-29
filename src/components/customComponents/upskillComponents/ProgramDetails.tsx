@@ -38,7 +38,7 @@ export default function ProgramDetails() {
               {/* Program Induction Rows with different date ranges */}
               {[
                 {
-                  date: "29th - 30th March, 2025",
+                  date: "5th - 6th April, 2025",
                   time: "02:00 pm - 08:00 pm IST",
                   duration: "12 hours"
                 },
