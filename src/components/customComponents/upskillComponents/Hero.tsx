@@ -31,7 +31,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
             {/* https://forms.gle/qwzu4w367nP59mgU6 */}
-            <a href="https://forms.gle/qwzu4w367nP59mgU6" target="blank">
+            <a href="https://forms.gle/uQ2FaWd7EiFAKMK28" target="blank">
               <Button className="bg-gradient-to-r from-[#046a38] to-[#ff6820] hover:opacity-90 transition-opacity text-white">Join for Free</Button></a>
               <a href="https://www.linkedin.com/in/vimaldaga/" target="blank">
               <Button variant="outline" className="hover:bg-gradient-to-r from-[#046a38] to-[#ff6820] hover:text-white" >

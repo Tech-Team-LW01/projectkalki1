@@ -14,7 +14,7 @@ const Cta = () => {
       </p>
 
       <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full">
-        <a href="https://forms.gle/qwzu4w367nP59mgU6" target="blank">
+        <a href="https://forms.gle/uQ2FaWd7EiFAKMK28" target="blank">
         <Button className="bg-[#ffffff] hover:bg-[#ffffff] hover:text-black  text-black  rounded-full px-8">Join Free AI Foundation Training</Button>
         </a>
       </div>

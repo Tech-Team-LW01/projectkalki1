@@ -112,7 +112,7 @@ export default function VideoCourseCard() {
       </Card>
 
       {/* Button - Outside the card */}
-      <a href="https://forms.gle/qwzu4w367nP59mgU6" target="blank">
+      <a href="https://forms.gle/uQ2FaWd7EiFAKMK28" target="blank">
       <Button className="bg-[#000080] hover:bg-[#000080] text-white rounded-full px-6">
       Join Free AI Enablement Training 
       </Button>
