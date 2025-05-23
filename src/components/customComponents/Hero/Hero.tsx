@@ -129,78 +129,43 @@ const Navbar = () => {
                     >
                       {item.name}
                     </NavLink>
-                  
                   </NavigationMenuItem>
                 ))}
 
-
-{/* Join our team */}
-
-<NavigationMenuItem>
-                  <a className=" text-sm font-medium px-3 py-2 text-gray-200
-                  
-                  after:content-['']
-      after:absolute
-      after:w-0
-      after:h-0.5
-      after:bg-white
-      after:left-0
-      after:bottom-0
-      after:transition-all
-      after:duration-300
-                  " href="https://forms.gle/bCrh7DJSyvwE5ZmC7" target="blank" >
+                {/* Join our team */}
+                <NavigationMenuItem>
+                  <a className="text-sm font-medium px-3 py-2 text-gray-200" href="https://forms.gle/bCrh7DJSyvwE5ZmC7" target="_blank">
                     <Button 
-              variant="default"
-              className="bg-white text-black hover:bg-white hover:text-black"
-            >  Join our Team 
-            
-             {/* <ArrowRight className=" h-4 w-4 transition-transform group-hover:translate-x-2" /> */}
-            
-            </Button>
+                      variant="default"
+                      className="bg-white text-black hover:bg-white hover:text-black"
+                    >
+                      Join our Team
+                    </Button>
                   </a>
                 </NavigationMenuItem>
-
-
 
                 <NavigationMenuItem>
-                  <a className=" text-sm font-medium px-3 py-2 text-gray-200
-                  
-                  after:content-['']
-      after:absolute
-      after:w-0
-      after:h-0.5
-      after:bg-white
-      after:left-0
-      after:bottom-0
-      after:transition-all
-      after:duration-300
-                  " href="https://forms.gle/QMamhHCGvGpQGf896" target="blank" >
+                  <a className="text-sm font-medium px-3 py-2 text-gray-200" href="https://forms.gle/QMamhHCGvGpQGf896" target="_blank">
                     <Button 
-              variant="default"
-              className="bg-white text-black hover:bg-white hover:text-black   "
-            >  Try Now  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" /></Button>
-                  </a>
-                  <a className=" text-sm font-medium px-3 py-2 text-gray-200
-                  
-                  after:content-['']
-      after:absolute
-      after:w-0
-      after:h-0.5
-      after:bg-white
-      after:left-0
-      after:bottom-0
-      after:transition-all
-      after:duration-300
-                  " href="https://forms.gle/MZ6oBNoScyQUvXMAA" target="blank" >
-                    <Button 
-              variant="default"
-              className="bg-white text-black hover:bg-white hover:text-black   "
-            >  Apply For Internship </Button>
+                      variant="default"
+                      className="bg-white text-black hover:bg-white hover:text-black"
+                    >
+                      Try Now  
+                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" />
+                    </Button>
                   </a>
                 </NavigationMenuItem>
 
-
-
+                <NavigationMenuItem>
+                  <a className="text-sm font-medium px-3 py-2 text-gray-200" href="https://forms.gle/MZ6oBNoScyQUvXMAA" target="_blank">
+                    <Button 
+                      variant="default"
+                      className="bg-white text-black hover:bg-white hover:text-black"
+                    >
+                      Apply For Internship
+                    </Button>
+                  </a>
+                </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
           </div>
@@ -227,11 +192,11 @@ const Navbar = () => {
           className={`
             md:hidden
             transition-all duration-300 ease-in-out
-            ${isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}
+            ${isMobileMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'}
             overflow-hidden
           `}
         >
-          <div className="px-2 pt-2 pb-2 space-y-1">
+          <div className="px-2 pt-3 pb-3 space-y-1">
             {navigationItems.map((item) => (
               <a
                 key={item.name}
@@ -253,28 +218,53 @@ const Navbar = () => {
               >
                 {item.name}
               </a>
-
-            
             ))}
 
-{/* Join our Team in desktop menu  */}
+            {/* Mobile buttons */}
+            <div className="pt-2 space-y-2">
+              <a 
+                href="https://forms.gle/bCrh7DJSyvwE5ZmC7" 
+                target="_blank"
+                className="block"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <Button 
+                  variant="default"
+                  className="w-full bg-white text-black hover:bg-white hover:text-black"
+                >
+                  Join our Team
+                </Button>
+              </a>
 
-<a className={`
-                  block px-3 py-2 text-base font-medium
-                  transition-all duration-300 text-gray-200
-                  hover:bg-white/10 hover:text-white rounded-md
-                   text-white `} href="https://forms.gle/bCrh7DJSyvwE5ZmC7">Join our Team</a>
+              <a 
+                href="https://forms.gle/QMamhHCGvGpQGf896" 
+                target="_blank"
+                className="block"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <Button 
+                  variant="default"
+                  className="w-full bg-white text-black hover:bg-white hover:text-black"
+                >
+                  Try Now
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </a>
 
-            <a className={`
-                  block px-3 py-2 text-base font-medium
-                  transition-all duration-300 text-gray-200
-                  hover:bg-white/10 hover:text-white rounded-md
-                   text-white `} href="https://forms.gle/QMamhHCGvGpQGf896">Try Now</a>
-                   <a className={`
-                  block px-3 py-2 text-base font-medium
-                  transition-all duration-300 text-gray-200
-                  hover:bg-white/10 hover:text-white rounded-md
-                   text-white `} href="https://forms.gle/MZ6oBNoScyQUvXMAA">Apply For Internship</a>
+              <a 
+                href="https://forms.gle/MZ6oBNoScyQUvXMAA" 
+                target="_blank"
+                className="block"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <Button 
+                  variant="default"
+                  className="w-full bg-white text-black hover:bg-white hover:text-black"
+                >
+                  Apply For Internship
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -307,12 +297,13 @@ export const Hero = () => {
 
   return (
     <div id="hero" className="relative w-full md:min-h-screen h-full py-0">
-      <div className="md:mt-12 mt-0 lg:mt-12"  > <Navbar /> </div>
-      <div className="relative w-full mt-12 py-0 ">
+      <div className="md:mt-12 mt-0 lg:mt-12">
+        <Navbar />
+      </div>
+      <div className="relative w-full mt-12 py-0">
         {isMobile ? (
-          
           <div className="w-full h-full flex items-center justify-center py-4 md:py-0">
-            <div className="relative w-full h-auto  py-2">
+            <div className="relative w-full h-auto py-2">
               <img
                 src="/assets/kalki.jpg" 
                 alt="Hero background for mobile"
