@@ -180,6 +180,23 @@ const Navbar = () => {
               className="bg-white text-black hover:bg-white hover:text-black   "
             >  Try Now  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" /></Button>
                   </a>
+                  <a className=" text-sm font-medium px-3 py-2 text-gray-200
+                  
+                  after:content-['']
+      after:absolute
+      after:w-0
+      after:h-0.5
+      after:bg-white
+      after:left-0
+      after:bottom-0
+      after:transition-all
+      after:duration-300
+                  " href="https://forms.gle/MZ6oBNoScyQUvXMAA" target="blank" >
+                    <Button 
+              variant="default"
+              className="bg-white text-black hover:bg-white hover:text-black   "
+            >  Apply For Internship </Button>
+                  </a>
                 </NavigationMenuItem>
 
 
@@ -253,6 +270,11 @@ const Navbar = () => {
                   transition-all duration-300 text-gray-200
                   hover:bg-white/10 hover:text-white rounded-md
                    text-white `} href="https://forms.gle/QMamhHCGvGpQGf896">Try Now</a>
+                   <a className={`
+                  block px-3 py-2 text-base font-medium
+                  transition-all duration-300 text-gray-200
+                  hover:bg-white/10 hover:text-white rounded-md
+                   text-white `} href="https://forms.gle/MZ6oBNoScyQUvXMAA">Apply For Internship</a>
           </div>
         </div>
       </div>
